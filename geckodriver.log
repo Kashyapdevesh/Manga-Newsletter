@@ -1,0 +1,132 @@
+1652550309308	geckodriver	INFO	Listening on 127.0.0.1:43901
+1652550309319	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "/tmp/rust_mozprofile7eJS4H"
+*** You are running in headless mode.
+1652550310047	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7eJS4H/search.json.mozlz4", (void 0)))
+1652550312152	Marionette	INFO	Listening on port 44239
+Read port: 44239
+1652550312274	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-05-14 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+1652550321424	Marionette	INFO	Stopped listening on port 44239
+JavaScript warning: https://pagead2.googlesyndication.com/bg/NhRng2ZenZRcaPRuU0zAmqgyTOhBGXWeehn8uWk0bEI.js line 1 > eval line 6703 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652550351033	geckodriver	INFO	Listening on 127.0.0.1:48957
+1652550351043	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "/tmp/rust_mozprofile3HKqjX"
+*** You are running in headless mode.
+1652550351741	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3HKqjX/search.json.mozlz4", (void 0)))
+1652550353874	Marionette	INFO	Listening on port 46459
+Read port: 46459
+1652550353985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-05-14 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+1652550362256	Marionette	INFO	Stopped listening on port 46459
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1652550436520	geckodriver	INFO	Listening on 127.0.0.1:44277
+1652550436530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--disable-gpu" "-no-remote" "-profile" "/tmp/rust_mozprofiley0P4HN"
+*** You are running in headless mode.
+1652550437229	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley0P4HN/search.json.mozlz4", (void 0)))
+1652550439183	Marionette	INFO	Listening on port 38477
+Read port: 38477
+1652550439276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-05-14 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+1652550450665	Marionette	INFO	Stopped listening on port 38477
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1652609064309	geckodriver	INFO	Listening on 127.0.0.1:41853
+1652609065312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileSSAwz9"
+1652609066779	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSSAwz9/search.json.mozlz4", (void 0)))
+1652609069700	Marionette	INFO	Listening on port 37779
+Read port: 37779
+1652609069801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-05-15 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://pagead2.googlesyndication.com/bg/g51hIJTSSbKmE1DfHFqbr9lDc41juRM9f8n7HMlSD3A.js line 1 > eval line 2951 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652609092102	Marionette	INFO	Stopped listening on port 37779
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652609111851	geckodriver	INFO	Listening on 127.0.0.1:39429
+1652609111861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileDF3Eb1"
+1652609113249	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDF3Eb1/search.json.mozlz4", (void 0)))
+1652609115493	Marionette	INFO	Listening on port 45313
+Read port: 45313
+1652609115632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-05-15 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://pagead2.googlesyndication.com/bg/g51hIJTSSbKmE1DfHFqbr9lDc41juRM9f8n7HMlSD3A.js line 1 > eval line 4591 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652609127278	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1652609142839	Marionette	INFO	Stopped listening on port 45313
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1652609488926	geckodriver	INFO	Listening on 127.0.0.1:59833
+1652609488936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile4h13LR"
+1652609490337	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4h13LR/search.json.mozlz4", (void 0)))
+1652609492415	Marionette	INFO	Listening on port 41877
+Read port: 41877
+1652609492495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-05-15 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://pagead2.googlesyndication.com/bg/g51hIJTSSbKmE1DfHFqbr9lDc41juRM9f8n7HMlSD3A.js line 1 > eval line 6828 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652609507143	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1652609519939	Marionette	INFO	Stopped listening on port 41877
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
