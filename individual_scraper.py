@@ -11,7 +11,7 @@ from selenium.common.exceptions import TimeoutException
 
 def render_page(url):
         firefox_options = Options()
-        firefox_options.add_argument('--headless')
+        #firefox_options.add_argument('--headless')
         driver=webdriver.Firefox(options=firefox_options)
         try:
         	driver.get(url)
@@ -143,6 +143,11 @@ def scrape_summary(page_source):
 		manga_desc=manga_desc.replace("\n","")
 		manga_desc=manga_desc.replace("\xa0","")
 		manga_desc=manga_desc.replace("\\","")
+		#REMOVING SOFT HYPHENS
+		manga_desc = manga_desc.replace('\xad', '') 
+		manga_desc = manga_desc.replace('\u00ad', '')
+		manga_desc = manga_desc.replace('\N{SOFT HYPHEN}', '')
+
 	except:
 		manga_desc=None
 		
@@ -190,7 +195,7 @@ def manga_scraper(url):
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://m.manganelo.com/manga-ml126631" #SAMPLE URL
+	url="https://chap.manganelo.com/manga-ld126323" #SAMPLE URL
 	try:
 		comments,images,final_summary=manga_scraper(url)
 		print(final_summary)
