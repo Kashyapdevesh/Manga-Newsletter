@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup as BS
 import time 
 from requests import get
+import json
 
 from page_scraper import compiled_info
 
@@ -40,8 +41,8 @@ def title_link_scraper(soup,index):
 
 def collect_new_manga(soup,prev_manga_title):
 	manga_index=soup.find_all("div",{"class":"content-homepage-item"})
-	updated_manga_info={}
-	final_result=[]
+	final_result={}
+	index=0
 	for i in range(len(manga_index)):
 		curr_manga_title,curr_manga_link=title_link_scraper(soup,i)
 		
@@ -53,31 +54,20 @@ def collect_new_manga(soup,prev_manga_title):
 				print("----------------All updated manga(s) collected----------------- \n\n\n")
 				break
 			else:
-				updated_manga_info.update({curr_manga_title:curr_manga_link})
 				print("\n{manga_title} added\n".format(manga_title=curr_manga_title))
 				scraped_content =compiled_info(curr_manga_link)
-				final_result.append(scraped_content)
-	return updated_manga_info,final_result
+				final_result.update({index:scraped_content})
+				index+=1
+	save_info(final_result)
 		
-		
-		
-		
-def test(url):
-	soup=render_page(url)
-	info,res=collect_new_manga(soup,"I'm Telling The Teacher")
-	print("\n\n\n")
-	print(res[0])
-	print("\n\n\n")	
-	print("\n\n\n")
-	print(res[1])
-	print("\n\n\n")
-	print("\n\n\n")
-	print(res[2])
-	print("\n\n\n")	
+	
 
-
-
-
+def save_info(final_result):
+	with open("sample.json" ,"w") as output_file:
+		json.dump(final_result,output_file)
+	
+	
+	
 
 def manga_scraper(url):
 	#Initiation
@@ -90,7 +80,7 @@ def manga_scraper(url):
 	else:
 		print("Page rendering failed at Initiation stage")
 		return None
-	time.sleep(5)
+	time.sleep(10)
 	
 	#Repetition
 	while True:
@@ -106,12 +96,14 @@ def manga_scraper(url):
 		
 		if curr_manga_title == prev_manga_title:
 			print("No new manga added")
+			time.sleep(10)
 			continue
 		else:
-			prev_manga_title = curr_manga_title
 			print("\n\nNew manga(s) added\n\n")
 			print("\n\nCollecting information about new manga(s)\n\n")
 			collect_new_manga(soup,prev_manga_title)
+			prev_manga_title = curr_manga_title
+			time.sleep(10)
 
 
 
@@ -119,7 +111,7 @@ if __name__=="__main__":
 	start_time=time.time()
 	url="https://m.manganelo.com/www" 
 	try:
-		print(manga_scraper(url))
+		print(test(url))
 	except Exception as e:
 		print(e)
 	print(time.time() - start_time)

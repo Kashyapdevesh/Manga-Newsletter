@@ -58,24 +58,27 @@ def load_all_comments(driver):
 	#-------------------------------------------------
 	#SWITCHING TO IFRAME AND CLICKING THE LOAD MORE BUTTON FIRST TIME
 	WebDriverWait(driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.TAG_NAME,"iframe")))
-	driver.find_element(by=By.XPATH, value="//button[@class='_1gl3 _4jy0 _4jy3 _517h _51sy _42ft']").click()
-	while True:
-		try :
+	try:
+		WebDriverWait(driver,20).until(EC.element_to_be_clickable((By.XPATH,"//button[@class='_1gl3 _4jy0 _4jy3 _517h _51sy _42ft']"))).click()
+		while True:
+			try :
 		
-			#-------------------------------------------------
-			#SWITCHING TO DEFAULT DRIVER FRAME AND SCROLLING
-			driver.switch_to.default_content()
-			driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
-			print("Scrolled Down")
+				#-------------------------------------------------
+				#SWITCHING TO DEFAULT DRIVER FRAME AND SCROLLING
+				driver.switch_to.default_content()
+				driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
+				print("Scrolled Down")
 			
-			#-------------------------------------------------
-			#SWITCHING TO IFRAME DRIVER AND CLICK THE "LOAD MORE COMMENTS BUTTON"
-			WebDriverWait(driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.TAG_NAME,"iframe")))
-			WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='_1gl3 _4jy0 _4jy3 _517h _51sy _42ft']"))).click()
+				#-------------------------------------------------
+				#SWITCHING TO IFRAME DRIVER AND CLICK THE "LOAD MORE COMMENTS BUTTON"
+				WebDriverWait(driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.TAG_NAME,"iframe")))
+				WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[@class='_1gl3 _4jy0 _4jy3 _517h _51sy _42ft']"))).click()
 			
-		except :
-			print("\n\n\nNO COMMENTS LEFT\n\n\n")
-			break
+			except :
+				print("\n\n\nNO COMMENTS LEFT\n\n\n")
+				break
+	except:
+		print("\n\n\nLESS COMMENTS, NO NEED FOR SCROLLING\n\n\n")
 
 def scrape_summary(page_source):
 	soup = BS(page_source, "html.parser")
@@ -187,28 +190,27 @@ def scrape_content_from_comments(all_comments):
 def compiled_info(url):
     r,final_summary = render_page(url)
     soup = BS(r, "html.parser")
-    final_info=[]
     try:
     	all_comments = soup.find_all("div", {"class": "_3-8y _5nz1 clearfix"})
     except Exception as e:
     	print("Exception at manga_scraper"+str(e)+"\n")
     	return None
     comments,images=scrape_content_from_comments(all_comments)
-    final_info.append(final_summary)
-    final_info.append(comments)
-    final_info.append(images)
-    return final_info
+    final_summary.update({"Comments": comments})
+    final_summary.update({"Images": images})
+    return final_summary
       
 
-#if __name__=="__main__":
-#	start_time=time.time()
-#	url="https://chap.manganelo.com/manga-xs112386" #SAMPLE URL
-#	try:
-#		final_info=compiled_info(url)
-#	except Exception as e:
-#		print("None value received for soup at url : {url} \n".format(url=url))
-#		print(e)
-#	print(time.time() - start_time)
+if __name__=="__main__":
+	start_time=time.time()
+	url="https://m.manganelo.com/manga-nz128545" #SAMPLE URL
+	try:
+		final_info=compiled_info(url)
+		print(final_info)
+	except Exception as e:
+		print("None value received for soup at url : {url} \n".format(url=url))
+		print(e)
+	print(time.time() - start_time)
 
 
 
