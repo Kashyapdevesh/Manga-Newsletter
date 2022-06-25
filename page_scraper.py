@@ -160,32 +160,52 @@ def scrape_summary(page_source):
 		#-------------------------------------------------
 		#FINAL COMPILED SUMMARY IN DICTIONARY
 		
-	final_summary={"Manga's Name":manga_name,"Manga's cover Image":manga_img,"Manga's author(s)":manga_author,"Manga's current status": manga_status,"Manga's genre(s)":manga_genre,"Manga rating":manga_rating,"Manga description":manga_desc}
+	final_summary={"Manga's Name":manga_name,"Manga's cover Image":manga_img,"Manga's author(s)":manga_author,"Manga's current status": manga_status,"Manga's genre(s)":manga_genre,"Manga's rating":manga_rating,"Manga's description":manga_desc}
 	return final_summary
 	     
 			
 def scrape_content_from_comments(all_comments):
 	final_comments=[]
 	final_images=[]
+	
 	for comment in all_comments:
-		main_text=comment.find_all("span",{"class":"_5mdd"}) 
-		images=comment.find_all("a",{"class":"_2rn3 _4-eo"})
+		span_text=comment.find_all("span",{"class":"_5mdd"}) 
 		
 		#-------------------------------------------------
 		#SCRAPING ALL COMMENTS (INCLUDING PARENT AND ALL CHILDREN NODES)
-		for i in range(len(main_text)):
-			comments_text=main_text[i].text
+		flag=0
+		for i in range(len(span_text)):
+			comments_text=span_text[i].text
+
+			#---------------------------------------------
+			#BOTS TEND TO REDIRECT TO SOME THIRD PARTY URLS IN THE COMMENTS 
+			#AND THOSE COMMENTS AND ASSOCIATED IMAGES ARE USELESS 
+			if 'www' in comments_text.lower(): 
+				flag=1
+				break
+			if 'http' in comments_text.lower(): 
+				flag=1
+				break
+			if 'https' in comments_text.lower(): 
+				flag=1
+				break								
 			comments_text=comments_text.replace("n\\","n")
+			comments_text=comments_text.replace('\"','"')
 			final_comments.append(comments_text)
-			
+
+		if flag==1:
+			continue
+		
+		else:	
 		#-------------------------------------------------
 		#SCRAPING ALL IMAGES IN THE COMMENTS (INCLUDING PARENT AND ALL CHILDREN NODES)
-		for i in range(len(images)):
-			img_src=images[i]['data-ploi']
-			final_images.append(img_src)
+			images=comment.find_all("a",{"class":"_2rn3 _4-eo"})
+			for i in range(len(images)):
+				img_src=images[i]['data-ploi']
+				final_images.append(img_src)
 	return final_comments,final_images
 	
-	
+		
 
 def compiled_info(url):
     r,final_summary = render_page(url)
@@ -196,17 +216,24 @@ def compiled_info(url):
     	print("Exception at manga_scraper"+str(e)+"\n")
     	return None
     comments,images=scrape_content_from_comments(all_comments)
+    final_summary.update({"Manga's URL" : url})
     final_summary.update({"Comments": comments})
     final_summary.update({"Images": images})
     return final_summary
-      
+ 
+import json
+def save_info(final_result):
+	with open("sample.json" ,"w") as output_file:
+		json.dump(final_result,output_file)
+	     
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://m.manganelo.com/manga-nz128545" #SAMPLE URL
+	url="https://chap.manganelo.com/manga-ev118841" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
+		save_info(final_info)
 	except Exception as e:
 		print("None value received for soup at url : {url} \n".format(url=url))
 		print(e)

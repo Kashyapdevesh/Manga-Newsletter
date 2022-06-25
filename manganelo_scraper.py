@@ -111,7 +111,7 @@ if __name__=="__main__":
 	start_time=time.time()
 	url="https://m.manganelo.com/www" 
 	try:
-		print(test(url))
+		print(manga_scraper(url))
 	except Exception as e:
 		print(e)
 	print(time.time() - start_time)
