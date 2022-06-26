@@ -10,6 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
+from sentiment_analysis import analyze_comments
 
 def render_page(url):
         firefox_options = Options()
@@ -141,6 +142,15 @@ def scrape_summary(page_source):
 		
 	except:
 		manga_rating=None
+
+		#-------------------------------------------------
+		#MANGA'S TOTAL VIEWS
+	try:
+		manga_views=soup.find_all("span",{"class":"stre-value"})[1].text
+		
+	except:
+		manga_views=None
+
 		
 		#-------------------------------------------------
 		#MANGA'S DESCRIPTION
@@ -160,7 +170,7 @@ def scrape_summary(page_source):
 		#-------------------------------------------------
 		#FINAL COMPILED SUMMARY IN DICTIONARY
 		
-	final_summary={"Manga's Name":manga_name,"Manga's cover Image":manga_img,"Manga's author(s)":manga_author,"Manga's current status": manga_status,"Manga's genre(s)":manga_genre,"Manga's rating":manga_rating,"Manga's description":manga_desc}
+	final_summary={"Manga's name":manga_name,"Manga's cover image":manga_img,"Manga's author(s)":manga_author,"Manga's current status": manga_status,"Manga's genre(s)":manga_genre,"Manga's total views":manga_views,"Manga's rating":manga_rating,"Manga's description":manga_desc}
 	return final_summary
 	     
 			
@@ -221,21 +231,19 @@ def compiled_info(url):
     final_summary.update({"Images": images})
     return final_summary
  
-import json
-def save_info(final_result):
-	with open("sample.json" ,"w") as output_file:
-		json.dump(final_result,output_file)
 	     
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://chap.manganelo.com/manga-ev118841" #SAMPLE URL
+	url="https://chap.manganelo.com/manga-me92372" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
-		save_info(final_info)
+		#comments=final_info['Comments']
+		#stars=analyze_comments(comments)
+		#print(stars)
 	except Exception as e:
-		print("None value received for soup at url : {url} \n".format(url=url))
+		print("Error encountered at url : {url} \n".format(url=url))
 		print(e)
 	print(time.time() - start_time)
 

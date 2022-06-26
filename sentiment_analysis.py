@@ -1,11 +1,21 @@
 from transformers import pipeline
 import time
 
-start_time=time.time()
 
-
-sentiment=pipeline(task='sentiment-analysis')
-results=sentiment('''10/10 interesting story, art and its so freaking funny 😂😂😂 Recommended.''')
-print(results)
-
-print(time.time() - start_time)
+def analyze_comments(comments): #814 MB
+	start_time=time.time()
+	sentiment=pipeline("sentiment-analysis",model="nlptown/bert-base-multilingual-uncased-sentiment")
+	total_stars=0
+	for comment in comments:
+		result=sentiment(comment)
+		#print(comment)
+		#print(result)
+		stars=int(result[0]['label'][:1])
+		#print(stars)
+		total_stars+=stars
+		#print("\n\n\n")
+	#print(total_stars/len(comments))
+	print(time.time() - start_time)
+	return total_stars/len(comments)
+	
+	
