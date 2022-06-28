@@ -29335,3 +29335,818 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1656358999077	geckodriver	INFO	Listening on 127.0.0.1:56141
+1656358999585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile207CSF"
+1656359001097	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59227
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile207CSF/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656359003303	Marionette	INFO	Listening on port 40399
+DevTools listening on ws://localhost:59227/devtools/browser/32a7296d-a008-43bb-9e45-627c9af0856a
+Read port: 40399
+1656359003445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656359010882	Marionette	INFO	Stopped listening on port 40399
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656359052474	geckodriver	INFO	Listening on 127.0.0.1:55097
+1656359052484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRc4r9u"
+1656359053871	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:38527
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRc4r9u/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656359055991	Marionette	INFO	Listening on port 45353
+Read port: 45353
+1656359056038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:38527/devtools/browser/11e971f4-bd6e-479c-a774-fcc7bcac1877
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656359061519	Marionette	INFO	Stopped listening on port 45353
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656359081510	geckodriver	INFO	Listening on 127.0.0.1:35719
+1656359081521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVvYJ1P"
+*** You are running in headless mode.
+1656359082218	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58351
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVvYJ1P/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656359084368	Marionette	INFO	Listening on port 41949
+Read port: 41949
+DevTools listening on ws://localhost:58351/devtools/browser/57174f4f-9e4d-4148-9c9f-7b96b24b1486
+1656359084456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656359343331	geckodriver	INFO	Listening on 127.0.0.1:41829
+1656359343340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaq2XDO"
+1656359344780	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:51811
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaq2XDO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656359347025	Marionette	INFO	Listening on port 46151
+Read port: 46151
+DevTools listening on ws://localhost:51811/devtools/browser/2e8cfb62-af3c-4ea3-8118-09c750009040
+1656359347076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656359353202	Marionette	INFO	Stopped listening on port 46151
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656359368492	geckodriver	INFO	Listening on 127.0.0.1:50025
+1656359368501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43053" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileb3Mpj5"
+1656359369981	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:43053
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb3Mpj5/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656359372309	Marionette	INFO	Listening on port 33527
+DevTools listening on ws://localhost:43053/devtools/browser/c9eddde3-e7b2-4972-9d3f-3c5f970fbf8f
+Read port: 33527
+1656359372436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656359377741	Marionette	INFO	Stopped listening on port 33527
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656359402774	geckodriver	INFO	Listening on 127.0.0.1:39405
+1656359402783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34047" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoSKOdf"
+1656359404270	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:34047
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoSKOdf/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656359406703	Marionette	INFO	Listening on port 40061
+DevTools listening on ws://localhost:34047/devtools/browser/c3c28f16-e1bf-47cb-b403-bcd4d4e9fdef
+Read port: 40061
+1656359406822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656359412509	Marionette	INFO	Stopped listening on port 40061
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656359424334	geckodriver	INFO	Listening on 127.0.0.1:37213
+1656359424343	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewS5xx6"
+1656359425750	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:35507
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewS5xx6/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656359428004	Marionette	INFO	Listening on port 46455
+Read port: 46455
+1656359428078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:35507/devtools/browser/0ee63aee-e7c4-4bdd-840e-5bed682cc379
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://c.adsco.re/, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/soJQjVMEWz-AW2aX2cEGIVeY-mqDblLvtbtmS3KyNC4.js line 2 > eval line 6658 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/soJQjVMEWz-AW2aX2cEGIVeY-mqDblLvtbtmS3KyNC4.js line 2 > eval line 5036 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656359475385	Marionette	INFO	Stopped listening on port 46455
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656360062385	geckodriver	INFO	Listening on 127.0.0.1:35559
+1656360062395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36997" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileskuM8L"
+1656360063787	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:36997
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileskuM8L/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656360065876	Marionette	INFO	Listening on port 42175
+Read port: 42175
+1656360065937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:36997/devtools/browser/f286c856-d490-454c-8d43-229ca0fb49f5
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://c.adsco.re/, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656360075189	Marionette	INFO	Stopped listening on port 42175
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656360176421	geckodriver	INFO	Listening on 127.0.0.1:33547
+1656360176431	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefharpm"
+1656360177918	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:54385
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefharpm/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656360180049	Marionette	INFO	Listening on port 43121
+DevTools listening on ws://localhost:54385/devtools/browser/b01f02f1-a54b-4226-9083-8a0949e13435
+Read port: 43121
+1656360180166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://c.adsco.re/, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656360188552	Marionette	INFO	Stopped listening on port 43121
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656360202362	geckodriver	INFO	Listening on 127.0.0.1:36079
+1656360202372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39787" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerecU2V"
+1656360203755	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:39787
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerecU2V/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656360205841	Marionette	INFO	Listening on port 43917
+DevTools listening on ws://localhost:39787/devtools/browser/70e5142e-6e3f-48db-afdf-9f553f64aba3
+Read port: 43917
+1656360205908	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://c.adsco.re/, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656360212666	Marionette	INFO	Stopped listening on port 43917
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656360385004	geckodriver	INFO	Listening on 127.0.0.1:52605
+1656360385014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36945" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEQSB6V"
+1656360386435	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:36945
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEQSB6V/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656360388616	Marionette	INFO	Listening on port 35659
+Read port: 35659
+1656360388652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:36945/devtools/browser/3463cbad-7af5-4315-88ee-b5a9371ea9df
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://c.adsco.re/, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656360397327	Marionette	INFO	Stopped listening on port 35659
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656360465579	geckodriver	INFO	Listening on 127.0.0.1:54327
+1656360465589	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMxUg4Q"
+1656360467001	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53393
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMxUg4Q/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656360468995	Marionette	INFO	Listening on port 35517
+DevTools listening on ws://localhost:53393/devtools/browser/41b7dc54-002a-4dad-9407-a516c5281838
+Read port: 35517
+1656360469120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://c.adsco.re/, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656360480369	Marionette	INFO	Stopped listening on port 35517
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656360497011	geckodriver	INFO	Listening on 127.0.0.1:59521
+1656360497021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44841" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletzH7kd"
+1656360498455	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:44841
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletzH7kd/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656360500588	Marionette	INFO	Listening on port 34679
+Read port: 34679
+1656360500677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:44841/devtools/browser/58e2b802-8443-4b8a-8233-6fd6bb305934
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-27 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: https://c.adsco.re/, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656360510107	Marionette	INFO	Stopped listening on port 34679
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656415410288	geckodriver	INFO	Listening on 127.0.0.1:42211
+1656415410792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "33813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo7Vdzp"
+*** You are running in headless mode.
+1656415411580	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:33813
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo7Vdzp/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656415413474	Marionette	INFO	Listening on port 35811
+DevTools listening on ws://localhost:33813/devtools/browser/2ef40233-2f40-461c-8fff-53177f5a7175
+Read port: 35811
+1656415413536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656415418994	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415421342	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415422963	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415433921	Marionette	INFO	Stopped listening on port 35811
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656415462192	geckodriver	INFO	Listening on 127.0.0.1:43993
+1656415462199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "39383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelLPkju"
+*** You are running in headless mode.
+1656415462902	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:39383
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelLPkju/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656415464844	Marionette	INFO	Listening on port 36955
+Read port: 36955
+1656415464932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:39383/devtools/browser/f7220bed-e5d9-470c-a56e-30f2f1a94dac
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656415472252	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415474609	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415476925	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415479161	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415481305	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415484106	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415486862	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415488501	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415490621	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415501476	Marionette	INFO	Stopped listening on port 36955
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656415533237	geckodriver	INFO	Listening on 127.0.0.1:36567
+1656415533243	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "53557" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYEN4wd"
+*** You are running in headless mode.
+1656415533959	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53557
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYEN4wd/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656415535791	Marionette	INFO	Listening on port 36731
+DevTools listening on ws://localhost:53557/devtools/browser/b811190c-df2e-41fd-a7a2-f8e2e793c54c
+Read port: 36731
+1656415535887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656415542778	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415545229	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415547377	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656415549578	geckodriver	INFO	Listening on 127.0.0.1:51835
+1656415549585	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "53123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeusjfZ"
+*** You are running in headless mode.
+1656415550274	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53123
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeusjfZ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656415552279	Marionette	INFO	Listening on port 46611
+Read port: 46611
+1656415552338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:53123/devtools/browser/4409965a-e419-4d7f-9d8a-4316b9f08208
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656415558279	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656415569076	Marionette	INFO	Stopped listening on port 46611
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656415593559	geckodriver	INFO	Listening on 127.0.0.1:34089
+1656415593566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "59869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVg24MA"
+*** You are running in headless mode.
+1656415594377	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59869
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVg24MA/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656415596411	Marionette	INFO	Listening on port 37543
+Read port: 37543
+1656415596497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:59869/devtools/browser/c3e19e42-093c-4d58-b200-ccb9a368542b
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://m.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html line 1 > injectedScript, line 2: ReferenceError: googletag is not defined
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-28 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript error: https://www.papayads.net/self/clnt/1005-1241/adtags-if-300x250.html?2022-06-28 line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656417030817	geckodriver	INFO	Listening on 127.0.0.1:56855
+1656417030824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "44741" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoTDvXu"
+*** You are running in headless mode.
+1656417031523	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:44741
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoTDvXu/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417033514	Marionette	INFO	Listening on port 45115
+Read port: 45115
+1656417033560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:44741/devtools/browser/cfeeb5e8-c274-4da2-a7a6-27e177ea2d4d
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417039423	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417041054	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417042728	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417053559	Marionette	INFO	Stopped listening on port 45115
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1656417077843	geckodriver	INFO	Listening on 127.0.0.1:57883
+1656417077849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "58985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNr4QBP"
+*** You are running in headless mode.
+1656417078564	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58985
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNr4QBP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417080385	Marionette	INFO	Listening on port 44619
+DevTools listening on ws://localhost:58985/devtools/browser/9f91e994-bb35-4ec2-ae05-2edd8561baa9
+Read port: 44619
+1656417080481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417087405	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417089758	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417091361	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656417092996	geckodriver	INFO	Listening on 127.0.0.1:47979
+1656417093002	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "45915" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2JnbPs"
+*** You are running in headless mode.
+1656417093696	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:45915
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2JnbPs/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417095524	Marionette	INFO	Listening on port 45905
+DevTools listening on ws://localhost:45915/devtools/browser/49514c73-0aa8-4221-8489-7a880b995044
+Read port: 45905
+1656417095633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417102556	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417104818	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417106477	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417108112	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417110281	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417112418	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417114540	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417116619	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656417119086	geckodriver	INFO	Listening on 127.0.0.1:39823
+1656417119092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "36525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyTLKzT"
+*** You are running in headless mode.
+1656417119781	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:36525
+1656417155951	geckodriver	INFO	Listening on 127.0.0.1:55833
+1656417155958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "46431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCuo7z4"
+*** You are running in headless mode.
+1656417164860	geckodriver	INFO	Listening on 127.0.0.1:51279
+1656417164866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "34253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2LLR7d"
+*** You are running in headless mode.
+1656417165538	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:34253
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2LLR7d/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417167419	Marionette	INFO	Listening on port 42453
+DevTools listening on ws://localhost:34253/devtools/browser/47cc0d35-7924-481e-b4fe-1eb7c0e2bf0a
+Read port: 42453
+1656417167498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417173161	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417174780	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1656417176386	geckodriver	INFO	Listening on 127.0.0.1:55181
+1656417176392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "57941" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAHCHi2"
+*** You are running in headless mode.
+1656417177057	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57941
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAHCHi2/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417178953	Marionette	INFO	Listening on port 42945
+Read port: 42945
+1656417179025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:57941/devtools/browser/981b7f93-8883-4617-b0bd-92bb26f559f0
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417185898	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417188197	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417189835	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417191448	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1656417192734	geckodriver	INFO	Listening on 127.0.0.1:57689
+1656417192741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "42473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9fdqP8"
+*** You are running in headless mode.
+1656417193432	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:42473
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9fdqP8/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+1656417297443	geckodriver	INFO	Listening on 127.0.0.1:56909
+1656417297450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "54591" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiler6dlY8"
+*** You are running in headless mode.
+1656417298151	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:54591
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiler6dlY8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417299975	Marionette	INFO	Listening on port 42645
+Read port: 42645
+1656417300110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:54591/devtools/browser/9e6e592b-d0c4-4bf0-b286-1be80d11ee6a
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417305900	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417307527	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417309175	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1656417319984	Marionette	INFO	Stopped listening on port 42645
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656417343675	geckodriver	INFO	Listening on 127.0.0.1:47353
+1656417343682	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "52961" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRPHdq3"
+*** You are running in headless mode.
+1656417344368	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52961
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRPHdq3/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417346219	Marionette	INFO	Listening on port 38135
+DevTools listening on ws://localhost:52961/devtools/browser/e189c0a7-b153-489d-9e05-1b556b693843
+Read port: 38135
+1656417346315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417371849	Marionette	INFO	Stopped listening on port 38135
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1656417546500	geckodriver	INFO	Listening on 127.0.0.1:50445
+1656417546507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "49363" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyIFKFU"
+*** You are running in headless mode.
+1656417547205	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49363
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyIFKFU/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417549074	Marionette	INFO	Listening on port 43235
+Read port: 43235
+1656417549150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:49363/devtools/browser/df97a585-8666-498e-ac5d-67f18e3a4473
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417573651	Marionette	INFO	Stopped listening on port 43235
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1656417755027	geckodriver	INFO	Listening on 127.0.0.1:33773
+1656417755033	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "56327" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiI7hZW"
+*** You are running in headless mode.
+1656417755739	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:56327
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiI7hZW/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417757754	Marionette	INFO	Listening on port 41985
+Read port: 41985
+DevTools listening on ws://localhost:56327/devtools/browser/5d437bfa-67bc-4c31-a4bc-4d82a005e76f
+1656417757869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://chapmanganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417783569	Marionette	INFO	Stopped listening on port 41985
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656417924112	geckodriver	INFO	Listening on 127.0.0.1:47349
+1656417924119	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "42131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexQIPFu"
+*** You are running in headless mode.
+1656417924808	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:42131
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexQIPFu/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656417926881	Marionette	INFO	Listening on port 41643
+Read port: 41643
+1656417926952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:42131/devtools/browser/112e4659-99e7-43e9-a400-ced4e07573e0
+JavaScript warning: https://chap.manganelo.com/themes/hm/js/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1656417951822	Marionette	INFO	Stopped listening on port 41643
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
