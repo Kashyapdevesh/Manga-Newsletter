@@ -18,20 +18,24 @@ def strip_accents(s):
 def link_scraper(url):
 	r=get(url)
 	soup=BS(r.text,"html.parser")
-	manga=soup.find_all("div",{"class":"search-story-item"})[0]
-	if manga!=None:
-		try:	
-			manga_link=manga.find_all("div",{"class":"item-right"})[0].h3.a['href']
-		except Exception as e:
-			print("manga link unavailable")
-			print(e)
-			manga_link=None
-	else:
+	
+	try:
+		manga=soup.find_all("div",{"class":"search-story-item"})[0]
+	except Exception as e:
+		print(e)
 		return None
+		
+	try:	
+		manga_link=manga.find_all("div",{"class":"item-right"})[0].h3.a['href']
+	except Exception as e:
+		print("manga link unavailable")
+		print(e)
+		manga_link=None
+
 	return manga_link
 
 
-url="https://www.animenewsnetwork.com/encyclopedia/ratings-manga.php?top50=popular&n=50"
+url="https://www.animenewsnetwork.com/encyclopedia/ratings-manga.php?top50=popular&n=500"
 r=get(url)
 soup=BS(r.text,"html.parser")
 
@@ -46,9 +50,10 @@ ANN=[]
 MR=[]
 total_views=[]
 manga_index=[]
-
+total_comments=[]
 
 for manga in mangas:
+
 	o_manga_name=manga.find_all("td",{"class":"t"})[0].text
 	manga_name=o_manga_name
 	manga_rating=manga.find_all("td",{"class":"r"})[0].text
@@ -87,6 +92,7 @@ for manga in mangas:
 	print("Anime News Network Rating: "+ str(manga_rating))
 	print("Manganelo Rating: " + str(rating[:3]))
 	print("Total Manganelo Views: " + str(views))
+	print("Total No. of comments: " + str(len(comments)))
 	print("\n")
 	
 	SA.append(str(stars*2))
@@ -94,12 +100,14 @@ for manga in mangas:
 	MR.append(str(rating))
 	manga_index.append(str(o_manga_name))
 	total_views.append(str(views))
+	total_comments.append(len(comments))
 	
 data={}
 data.update({"SA Rating":SA})
 data.update({"ANN Rating":ANN})
 data.update({"MR Rating":MR})
 data.update({"Manganelo Views",total_views})
+data.update({"Total Comments",total_comments})
 data.update({"manga index",manga_index})
 
 df=pd.DataFrame(data,index=manga_index)
@@ -112,6 +120,7 @@ print(failed_attempts)
 print("TOTAL TIME:")
 print(time.time()-start_time)
 	
+
 
 
 
