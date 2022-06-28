@@ -1,41 +1,14 @@
-import torch
-from transformers import VisionEncoderDecoderModel, ViTFeatureExtractor, AutoTokenizer
+from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from PIL import Image
-import time
+import requests
 
-start=time.time()
-model = VisionEncoderDecoderModel.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
-feature_extractor = ViTFeatureExtractor.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
-tokenizer = AutoTokenizer.from_pretrained("nlpconnect/vit-gpt2-image-captioning")
+# load image from the IAM database (actually this model is meant to be used on printed text)
+image = Image.open('./isample2.jpg').convert("RGB")
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(device)
-model.to(device)
+processor = TrOCRProcessor.from_pretrained('microsoft/trocr-base-printed')
+model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-base-printed')
+pixel_values = processor(images=image, return_tensors="pt").pixel_values
 
-
-
-max_length = 16
-num_beams = 4
-gen_kwargs = {"max_length": max_length, "num_beams": num_beams}
-
-def predict_step(image_paths):
-  images = []
-  for image_path in image_paths:
-    i_image = Image.open(image_path)
-    if i_image.mode != "RGB":
-      i_image = i_image.convert(mode="RGB")
-
-    images.append(i_image)
-
-  pixel_values = feature_extractor(images=images, return_tensors="pt").pixel_values
-  pixel_values = pixel_values.to(device)
-
-  output_ids = model.generate(pixel_values, **gen_kwargs)
-
-  preds = tokenizer.batch_decode(output_ids, skip_special_tokens=True)
-  preds = [pred.strip() for pred in preds]
-  return preds
-
-
-print(predict_step(['./isample2.jpg'])) # ['a woman in a hospital bed with a woman in a hospital bed']
-print(time.time()-start)
+generated_ids = model.generate(pixel_values)
+generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+print(generated_text)

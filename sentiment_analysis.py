@@ -1,6 +1,9 @@
 from transformers import pipeline
 import time
 
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 
 def analyze_comments(comments): #814 MB
 	start_time=time.time()
@@ -15,7 +18,9 @@ def analyze_comments(comments): #814 MB
 		total_stars+=stars
 		#print("\n\n\n")
 	#print(total_stars/len(comments))
+	print("Time taken for setiment analysis: ")
 	print(time.time() - start_time)
+	print("\n\n")
 	return total_stars/len(comments)
 	
 	

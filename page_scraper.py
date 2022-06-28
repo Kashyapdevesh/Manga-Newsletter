@@ -8,7 +8,6 @@ from selenium.webdriver.firefox.service import Service
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
 
 from sentiment_analysis import analyze_comments
 
@@ -235,7 +234,7 @@ def compiled_info(url):
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://chap.manganelo.com/manga-me92372" #SAMPLE URL
+	url="https://chap.manganelo.com/manga-bv96541" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
