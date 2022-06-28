@@ -26,6 +26,8 @@ def link_scraper(url):
 			print("manga link unavailable")
 			print(e)
 			manga_link=None
+	else:
+		return None
 	return manga_link
 
 
@@ -98,13 +100,19 @@ data.update({"SA Rating":SA})
 data.update({"ANN Rating":ANN})
 data.update({"MR Rating":MR})
 data.update({"Manganelo Views",total_views})
+data.update({"manga index",manga_index})
 
 df=pd.DataFrame(data,index=manga_index)
 print(df)
-	
+df.to_csv('training_data.csv')
+
+print("SCRAPING FAILED AT: ")
+print(failed_attempts)	
+
 print("TOTAL TIME:")
 print(time.time()-start_time)
 	
+
 
 
 
