@@ -1,1203 +1,31 @@
-EMPTY CSV CREATED 
+['Death Note (manga)', 'Naruto (manga)', 'Bleach (manga)', 'Fullmetal Alchemist (manga)', 'Fruits Basket (manga)', 'Berserk (manga)', 'One Piece (manga)', 'Love Hina (manga)', 'Rurouni Kenshin (manga)', 'Chobits (manga)', 'Azumanga Daioh (manga)', 'Monster (manga)', 'Tsubasa, RESERVoir CHRoNiCLE (manga)', 'Yotsuba&! (manga)', 'Dragon Ball (manga)', 'Hellsing (manga)', 'GTO (manga)', 'Inuyasha (manga)', 'Negima! Magister Negi Magi (manga)', 'Claymore (manga)', 'Gantz (manga)', 'Ouran High School Host Club (manga)', 'xxxHOLiC (manga)', 'Cardcaptor Sakura (manga)', '20th Century Boys (manga)', 'Akira (manga)', 'Vampire Knight (manga)', 'Absolute Boyfriend (manga)', 'Hana-Kimi (manga)', 'D.Gray-man (manga)', 'Hunter × Hunter (manga)', 'Kare Kano (manga)', 'Hikaru no Go (manga)', 'Fairy Tail (manga)', 'NANA (manga)', 'Neon Genesis Evangelion (manga)', 'D.N.Angel (manga)', 'Battle Angel Alita (manga)', 'Black Cat (manga by K. Yabuki)', 'Elfen Lied (manga)', 'Strawberry 100% (manga)', 'Angel Sanctuary (manga)', 'Genshiken (manga)', 'Trigun (manga)', 'Full Moon O Sagashite (manga)', 'Skip Beat! (manga)', 'Vagabond (manga)', 'Chrono Crusade (manga)', 'Fushigi Yûgi (manga)', 'YuYu Hakusho (manga)', 'FLCL (manga)', 'Rosario + Vampire (manga)', 'Blade of the Immortal (manga)', 'Shaman King (manga)', 'Bitter Virgin (manga)', 'Magic Knight Rayearth (manga)', 'Sailor Moon (manga)', "I''s (manga)", 'Alice 19th (manga)', '.hack//Legend of the Twilight (manga)', 'Battle Royale (manga)', 'Yokohama Kaidashi Kikou (manga)', 'Oh My Goddess! (manga)', 'Mars (manga)']
+Already scraped: Death Note (manga)
 
+Already scraped: Naruto (manga)
 
-SCRAPING :Death Note (manga)
------------------------------------------------
+Already scraped: Bleach (manga)
 
+Already scraped: Fullmetal Alchemist (manga)
 
+Already scraped: Fruits Basket (manga)
 
+Already scraped: Berserk (manga)
 
+Already scraped: One Piece (manga)
 
+Already scraped: Love Hina (manga)
 
-LOADING COMMENTS 
+Already scraped: Rurouni Kenshin (manga)
 
+Already scraped: Chobits (manga)
 
+Already scraped: Azumanga Daioh (manga)
 
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
+Already scraped: Monster (manga)
 
+Already scraped: Tsubasa, RESERVoir CHRoNiCLE (manga)
 
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-21.141507625579834
-
-
-
-
-
-SA Rating: 5.137931034482759
-Anime News Network Rating: 8.85
-Manganelo Rating: 4.8
-Total Manganelo Views: 11.7K
-Total No. of comments: 58
-
-
-
-
-Total diff: 1.72248322147651
-Total count: 1
-49.019742488861084
-
-
-CSV updated with :Death Note (manga)
-
-SCRAPING :Naruto (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-28.854833841323853
-
-
-
-
-
-SA Rating: 6.176100628930818
-Anime News Network Rating: 8.10
-Manganelo Rating: 4.5
-Total Manganelo Views: 86K
-Total No. of comments: 159
-
-
-
-
-Total diff: 3.033990349786082
-Total count: 2
-116.93193125724792
-
-
-CSV updated with :Naruto (manga)
-
-SCRAPING :Bleach (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-52.254210472106934
-
-
-
-
-
-SA Rating: 5.877862595419847
-Anime News Network Rating: 8.11
-Manganelo Rating: 4.7
-Total Manganelo Views: 140.6K
-Total No. of comments: 393
-
-
-
-
-Total diff: 4.413743596539328
-Total count: 3
-243.73392510414124
-
-
-CSV updated with :Bleach (manga)
-
-SCRAPING :Fullmetal Alchemist (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-19.691118240356445
-
-
-
-
-
-SA Rating: 7.117647058823529
-Anime News Network Rating: 8.93
-Manganelo Rating: 4.8
-Total Manganelo Views: 13.9K
-Total No. of comments: 34
-
-
-
-
-Total diff: 5.668371695712882
-Total count: 4
-286.6560115814209
-
-
-CSV updated with :Fullmetal Alchemist (manga)
-
-SCRAPING :Fruits Basket (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-19.390120029449463
-
-
-
-
-
-SA Rating: 6.938775510204081
-Anime News Network Rating: 8.71
-Manganelo Rating: 4.7
-Total Manganelo Views: 17.5K
-Total No. of comments: 49
-
-
-
-
-Total diff: 6.9236364015952345
-Total count: 5
-333.1288902759552
-
-
-CSV updated with :Fruits Basket (manga)
-
-SCRAPING :Berserk (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-110.14529466629028
-
-
-
-
-
-SA Rating: 6.5601631543167915
-Anime News Network Rating: 9.28
-Manganelo Rating: 4.8
-Total Manganelo Views: 110.1K
-Total No. of comments: 1471
-
-
-
-
-Total diff: 8.338235365325804
-Total count: 6
-830.1451072692871
-
-
-CSV updated with :Berserk (manga)
-
-SCRAPING :One Piece (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-51.903520584106445
-
-
-
-
-
-SA Rating: 5.69009009009009
-Anime News Network Rating: 8.67
-Manganelo Rating: 4.6
-Total Manganelo Views: 289.8K
-Total No. of comments: 555
-
-
-
-
-Total diff: 9.861937075268806
-Total count: 7
-1066.0597155094147
-
-
-CSV updated with :One Piece (manga)
-
-SCRAPING :Love Hina (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-27.252758264541626
-
-
-
-
-
-SA Rating: 6.375
-Anime News Network Rating: 8.30
-Manganelo Rating: 4.7
-Total Manganelo Views: 7.1K
-Total No. of comments: 16
-
-
-
-
-Total diff: 11.163897859582532
-Total count: 8
-1113.6898505687714
-
-
-CSV updated with :Love Hina (manga)
-
-SCRAPING :Rurouni Kenshin (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-23.685739994049072
-
-
-
-
-
-SA Rating: 6.095238095238095
-Anime News Network Rating: 8.79
-Manganelo Rating: 4.9
-Total Manganelo Views: 11K
-Total No. of comments: 21
-
-
-
-
-Total diff: 12.606007234582531
-Total count: 9
-1158.4494507312775
-
-
-CSV updated with :Rurouni Kenshin (manga)
-
-SCRAPING :Chobits (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-17.82169198989868
-
-
-
-
-
-SA Rating: 5.8
-Anime News Network Rating: 7.98
-Manganelo Rating: 4.7
-Total Manganelo Views: 2.2K
-Total No. of comments: 10
-
-
-
-
-Total diff: 13.981869303548049
-Total count: 10
-1208.1950137615204
-
-
-CSV updated with :Chobits (manga)
-
-SCRAPING :Azumanga Daioh (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-22.03312587738037
-
-
-
-
-
-SA Rating: 6.916666666666667
-Anime News Network Rating: 8.63
-Manganelo Rating: 4.5
-Total Manganelo Views: 2.2K
-Total No. of comments: 24
-
-
-
-
-Total diff: 15.229580146921542
-Total count: 11
-1251.4441614151
-
-
-CSV updated with :Azumanga Daioh (manga)
-
-SCRAPING :Monster (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-106.85916352272034
-
-
-
-
-
-SA Rating: 5.518052057094878
-Anime News Network Rating: 8.53
-Manganelo Rating: 4.6
-Total Manganelo Views: 119K
-Total No. of comments: 1191
-
-
-
-
-Total diff: 16.775415509063965
-Total count: 12
-1598.8494622707367
-
-
-CSV updated with :Monster (manga)
-
-SCRAPING :Tsubasa, RESERVoir CHRoNiCLE (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-29.09414005279541
-
-
-
-
-
-SA Rating: 5.625
-Anime News Network Rating: 8.35
-Manganelo Rating: 4.7
-Total Manganelo Views: 1.7K
-Total No. of comments: 16
-
-
-
-
-Total diff: 18.25985995350841
-Total count: 13
-1652.02104139328
-
-
-CSV updated with :Tsubasa, RESERVoir CHRoNiCLE (manga)
-
-SCRAPING :Yotsuba&! (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-25.599792957305908
-
-
-
-
-
-SA Rating: 6.845070422535211
-Anime News Network Rating: 8.88
-Manganelo Rating: 4.8
-Total Manganelo Views: 12.4K
-Total No. of comments: 71
-
-
-
-
-Total diff: 19.557143904125695
-Total count: 14
-1708.0137090682983
-
-
-CSV updated with :Yotsuba&! (manga)
+Already scraped: Yotsuba&! (manga)
 
 SCRAPING :Ranma ½ (manga)
 -----------------------------------------------
@@ -1208,50 +36,7 @@ list index out of range
 Ranma_½_ not available
 
 -----------------------------------------------
-SCRAPING :Dragon Ball (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-24.569674491882324
-
-
-
-
-
-SA Rating: 6.074074074074074
-Anime News Network Rating: 8.00
-Manganelo Rating: 4.6
-Total Manganelo Views: 27.7K
-Total No. of comments: 27
-
-
-
-
-Total diff: 20.874217074857402
-Total count: 15
-1756.5646166801453
-
-
-CSV updated with :Dragon Ball (manga)
+Already scraped: Dragon Ball (manga)
 
 SCRAPING :Nausicaä of the Valley of the Wind (manga)
 -----------------------------------------------
@@ -1262,2563 +47,89 @@ list index out of range
 Nausicaa_of_the_Valley_of_the_Wind_ not available
 
 -----------------------------------------------
-SCRAPING :Hellsing (manga)
------------------------------------------------
+Already scraped: Hellsing (manga)
 
+Already scraped: GTO (manga)
 
+Already scraped: Inuyasha (manga)
 
+Already scraped: Negima! Magister Negi Magi (manga)
 
+Already scraped: Claymore (manga)
 
+Already scraped: Gantz (manga)
 
-LOADING COMMENTS 
+Already scraped: Ouran High School Host Club (manga)
 
+Already scraped: xxxHOLiC (manga)
 
+Already scraped: Cardcaptor Sakura (manga)
 
+Already scraped: 20th Century Boys (manga)
 
+Already scraped: Akira (manga)
 
+Already scraped: Vampire Knight (manga)
 
-LESS COMMENTS, NO NEED FOR SCROLLING
+Already scraped: Absolute Boyfriend (manga)
 
+Already scraped: Hana-Kimi (manga)
 
+Already scraped: D.Gray-man (manga)
 
-Time taken for setiment analysis: 
-22.433995246887207
+Already scraped: Hunter × Hunter (manga)
 
+Already scraped: Kare Kano (manga)
 
+Already scraped: Hikaru no Go (manga)
 
+Already scraped: Fairy Tail (manga)
 
+Already scraped: NANA (manga)
 
-SA Rating: 7.142857142857143
-Anime News Network Rating: 8.44
-Manganelo Rating: 4.8
-Total Manganelo Views: 3.6K
-Total No. of comments: 14
+Already scraped: Neon Genesis Evangelion (manga)
 
+Already scraped: D.N.Angel (manga)
 
+Already scraped: Battle Angel Alita (manga)
 
+Already scraped: Black Cat (manga by K. Yabuki)
 
-Total diff: 22.0558170748574
-Total count: 16
-1809.984951019287
+Already scraped: Elfen Lied (manga)
 
+Already scraped: Strawberry 100% (manga)
 
-CSV updated with :Hellsing (manga)
+Already scraped: Angel Sanctuary (manga)
 
-SCRAPING :GTO (manga)
------------------------------------------------
+Already scraped: Genshiken (manga)
 
+Already scraped: Trigun (manga)
 
+Already scraped: Full Moon O Sagashite (manga)
 
+Already scraped: Skip Beat! (manga)
 
+Already scraped: Vagabond (manga)
 
+Already scraped: Chrono Crusade (manga)
 
-LOADING COMMENTS 
+Already scraped: Fushigi Yûgi (manga)
 
+Already scraped: YuYu Hakusho (manga)
 
+Already scraped: FLCL (manga)
 
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
+Already scraped: Rosario + Vampire (manga)
 
+Already scraped: Blade of the Immortal (manga)
 
+Already scraped: Shaman King (manga)
 
-NO COMMENTS LEFT
+Already scraped: Bitter Virgin (manga)
 
+Already scraped: Magic Knight Rayearth (manga)
 
-
-Time taken for setiment analysis: 
-25.987706184387207
-
-
-
-
-
-SA Rating: 7.162790697674419
-Anime News Network Rating: 8.78
-Manganelo Rating: 4.7
-Total Manganelo Views: 18.3K
-Total No. of comments: 43
-
-
-
-
-Total diff: 23.28159629563662
-Total count: 17
-1861.1292390823364
-
-
-CSV updated with :GTO (manga)
-
-SCRAPING :Inuyasha (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-23.036954402923584
-
-
-
-
-
-SA Rating: 7.470588235294118
-Anime News Network Rating: 7.43
-Manganelo Rating: 4.7
-Total Manganelo Views: 16K
-Total No. of comments: 34
-
-
-
-
-Total diff: 24.276163224770478
-Total count: 18
-1919.6489491462708
-
-
-CSV updated with :Inuyasha (manga)
-
-SCRAPING :Negima! Magister Negi Magi (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-25.451990842819214
-
-
-
-
-
-SA Rating: 5.7727272727272725
-Anime News Network Rating: 8.32
-Manganelo Rating: 4.7
-Total Manganelo Views: 15.5K
-Total No. of comments: 44
-
-
-
-
-Total diff: 25.717423067290163
-Total count: 19
-1967.032636165619
-
-
-CSV updated with :Negima! Magister Negi Magi (manga)
-
-SCRAPING :Claymore (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-31.914188385009766
-
-
-
-
-
-SA Rating: 6.928571428571429
-Anime News Network Rating: 8.61
-Manganelo Rating: 4.8
-Total Manganelo Views: 24.8K
-Total No. of comments: 112
-
-
-
-
-Total diff: 26.960103479661296
-Total count: 20
-2031.7276957035065
-
-
-CSV updated with :Claymore (manga)
-
-SCRAPING :Gantz (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-46.23800778388977
-
-
-
-
-
-SA Rating: 6.4774774774774775
-Anime News Network Rating: 8.47
-Manganelo Rating: 4.7
-Total Manganelo Views: 59.8K
-Total No. of comments: 222
-
-
-
-
-Total diff: 28.267711268256566
-Total count: 21
-2125.9133825302124
-
-
-CSV updated with :Gantz (manga)
-
-SCRAPING :Ouran High School Host Club (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-21.984241247177124
-
-
-
-
-
-SA Rating: 6.0476190476190474
-Anime News Network Rating: 8.54
-Manganelo Rating: 4.8
-Total Manganelo Views: 10.4K
-Total No. of comments: 42
-
-
-
-
-Total diff: 29.679837252508534
-Total count: 22
-2172.5452904701233
-
-
-CSV updated with :Ouran High School Host Club (manga)
-
-SCRAPING :xxxHOLiC (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-21.82955503463745
-
-
-
-
-
-SA Rating: 6.888888888888889
-Anime News Network Rating: 8.38
-Manganelo Rating: 4.7
-Total Manganelo Views: 3.9K
-Total No. of comments: 9
-
-
-
-
-Total diff: 30.89628886541176
-Total count: 23
-2225.5578892230988
-
-
-CSV updated with :xxxHOLiC (manga)
-
-SCRAPING :Cardcaptor Sakura (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-24.79508924484253
-
-
-
-
-
-SA Rating: 6.0
-Anime News Network Rating: 8.28
-Manganelo Rating: 4.7
-Total Manganelo Views: 5.5K
-Total No. of comments: 11
-
-
-
-
-Total diff: 32.27628886541176
-Total count: 24
-2271.3584904670715
-
-
-CSV updated with :Cardcaptor Sakura (manga)
-
-SCRAPING :20th Century Boys (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-25.965173482894897
-
-
-
-
-
-SA Rating: 6.945454545454545
-Anime News Network Rating: 8.63
-Manganelo Rating: 4.7
-Total Manganelo Views: 17.9K
-Total No. of comments: 55
-
-
-
-
-Total diff: 33.518828132427466
-Total count: 25
-2322.554634809494
-
-
-CSV updated with :20th Century Boys (manga)
-
-SCRAPING :Akira (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-54.73860287666321
-
-
-
-
-
-SA Rating: 5.918181818181818
-Anime News Network Rating: 8.70
-Manganelo Rating: 4.7
-Total Manganelo Views: 60.5K
-Total No. of comments: 440
-
-
-
-
-Total diff: 34.988874215376775
-Total count: 26
-2462.7432696819305
-
-
-CSV updated with :Akira (manga)
-
-SCRAPING :Vampire Knight (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-42.07831335067749
-
-
-
-
-
-SA Rating: 4.775757575757575
-Anime News Network Rating: 8.09
-Manganelo Rating: 4.0
-Total Manganelo Views: 14.1K
-Total No. of comments: 165
-
-
-
-
-Total diff: 36.68284629659505
-Total count: 27
-2551.4642617702484
-
-
-CSV updated with :Vampire Knight (manga)
-
-SCRAPING :Absolute Boyfriend (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-40.92559051513672
-
-
-
-
-
-SA Rating: 5.868852459016393
-Anime News Network Rating: 7.55
-Manganelo Rating: 4.8
-Total Manganelo Views: 6.5K
-Total No. of comments: 244
-
-
-
-
-Total diff: 37.96929881056153
-Total count: 28
-2651.8124508857727
-
-
-CSV updated with :Absolute Boyfriend (manga)
-
-SCRAPING :Hana-Kimi (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-26.264780282974243
-
-
-
-
-
-SA Rating: 6.625
-Anime News Network Rating: 8.42
-Manganelo Rating: 4.7
-Total Manganelo Views: 4.9K
-Total No. of comments: 80
-
-
-
-
-Total diff: 39.24024220678795
-Total count: 29
-2711.0401182174683
-
-
-CSV updated with :Hana-Kimi (manga)
-
-SCRAPING :D.Gray-man (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-30.067137718200684
-
-
-
-
-
-SA Rating: 5.6239316239316235
-Anime News Network Rating: 8.24
-Manganelo Rating: 4.8
-Total Manganelo Views: 26.9K
-Total No. of comments: 117
-
-
-
-
-Total diff: 40.70540938004023
-Total count: 30
-2775.1960203647614
-
-
-CSV updated with :D.Gray-man (manga)
-
-SCRAPING :Hunter × Hunter (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-206.94652390480042
-
-
-
-
-
-SA Rating: 5.948667324777888
-Anime News Network Rating: 8.79
-Manganelo Rating: 4.4
-Total Manganelo Views: 129K
-Total No. of comments: 2026
-
-
-
-
-Total diff: 42.18305126520452
-Total count: 31
-3599.5679795742035
-
-
-CSV updated with :Hunter × Hunter (manga)
-
-SCRAPING :Kare Kano (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-48.457913637161255
-
-
-
-
-
-SA Rating: 5.812865497076023
-Anime News Network Rating: 8.36
-Manganelo Rating: 4.3
-Total Manganelo Views: 34.6K
-Total No. of comments: 342
-
-
-
-
-Total diff: 43.62124040001337
-Total count: 32
-3713.898619890213
-
-
-CSV updated with :Kare Kano (manga)
-
-SCRAPING :Hikaru no Go (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-33.98734998703003
-
-
-
-
-
-SA Rating: 5.177914110429448
-Anime News Network Rating: 8.26
-Manganelo Rating: 4.6
-Total Manganelo Views: 37.1K
-Total No. of comments: 163
-
-
-
-
-Total diff: 45.21647736683801
-Total count: 33
-3787.9712586402893
-
-
-CSV updated with :Hikaru no Go (manga)
-
-SCRAPING :Fairy Tail (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-36.5038526058197
-
-
-
-
-
-SA Rating: 5.448028673835125
-Anime News Network Rating: 8.10
-Manganelo Rating: 4.7
-Total Manganelo Views: 64.6K
-Total No. of comments: 279
-
-
-
-
-Total diff: 46.70325368262749
-Total count: 34
-3882.3567414283752
-
-
-CSV updated with :Fairy Tail (manga)
-
-SCRAPING :NANA (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-69.41392374038696
-
-
-
-
-
-SA Rating: 5.56
-Anime News Network Rating: 8.66
-Manganelo Rating: 4.7
-Total Manganelo Views: 119.1K
-Total No. of comments: 600
-
-
-
-
-Total diff: 48.26080763946202
-Total count: 35
-4060.7467951774597
-
-
-CSV updated with :NANA (manga)
-
-SCRAPING :Neon Genesis Evangelion (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-22.334141731262207
-
-
-
-
-
-SA Rating: 6.0
-Anime News Network Rating: 8.28
-Manganelo Rating: 4.6
-Total Manganelo Views: 7.1K
-Total No. of comments: 28
-
-
-
-
-Total diff: 49.640807639462025
-Total count: 36
-4104.355484962463
-
-
-CSV updated with :Neon Genesis Evangelion (manga)
-
-SCRAPING :D.N.Angel (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-36.030173540115356
-
-
-
-
-
-SA Rating: 5.589958158995816
-Anime News Network Rating: 7.76
-Manganelo Rating: 4.6
-Total Manganelo Views: 32.6K
-Total No. of comments: 239
-
-
-
-
-Total diff: 51.029011232276396
-Total count: 37
-4192.798880815506
-
-
-CSV updated with :D.N.Angel (manga)
-
-SCRAPING :Battle Angel Alita (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-18.83285880088806
-
-
-
-
-
-SA Rating: 6.076923076923077
-Anime News Network Rating: 8.61
-Manganelo Rating: 4.7
-Total Manganelo Views: 5.4K
-Total No. of comments: 26
-
-
-
-
-Total diff: 52.44584667531437
-Total count: 38
-4232.274340391159
-
-
-CSV updated with :Battle Angel Alita (manga)
-
-SCRAPING :Black Cat (manga by K. Yabuki)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-17.148393154144287
-
-
-
-
-
-SA Rating: 6.5
-Anime News Network Rating: 7.91
-Manganelo Rating: 4.7
-Total Manganelo Views: 4K
-Total No. of comments: 8
-
-
-
-
-Total diff: 53.662769752237445
-Total count: 39
-4279.502571105957
-
-
-CSV updated with :Black Cat (manga by K. Yabuki)
-
-SCRAPING :Elfen Lied (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-19.6783549785614
-
-
-
-
-
-SA Rating: 6.375
-Anime News Network Rating: 8.26
-Manganelo Rating: 4.6
-Total Manganelo Views: 7.1K
-Total No. of comments: 32
-
-
-
-
-Total diff: 54.95845602674725
-Total count: 40
-4320.567402124405
-
-
-CSV updated with :Elfen Lied (manga)
-
-SCRAPING :Strawberry 100% (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-20.487128257751465
-
-
-
-
-
-SA Rating: 6.558139534883721
-Anime News Network Rating: 8.26
-Manganelo Rating: 4.4
-Total Manganelo Views: 5.5K
-Total No. of comments: 43
-
-
-
-
-Total diff: 56.21795957284654
-Total count: 41
-4363.328517198563
-
-
-CSV updated with :Strawberry 100% (manga)
-
-SCRAPING :Angel Sanctuary (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-18.89264440536499
-
-
-
-
-
-SA Rating: 4.8
-Anime News Network Rating: 8.25
-Manganelo Rating: 4.7
-Total Manganelo Views: 784
-Total No. of comments: 5
-
-
-
-
-Total diff: 57.93670957284654
-Total count: 42
-4411.451812028885
-
-
-CSV updated with :Angel Sanctuary (manga)
-
-SCRAPING :Genshiken (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-17.017794847488403
-
-
-
-
-
-SA Rating: 6.0
-Anime News Network Rating: 8.65
-Manganelo Rating: 4.6
-Total Manganelo Views: 2K
-Total No. of comments: 5
-
-
-
-
-Total diff: 59.37837623951321
-Total count: 43
-4459.190377950668
-
-
-CSV updated with :Genshiken (manga)
-
-SCRAPING :Trigun (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-23.933577060699463
-
-
-
-
-
-SA Rating: 4.8
-Anime News Network Rating: 7.92
-Manganelo Rating: 4.7
-Total Manganelo Views: 2.6K
-Total No. of comments: 5
-
-
-
-
-Total diff: 61.02837623951321
-Total count: 44
-4517.825035333633
-
-
-CSV updated with :Trigun (manga)
-
-SCRAPING :Full Moon O Sagashite (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-19.270775318145752
-
-
-
-
-
-SA Rating: 10.0
-Anime News Network Rating: 8.19
-Manganelo Rating: 4.6
-Total Manganelo Views: 668
-Total No. of comments: 2
-
-
-
-
-Total diff: 61.84737623951321
-Total count: 45
-4572.606329917908
-
-
-CSV updated with :Full Moon O Sagashite (manga)
-
-SCRAPING :Skip Beat! (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-37.1192889213562
-
-
-
-
-
-SA Rating: 6.350710900473934
-Anime News Network Rating: 8.88
-Manganelo Rating: 4.8
-Total Manganelo Views: 33.3K
-Total No. of comments: 211
-
-
-
-
-Total diff: 63.24564489622963
-Total count: 46
-4661.283631563187
-
-
-CSV updated with :Skip Beat! (manga)
-
-SCRAPING :Vagabond (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-48.96720814704895
-
-
-
-
-
-SA Rating: 5.772594752186589
-Anime News Network Rating: 9.05
-Manganelo Rating: 4.8
-Total Manganelo Views: 81K
-Total No. of comments: 343
-
-
-
-
-Total diff: 64.81339742148215
-Total count: 47
-4783.381407737732
-
-
-CSV updated with :Vagabond (manga)
-
-SCRAPING :Chrono Crusade (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-18.246640920639038
-
-
-
-
-
-SA Rating: 10.0
-Anime News Network Rating: 8.32
-Manganelo Rating: 4.8
-Total Manganelo Views: 994
-Total No. of comments: 1
-
-
-
-
-Total diff: 65.64539742148214
-Total count: 48
-4837.393870592117
-
-
-CSV updated with :Chrono Crusade (manga)
-
-SCRAPING :Fushigi Yûgi (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-17.656031847000122
-
-
-
-
-
-SA Rating: 8.0
-Anime News Network Rating: 7.84
-Manganelo Rating: 4.6
-Total Manganelo Views: 1.1K
-Total No. of comments: 3
-
-
-
-
-Total diff: 66.62539742148215
-Total count: 49
-4885.219798088074
-
-
-CSV updated with :Fushigi Yûgi (manga)
-
-SCRAPING :YuYu Hakusho (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-17.800137519836426
-
-
-
-
-
-SA Rating: 5.733333333333333
-Anime News Network Rating: 7.78
-Manganelo Rating: 4.7
-Total Manganelo Views: 7.5K
-Total No. of comments: 30
-
-
-
-
-Total diff: 67.98237416566819
-Total count: 50
-4925.13830280304
-
-
-CSV updated with :YuYu Hakusho (manga)
-
-SCRAPING :FLCL (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-17.626168489456177
-
-
-
-
-
-SA Rating: 6.285714285714286
-Anime News Network Rating: 6.92
-Manganelo Rating: 4.8
-Total Manganelo Views: 513
-Total No. of comments: 7
-
-
-
-
-Total diff: 69.08328325657727
-Total count: 51
-4972.733115673065
-
-
-CSV updated with :FLCL (manga)
-
-SCRAPING :Rosario + Vampire (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-19.98864769935608
-
-
-
-
-
-SA Rating: 7.0625
-Anime News Network Rating: 7.93
-Manganelo Rating: 4.8
-Total Manganelo Views: 11.5K
-Total No. of comments: 32
-
-
-
-
-Total diff: 70.20611511498436
-Total count: 52
-5023.217552185059
-
-
-CSV updated with :Rosario + Vampire (manga)
-
-SCRAPING :Blade of the Immortal (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-19.410442113876343
-
-
-
-
-
-SA Rating: 6.75
-Anime News Network Rating: 8.60
-Manganelo Rating: 4.7
-Total Manganelo Views: 2K
-Total No. of comments: 24
-
-
-
-
-Total diff: 71.48018918905844
-Total count: 53
-5063.387823343277
-
-
-CSV updated with :Blade of the Immortal (manga)
-
-SCRAPING :Shaman King (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-20.05785894393921
-
-
-
-
-
-SA Rating: 6.051282051282051
-Anime News Network Rating: 7.45
-Manganelo Rating: 4.6
-Total Manganelo Views: 17.5K
-Total No. of comments: 39
-
-
-
-
-Total diff: 72.71133325685504
-Total count: 54
-5111.466339826584
-
-
-CSV updated with :Shaman King (manga)
-
-SCRAPING :Bitter Virgin (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-18.419975519180298
-
-
-
-
-
-SA Rating: 7.0
-Anime News Network Rating: 8.46
-Manganelo Rating: 4.6
-Total Manganelo Views: 1.5K
-Total No. of comments: 16
-
-
-
-
-Total diff: 73.91990468542647
-Total count: 55
-5157.396797180176
-
-
-CSV updated with :Bitter Virgin (manga)
-
-SCRAPING :Magic Knight Rayearth (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-17.006843090057373
-
-
-
-
-
-SA Rating: 5.0
-Anime News Network Rating: 7.46
-Manganelo Rating: 4.6
-Total Manganelo Views: 309
-Total No. of comments: 4
-
-
-
-
-Total diff: 75.41190468542648
-Total count: 56
-5209.8447523117065
-
-
-CSV updated with :Magic Knight Rayearth (manga)
-
-SCRAPING :Sailor Moon (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-18.578882694244385
-
-
-
-
-
-SA Rating: 6.0
-Anime News Network Rating: 7.85
-Manganelo Rating: 4.6
-Total Manganelo Views: 2.1K
-Total No. of comments: 9
-
-
-
-
-Total diff: 76.72023801875982
-Total count: 57
-5260.20471405983
-
-
-CSV updated with :Sailor Moon (manga)
+Already scraped: Sailor Moon (manga)
 
 SCRAPING :Gravitation (manga)
 -----------------------------------------------
@@ -3842,697 +153,20 @@ LESS COMMENTS, NO NEED FOR SCROLLING
 NO COMMENTS SCRAPED
 
 GOING TO SLEEP FOR
-900
-SCRAPING :I''s (manga)
------------------------------------------------
+10
+Already scraped: I''s (manga)
 
+Already scraped: Alice 19th (manga)
 
+Already scraped: .hack//Legend of the Twilight (manga)
 
+Already scraped: Battle Royale (manga)
 
+Already scraped: Yokohama Kaidashi Kikou (manga)
 
+Already scraped: Oh My Goddess! (manga)
 
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-160.788165807724
-
-
-
-
-
-SA Rating: 5.341670835417709
-Anime News Network Rating: 8.28
-Manganelo Rating: 4.8
-Total Manganelo Views: 713.2K
-Total No. of comments: 1999
-
-
-
-
-Total diff: 78.27031481216682
-Total count: 58
-6946.194571256638
-
-
-CSV updated with :I''s (manga)
-
-SCRAPING :Alice 19th (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-20.717748165130615
-
-
-
-
-
-SA Rating: 7.333333333333333
-Anime News Network Rating: 7.37
-Manganelo Rating: 4.9
-Total Manganelo Views: 400
-Total No. of comments: 3
-
-
-
-
-Total diff: 79.27531481216681
-Total count: 59
-7000.995945692062
-
-
-CSV updated with :Alice 19th (manga)
-
-SCRAPING :.hack//Legend of the Twilight (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-23.14200758934021
-
-
-
-
-
-SA Rating: 2.0
-Anime News Network Rating: 7.16
-Manganelo Rating: 4.2
-Total Manganelo Views: 335
-Total No. of comments: 1
-
-
-
-
-Total diff: 82.85531481216681
-Total count: 60
-7056.12001657486
-
-
-CSV updated with :.hack//Legend of the Twilight (manga)
-
-SCRAPING :Battle Royale (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-24.701691389083862
-
-
-
-
-
-SA Rating: 6.170212765957447
-Anime News Network Rating: 7.89
-Manganelo Rating: 4.0
-Total Manganelo Views: 9.1K
-Total No. of comments: 94
-
-
-
-
-Total diff: 84.13403895009785
-Total count: 61
-7113.636430263519
-
-
-CSV updated with :Battle Royale (manga)
-
-SCRAPING :Yokohama Kaidashi Kikou (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-
-
-
-LESS COMMENTS, NO NEED FOR SCROLLING
-
-
-
-Time taken for setiment analysis: 
-19.070305585861206
-
-
-
-
-
-SA Rating: 8.363636363636363
-Anime News Network Rating: 7.96
-Manganelo Rating: 4.9
-Total Manganelo Views: 2.4K
-Total No. of comments: 11
-
-
-
-
-Total diff: 85.08577808053263
-Total count: 62
-7166.753941059113
-
-
-CSV updated with :Yokohama Kaidashi Kikou (manga)
-
-SCRAPING :Oh My Goddess! (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-17.590593576431274
-
-
-
-
-
-SA Rating: 8.0
-Anime News Network Rating: 7.80
-Manganelo Rating: 4.6
-Total Manganelo Views: 4.9K
-Total No. of comments: 12
-
-
-
-
-Total diff: 86.06077808053263
-Total count: 63
-7205.200524568558
-
-
-CSV updated with :Oh My Goddess! (manga)
-
-SCRAPING :Mars (manga)
------------------------------------------------
-
-
-
-
-
-
-LOADING COMMENTS 
-
-
-
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-Scrolled Down
-
-
-
-NO COMMENTS LEFT
-
-
-
-Time taken for setiment analysis: 
-39.81753849983215
-
-
-
-
-
-SA Rating: 5.461187214611872
-Anime News Network Rating: 8.41
-Manganelo Rating: 4.4
-Total Manganelo Views: 31.7K
-Total No. of comments: 219
-
-
-
-
-Total diff: 87.60073627451256
-Total count: 64
-7299.161031484604
-
-
-CSV updated with :Mars (manga)
+Already scraped: Mars (manga)
 
 SCRAPING :Ceres: Celestial Legend (manga)
 -----------------------------------------------
@@ -4556,4 +190,1346 @@ LESS COMMENTS, NO NEED FOR SCROLLING
 NO COMMENTS SCRAPED
 
 GOING TO SLEEP FOR
-1800
+20
+SCRAPING :Bakuman. (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+19.55987787246704
+
+
+
+
+
+SA Rating: 8.166666666666666
+Anime News Network Rating: 8.61
+Manganelo Rating: 4.8
+Total Manganelo Views: 9.3K
+Total No. of comments: 24
+
+
+
+
+Total diff: 1.0542857142857143
+Total count: 1
+138.0523202419281
+
+
+CSV updated with :Bakuman. (manga)
+
+SCRAPING :School Rumble (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+17.302883625030518
+
+
+
+
+
+SA Rating: 7.857142857142857
+Anime News Network Rating: 8.12
+Manganelo Rating: 4.8
+Total Manganelo Views: 734
+Total No. of comments: 14
+
+
+
+
+Total diff: 2.0877402597402597
+Total count: 2
+176.51794266700745
+
+
+CSV updated with :School Rumble (manga)
+
+SCRAPING :Paradise Kiss (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+16.065006971359253
+
+
+
+
+
+SA Rating: 5.0
+Anime News Network Rating: 8.36
+Manganelo Rating: 4.3
+Total Manganelo Views: 2.9K
+Total No. of comments: 4
+
+
+
+
+Total diff: 3.7597402597402594
+Total count: 3
+223.88892531394958
+
+
+CSV updated with :Paradise Kiss (manga)
+
+SCRAPING :Air Gear (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+30.057608366012573
+
+
+
+
+
+SA Rating: 6.275862068965517
+Anime News Network Rating: 7.81
+Manganelo Rating: 4.8
+Total Manganelo Views: 15.3K
+Total No. of comments: 145
+
+
+
+
+Total diff: 5.004190809190809
+Total count: 4
+297.47752022743225
+
+
+CSV updated with :Air Gear (manga)
+
+SCRAPING :Pluto (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+107.70441961288452
+
+
+
+
+
+SA Rating: 5.89517819706499
+Anime News Network Rating: 8.83
+Manganelo Rating: 4.7
+Total Manganelo Views: 111.9K
+Total No. of comments: 1431
+
+
+
+
+Total diff: 6.50202509084088
+Total count: 5
+769.1645295619965
+
+
+CSV updated with :Pluto (manga)
+
+SCRAPING :Ghost in the Shell (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+30
+SCRAPING :Maison Ikkoku (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.133400201797485
+
+
+
+
+
+SA Rating: 7.0
+Anime News Network Rating: 8.58
+Manganelo Rating: 4.8
+Total Manganelo Views: 2K
+Total No. of comments: 4
+
+
+
+
+Total diff: 7.727739376555166
+Total count: 6
+883.2333087921143
+
+
+CSV updated with :Maison Ikkoku (manga)
+
+SCRAPING :Welcome to the N.H.K. (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+23.366204738616943
+
+
+
+
+
+SA Rating: 6.032520325203252
+Anime News Network Rating: 8.33
+Manganelo Rating: 4.8
+Total Manganelo Views: 18.3K
+Total No. of comments: 123
+
+
+
+
+Total diff: 9.108588433158939
+Total count: 7
+941.0999202728271
+
+
+CSV updated with :Welcome to the N.H.K. (manga)
+
+SCRAPING :Slam Dunk (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.372514009475708
+
+
+
+
+
+SA Rating: 6.840579710144928
+Anime News Network Rating: 8.68
+Manganelo Rating: 4.8
+Total Manganelo Views: 25.6K
+Total No. of comments: 69
+
+
+
+
+Total diff: 10.377486738243684
+Total count: 8
+992.1092596054077
+
+
+CSV updated with :Slam Dunk (manga)
+
+SCRAPING :Case Closed (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+27.545764923095703
+
+
+
+
+
+SA Rating: 5.875647668393782
+Anime News Network Rating: 8.06
+Manganelo Rating: 4.6
+Total Manganelo Views: 51.6K
+Total No. of comments: 193
+
+
+
+
+Total diff: 11.749250406674019
+Total count: 9
+1065.9038784503937
+
+
+CSV updated with :Case Closed (manga)
+
+SCRAPING :Marmalade Boy (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.378679752349854
+
+
+
+
+
+SA Rating: 6.571428571428571
+Anime News Network Rating: 7.90
+Manganelo Rating: 4.4
+Total Manganelo Views: 1.2K
+Total No. of comments: 7
+
+
+
+
+Total diff: 12.951424319717496
+Total count: 10
+1117.0617077350616
+
+
+CSV updated with :Marmalade Boy (manga)
+
+SCRAPING :Kodocha - Sana's Stage (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.352204084396362
+
+
+
+
+
+SA Rating: 7.142857142857143
+Anime News Network Rating: 8.44
+Manganelo Rating: 4.6
+Total Manganelo Views: 1.7K
+Total No. of comments: 7
+
+
+
+
+Total diff: 14.133024319717496
+Total count: 11
+1166.3366198539734
+
+
+CSV updated with :Kodocha - Sana's Stage (manga)
+
+SCRAPING :Midori's Days (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+17.40364718437195
+
+
+
+
+
+SA Rating: 6.75
+Anime News Network Rating: 8.05
+Manganelo Rating: 4.8
+Total Manganelo Views: 2K
+Total No. of comments: 16
+
+
+
+
+Total diff: 15.325616912310089
+Total count: 12
+1203.3767309188843
+
+
+CSV updated with :Midori's Days (manga)
+
+SCRAPING :Hot Gimmick (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+19.10237693786621
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.46
+Manganelo Rating: 4.3
+Total Manganelo Views: 1.4K
+Total No. of comments: 14
+
+
+
+
+Total diff: 16.56895024564342
+Total count: 13
+1243.4949769973755
+
+
+CSV updated with :Hot Gimmick (manga)
+
+SCRAPING :Chibi Vampire (manga by Y. Kagesaki)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.556323051452637
+
+
+
+
+
+SA Rating: 8.6
+Anime News Network Rating: 7.91
+Manganelo Rating: 4.6
+Total Manganelo Views: 2.4K
+Total No. of comments: 10
+
+
+
+
+Total diff: 17.488717687503886
+Total count: 14
+1290.5744392871857
+
+
+CSV updated with :Chibi Vampire (manga by Y. Kagesaki)
+
+SCRAPING :Saiyuki (manga, K. Minekura)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+40
+SCRAPING :Imadoki! Nowadays (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.255858898162842
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.69
+Manganelo Rating: 4.8
+Total Manganelo Views: 406
+Total No. of comments: 1
+
+
+
+
+Total diff: 18.770384354170552
+Total count: 15
+1410.6001048088074
+
+
+CSV updated with :Imadoki! Nowadays (manga)
+
+SCRAPING :Uzumaki (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+22.783466339111328
+
+
+
+
+
+SA Rating: 5.6976744186046515
+Anime News Network Rating: 8.10
+Manganelo Rating: 4.6
+Total Manganelo Views: 9.4K
+Total No. of comments: 86
+
+
+
+
+Total diff: 20.192017007231776
+Total count: 16
+1466.000039100647
+
+
+CSV updated with :Uzumaki (manga)
+
+SCRAPING :Future Diary (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+17.830137968063354
+
+
+
+
+
+SA Rating: 5.538461538461538
+Anime News Network Rating: 8.21
+Manganelo Rating: 4.6
+Total Manganelo Views: 4.1K
+Total No. of comments: 13
+
+
+
+
+Total diff: 21.674378118342887
+Total count: 17
+1504.304984331131
+
+
+CSV updated with :Future Diary (manga)
+
+SCRAPING :Yu-Gi-Oh! (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+30.708122491836548
+
+
+
+
+
+SA Rating: 5.11219512195122
+Anime News Network Rating: 6.48
+Manganelo Rating: 4.3
+Total Manganelo Views: 12.2K
+Total No. of comments: 205
+
+
+
+
+Total diff: 22.941935370251283
+Total count: 18
+1585.4992125034332
+
+
+CSV updated with :Yu-Gi-Oh! (manga)
+
+SCRAPING :Soul Eater (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+19.868103981018066
+
+
+
+
+
+SA Rating: 6.791666666666667
+Anime News Network Rating: 8.30
+Manganelo Rating: 4.7
+Total Manganelo Views: 17.8K
+Total No. of comments: 48
+
+
+
+
+Total diff: 24.164021259821837
+Total count: 19
+1631.5844242572784
+
+
+CSV updated with :Soul Eater (manga)
+
+SCRAPING :X (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+

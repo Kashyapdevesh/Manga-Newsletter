@@ -59,12 +59,12 @@ count=1
 
 field_names=['Manga Index','SA Rating','ANN Rating','MR Rating','Manganelo Views','Total Comments']
 
-with open('Manga.csv','w') as csvfile:
-	writer = csv.DictWriter(csvfile, fieldnames=field_names)
-	writer.writeheader()
-	csvfile.close()
-
-print("EMPTY CSV CREATED \n\n")
+#with open('Manga.csv','w') as csvfile:
+#	writer = csv.DictWriter(csvfile, fieldnames=field_names)
+#	writer.writeheader()
+#	csvfile.close()
+#
+#print("EMPTY CSV CREATED \n\n")
 
 def write_csv(field_values):
 	
@@ -73,10 +73,21 @@ def write_csv(field_values):
 		dictwriter_object.writerow(field_values)
 		csvfile.close()
 
+def read_csv():
+	manga_list=[]
+	df=pd.read_csv("./Manga.csv")
+	manga=df[df.columns[0]].to_numpy()
+	manga_list=manga.tolist()
+	return manga_list
+	
+scraped_manga=read_csv()
+print(scraped_manga)
 
 for manga in mangas:
-
 	o_manga_name=manga.find_all("td",{"class":"t"})[0].text
+	if o_manga_name in scraped_manga:
+		print("Already scraped: " + str(o_manga_name)+"\n")
+		continue
 	manga_name=o_manga_name
 	manga_rating=manga.find_all("td",{"class":"r"})[0].text
 	print("SCRAPING :" + str(manga_name))
@@ -112,8 +123,8 @@ for manga in mangas:
 	if stars == None:
 		failed_attempts.append(manga_name)
 		print("GOING TO SLEEP FOR")
-		print(900 * time_index)
-		time.sleep(600*time_index)
+		print(10 * time_index)
+		time.sleep(10*time_index)
 		time_index+=1
 		continue
 	print("\n")
