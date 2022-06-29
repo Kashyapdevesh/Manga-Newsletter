@@ -123,8 +123,8 @@ for manga in mangas:
 	if stars == None:
 		failed_attempts.append(manga_name)
 		print("GOING TO SLEEP FOR")
-		print(10 * time_index)
-		time.sleep(10*time_index)
+		print(1 * time_index)
+		time.sleep(1*time_index)
 		time_index+=1
 		continue
 	print("\n")
@@ -153,7 +153,7 @@ for manga in mangas:
 	field_values={'Manga Index':str(o_manga_name),
 				  'SA Rating':float(stars*2),
 				  'ANN Rating':float(manga_rating),
-				  'MR Rating':float(rating[:3]),
+				  'MR Rating':str(rating[:3]),
 				  'Manganelo Views':str(views),
 				  'Total Comments':int(len(comments))}
 	

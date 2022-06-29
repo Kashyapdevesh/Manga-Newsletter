@@ -13,7 +13,7 @@ def analyze_comments(comments): #814 MB
 	sentiment=pipeline("sentiment-analysis",model="nlptown/bert-base-multilingual-uncased-sentiment")
 	total_stars=0
 	for comment in comments:
-		result=sentiment(comment)
+		result=sentiment(comment, truncation=True)
 		#print(comment)
 		#print(result)
 		stars=int(result[0]['label'][:1])
