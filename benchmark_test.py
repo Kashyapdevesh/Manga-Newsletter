@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as BS
 from requests import get
 import re
 import pandas as pd
+import csv
 
 import unicodedata
 
@@ -51,6 +52,27 @@ MR=[]
 total_views=[]
 manga_index=[]
 total_comments=[]
+time_index=1
+total_diff=0
+count=1
+
+
+field_names=['Manga Index','SA Rating','ANN Rating','MR Rating','Manganelo Views','Total Comments']
+
+with open('Manga.csv','w') as csvfile:
+	writer = csv.DictWriter(csvfile, fieldnames=field_names)
+	writer.writeheader()
+	csvfile.close()
+
+print("EMPTY CSV CREATED \n\n")
+
+def write_csv(field_values):
+	
+	with open('Manga.csv','a') as csvfile:
+		dictwriter_object = csv.DictWriter(csvfile, fieldnames=field_names)
+		dictwriter_object.writerow(field_values)
+		csvfile.close()
+
 
 for manga in mangas:
 
@@ -78,7 +100,7 @@ for manga in mangas:
 		all_data=compiled_info(new_url)
 	except Exception as e:
 		failed_attempts.append(manga_name)
-		print(str(manga_name) + " not available\n")
+		print(str(manga_name) + " not available- DATA COMPILATION FAILED\n")
 		print("-----------------------------------------------")
 		print(e)
 		continue
@@ -87,6 +109,13 @@ for manga in mangas:
 	rating=all_data["Manga's rating"]
 	views=all_data["Manga's total views"]
 	stars=analyze_comments(comments)
+	if stars == None:
+		failed_attempts.append(manga_name)
+		print("GOING TO SLEEP FOR")
+		print(900 * time_index)
+		time.sleep(600*time_index)
+		time_index+=1
+		continue
 	print("\n")
 	print("SA Rating: " + str(stars*2))
 	print("Anime News Network Rating: "+ str(manga_rating))
@@ -95,6 +124,14 @@ for manga in mangas:
 	print("Total No. of comments: " + str(len(comments)))
 	print("\n")
 	
+	total_diff+=abs(float(manga_rating)/float(stars*2))
+	print("\n")
+	print("Total diff: " +str(total_diff))
+	print("Total count: " +str(count))
+	print(time.time()-start_time)
+	print("\n")
+	count+=1
+	
 	SA.append(str(stars*2))
 	ANN.append(str(manga_rating))
 	MR.append(str(rating))
@@ -102,13 +139,23 @@ for manga in mangas:
 	total_views.append(str(views))
 	total_comments.append(len(comments))
 	
+	field_values={'Manga Index':str(o_manga_name),
+				  'SA Rating':float(stars*2),
+				  'ANN Rating':float(manga_rating),
+				  'MR Rating':float(rating[:3]),
+				  'Manganelo Views':str(views),
+				  'Total Comments':int(len(comments))}
+	
+	write_csv(field_values)
+	print("CSV updated with :"+ str(o_manga_name)+"\n")
+	
 data={}
 data.update({"SA Rating":SA})
 data.update({"ANN Rating":ANN})
 data.update({"MR Rating":MR})
-data.update({"Manganelo Views",total_views})
-data.update({"Total Comments",total_comments})
-data.update({"manga index",manga_index})
+data.update({"Manganelo Views":total_views})
+data.update({"Total Comments":total_comments})
+data.update({"manga index":manga_index})
 
 df=pd.DataFrame(data,index=manga_index)
 print(df)

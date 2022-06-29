@@ -9,7 +9,6 @@ from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from sentiment_analysis import analyze_comments
 
 def render_page(url):
         firefox_options = Options()
@@ -238,9 +237,6 @@ if __name__=="__main__":
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
-		#comments=final_info['Comments']
-		#stars=analyze_comments(comments)
-		#print(stars)
 	except Exception as e:
 		print("Error encountered at url : {url} \n".format(url=url))
 		print(e)

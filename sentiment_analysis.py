@@ -6,6 +6,9 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 
 def analyze_comments(comments): #814 MB
+	if len(comments)==0:
+		print("NO COMMENTS SCRAPED\n")
+		return None
 	start_time=time.time()
 	sentiment=pipeline("sentiment-analysis",model="nlptown/bert-base-multilingual-uncased-sentiment")
 	total_stars=0
