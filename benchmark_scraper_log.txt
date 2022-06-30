@@ -1342,3 +1342,6413 @@ SCRAPING :(The) Devil Does Exist (manga)
 
 
 
+['Death Note (manga)', 'Naruto (manga)', 'Bleach (manga)', 'Fullmetal Alchemist (manga)', 'Fruits Basket (manga)', 'Berserk (manga)', 'One Piece (manga)', 'Love Hina (manga)', 'Rurouni Kenshin (manga)', 'Chobits (manga)', 'Azumanga Daioh (manga)', 'Monster (manga)', 'Tsubasa, RESERVoir CHRoNiCLE (manga)', 'Yotsuba&! (manga)', 'Dragon Ball (manga)', 'Hellsing (manga)', 'GTO (manga)', 'Inuyasha (manga)', 'Negima! Magister Negi Magi (manga)', 'Claymore (manga)', 'Gantz (manga)', 'Ouran High School Host Club (manga)', 'xxxHOLiC (manga)', 'Cardcaptor Sakura (manga)', '20th Century Boys (manga)', 'Akira (manga)', 'Vampire Knight (manga)', 'Absolute Boyfriend (manga)', 'Hana-Kimi (manga)', 'D.Gray-man (manga)', 'Hunter × Hunter (manga)', 'Kare Kano (manga)', 'Hikaru no Go (manga)', 'Fairy Tail (manga)', 'NANA (manga)', 'Neon Genesis Evangelion (manga)', 'D.N.Angel (manga)', 'Battle Angel Alita (manga)', 'Black Cat (manga by K. Yabuki)', 'Elfen Lied (manga)', 'Strawberry 100% (manga)', 'Angel Sanctuary (manga)', 'Genshiken (manga)', 'Trigun (manga)', 'Full Moon O Sagashite (manga)', 'Skip Beat! (manga)', 'Vagabond (manga)', 'Chrono Crusade (manga)', 'Fushigi Yûgi (manga)', 'YuYu Hakusho (manga)', 'FLCL (manga)', 'Rosario + Vampire (manga)', 'Blade of the Immortal (manga)', 'Shaman King (manga)', 'Bitter Virgin (manga)', 'Magic Knight Rayearth (manga)', 'Sailor Moon (manga)', "I''s (manga)", 'Alice 19th (manga)', '.hack//Legend of the Twilight (manga)', 'Battle Royale (manga)', 'Yokohama Kaidashi Kikou (manga)', 'Oh My Goddess! (manga)', 'Mars (manga)', 'Bakuman. (manga)', 'School Rumble (manga)', 'Paradise Kiss (manga)', 'Air Gear (manga)', 'Pluto (manga)', 'Maison Ikkoku (manga)', 'Welcome to the N.H.K. (manga)', 'Slam Dunk (manga)', 'Case Closed (manga)', 'Marmalade Boy (manga)', "Kodocha - Sana's Stage (manga)", "Midori's Days (manga)", 'Hot Gimmick (manga)', 'Chibi Vampire (manga by Y. Kagesaki)', 'Imadoki! Nowadays (manga)', 'Uzumaki (manga)', 'Future Diary (manga)', 'Yu-Gi-Oh! (manga)', 'Soul Eater (manga)', 'X (manga)', 'Clover (manga, CLAMP)', 'Wish (manga)', 'Aishiteruze Baby (manga)', 'Angelic Layer (manga)', 'Cowboy Bebop (manga)', 'Loveless (manga)', 'Pretty Face (manga)', 'Boys Over Flowers (manga)', 'Eyeshield 21 (manga)', 'Tokyo Babylon (manga)', 'Mushishi (manga)', 'Ai Yori Aoshi (manga)', 'Vinland Saga (manga)', 'Suzuka (manga)', 'Full Metal Panic! (manga)', 'Blame! (manga)', 'Samurai Deeper Kyo (manga)', 'Emma (manga)', '(The) Prince of Tennis (manga)', 'Saikano (manga)', '(The) Wallflower (manga)', 'Beck (manga)', 'Parasyte (manga)', 'Pet Shop of Horrors (manga)', 'High School Debut (manga)', 'FAKE (manga)', 'Attack on Titan (manga)', 'Planetes (manga)', 'MeruPuri - The Marchen Prince (manga)', 'Highschool of the Dead (manga)', 'Video Girl Ai (manga)', 'Flame of Recca (manga)', 'Maid-sama! (manga)', 'Black Butler (manga)', 'Rave Master (manga)', 'Tokyo Mew Mew (manga)', 'Reborn! (manga)', 'Gunslinger Girl (manga)', 'Godchild (manga)', "(The) Gentlemen's Alliance Cross (manga)", 'M×0 (manga)', 'O-Parts Hunter (manga)', 'Descendants of Darkness (manga)', 'Solanin (manga)', '21st Century Boys (manga)', 'Girl Got Game (manga)', 'Beast Master (manga by K. Motomi)', 'Shijō Saikyō no Deshi Kenichi (manga)', 'Zombie Powder (manga)', 'To Love Ru (manga)', 'Rosario + Vampire Season II (manga)', 'Yakitate!! Japan (manga)', 'Only the Ring Finger Knows (manga)', 'Tenjo Tenge (manga)', 'Nodame Cantabile (manga)', 'Love*Com (manga)', 'Basilisk (manga)', 'Millennium Snow (manga)', 'Hajime no Ippo (manga)', 'Kimi ni Todoke - From Me to You (manga)', 'Lilim Kiss (manga)', 'Pita-Ten (manga)', '+Anima (manga)', 'Deadman Wonderland (manga)', 'A.I. Love You (manga)', 'Battle Angel Alita: Last Order (manga)', 'Pandora Hearts (manga)', 'My-HiME (manga)', 'Steel Ball Run (manga)', 'Red River (manga)', 'Beauty Pop (manga)', "Eden - It's an Endless World! (manga, Hiroki Endo)", 'S.A (manga)', 'Buso Renkin (manga)', 'Hayate the Combat Butler (manga)', 'GetBackers (manga)', 'Peach Girl (manga)', 'Kingdom Hearts (manga)', 'Girlfriends (manga)', 'Fushigi Yûgi: Genbu Kaiden (manga)', 'Kekkaishi (manga)', '(The) World God Only Knows (manga)', 'Kare First Love (manga)', 'Angel Densetsu (manga)', 'Aria (manga)', 'Dengeki Daisy (manga)', 'Excel Saga (manga)', 'DearS (manga)', 'Bunny Drop (manga)', 'Gakuen Alice (manga)', 'Lone Wolf and Cub (manga, Kazuo Koike)', 'Love Monster (manga)', 'Psyren (manga)', 'Knights of the Zodiac (manga)', "Wolf's Rain (manga)", "JoJo's Bizarre Adventure (manga)", 'Blue Exorcist (manga)', 'Onegai Teacher (manga)', 'After School Nightmare (manga)', 'Basara (manga)', 'Cowboy Bebop Shooting Star (manga)', 'MÄR (manga)', 'W Juliet (manga)', 'ES (manga)', 'A Town Where You Live (manga)']
+Already scraped: Death Note (manga)
+
+Already scraped: Naruto (manga)
+
+Already scraped: Bleach (manga)
+
+Already scraped: Fullmetal Alchemist (manga)
+
+Already scraped: Fruits Basket (manga)
+
+Already scraped: Berserk (manga)
+
+Already scraped: One Piece (manga)
+
+Already scraped: Love Hina (manga)
+
+Already scraped: Rurouni Kenshin (manga)
+
+Already scraped: Chobits (manga)
+
+Already scraped: Azumanga Daioh (manga)
+
+Already scraped: Monster (manga)
+
+Already scraped: Tsubasa, RESERVoir CHRoNiCLE (manga)
+
+Already scraped: Yotsuba&! (manga)
+
+SCRAPING :Ranma ½ (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Ranma_½_ not available
+
+-----------------------------------------------
+Already scraped: Dragon Ball (manga)
+
+SCRAPING :Nausicaä of the Valley of the Wind (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Nausicaa_of_the_Valley_of_the_Wind_ not available
+
+-----------------------------------------------
+Already scraped: Hellsing (manga)
+
+Already scraped: GTO (manga)
+
+Already scraped: Inuyasha (manga)
+
+Already scraped: Negima! Magister Negi Magi (manga)
+
+Already scraped: Claymore (manga)
+
+Already scraped: Gantz (manga)
+
+Already scraped: Ouran High School Host Club (manga)
+
+Already scraped: xxxHOLiC (manga)
+
+Already scraped: Cardcaptor Sakura (manga)
+
+Already scraped: 20th Century Boys (manga)
+
+Already scraped: Akira (manga)
+
+Already scraped: Vampire Knight (manga)
+
+Already scraped: Absolute Boyfriend (manga)
+
+Already scraped: Hana-Kimi (manga)
+
+Already scraped: D.Gray-man (manga)
+
+Already scraped: Hunter × Hunter (manga)
+
+Already scraped: Kare Kano (manga)
+
+Already scraped: Hikaru no Go (manga)
+
+Already scraped: Fairy Tail (manga)
+
+Already scraped: NANA (manga)
+
+Already scraped: Neon Genesis Evangelion (manga)
+
+Already scraped: D.N.Angel (manga)
+
+Already scraped: Battle Angel Alita (manga)
+
+Already scraped: Black Cat (manga by K. Yabuki)
+
+Already scraped: Elfen Lied (manga)
+
+Already scraped: Strawberry 100% (manga)
+
+Already scraped: Angel Sanctuary (manga)
+
+Already scraped: Genshiken (manga)
+
+Already scraped: Trigun (manga)
+
+Already scraped: Full Moon O Sagashite (manga)
+
+Already scraped: Skip Beat! (manga)
+
+Already scraped: Vagabond (manga)
+
+Already scraped: Chrono Crusade (manga)
+
+Already scraped: Fushigi Yûgi (manga)
+
+Already scraped: YuYu Hakusho (manga)
+
+Already scraped: FLCL (manga)
+
+Already scraped: Rosario + Vampire (manga)
+
+Already scraped: Blade of the Immortal (manga)
+
+Already scraped: Shaman King (manga)
+
+Already scraped: Bitter Virgin (manga)
+
+Already scraped: Magic Knight Rayearth (manga)
+
+Already scraped: Sailor Moon (manga)
+
+SCRAPING :Gravitation (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+1
+Already scraped: I''s (manga)
+
+Already scraped: Alice 19th (manga)
+
+Already scraped: .hack//Legend of the Twilight (manga)
+
+Already scraped: Battle Royale (manga)
+
+Already scraped: Yokohama Kaidashi Kikou (manga)
+
+Already scraped: Oh My Goddess! (manga)
+
+Already scraped: Mars (manga)
+
+SCRAPING :Ceres: Celestial Legend (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+2
+Already scraped: Bakuman. (manga)
+
+Already scraped: School Rumble (manga)
+
+Already scraped: Paradise Kiss (manga)
+
+Already scraped: Air Gear (manga)
+
+Already scraped: Pluto (manga)
+
+SCRAPING :Ghost in the Shell (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+3
+Already scraped: Maison Ikkoku (manga)
+
+Already scraped: Welcome to the N.H.K. (manga)
+
+Already scraped: Slam Dunk (manga)
+
+Already scraped: Case Closed (manga)
+
+Already scraped: Marmalade Boy (manga)
+
+Already scraped: Kodocha - Sana's Stage (manga)
+
+Already scraped: Midori's Days (manga)
+
+Already scraped: Hot Gimmick (manga)
+
+Already scraped: Chibi Vampire (manga by Y. Kagesaki)
+
+SCRAPING :Saiyuki (manga, K. Minekura)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+4
+Already scraped: Imadoki! Nowadays (manga)
+
+Already scraped: Uzumaki (manga)
+
+Already scraped: Future Diary (manga)
+
+Already scraped: Yu-Gi-Oh! (manga)
+
+Already scraped: Soul Eater (manga)
+
+Already scraped: X (manga)
+
+Already scraped: Clover (manga, CLAMP)
+
+SCRAPING :Cardcaptor Sakura: Master of the Clow (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Cardcaptor_Sakura_Master_of_the_Clow_ not available
+
+-----------------------------------------------
+Already scraped: Wish (manga)
+
+Already scraped: Aishiteruze Baby (manga)
+
+Already scraped: Angelic Layer (manga)
+
+Already scraped: Cowboy Bebop (manga)
+
+Already scraped: Loveless (manga)
+
+Already scraped: Pretty Face (manga)
+
+Already scraped: Boys Over Flowers (manga)
+
+Already scraped: Eyeshield 21 (manga)
+
+Already scraped: Tokyo Babylon (manga)
+
+Already scraped: Mushishi (manga)
+
+Already scraped: Ai Yori Aoshi (manga)
+
+Already scraped: Vinland Saga (manga)
+
+Already scraped: Suzuka (manga)
+
+Already scraped: Full Metal Panic! (manga)
+
+Already scraped: Blame! (manga)
+
+Already scraped: Samurai Deeper Kyo (manga)
+
+Already scraped: Emma (manga)
+
+Already scraped: (The) Prince of Tennis (manga)
+
+Already scraped: Saikano (manga)
+
+Already scraped: (The) Wallflower (manga)
+
+Already scraped: Beck (manga)
+
+Already scraped: Parasyte (manga)
+
+Already scraped: Pet Shop of Horrors (manga)
+
+SCRAPING :Legal Drug (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+5
+Already scraped: High School Debut (manga)
+
+Already scraped: FAKE (manga)
+
+Already scraped: Attack on Titan (manga)
+
+Already scraped: Planetes (manga)
+
+Already scraped: MeruPuri - The Marchen Prince (manga)
+
+Already scraped: Highschool of the Dead (manga)
+
+Already scraped: Video Girl Ai (manga)
+
+Already scraped: Flame of Recca (manga)
+
+Already scraped: Maid-sama! (manga)
+
+SCRAPING :Magic Knight Rayearth II (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Magic_Knight_Rayearth_II_ not available
+
+-----------------------------------------------
+Already scraped: Black Butler (manga)
+
+Already scraped: Rave Master (manga)
+
+Already scraped: Tokyo Mew Mew (manga)
+
+Already scraped: Reborn! (manga)
+
+Already scraped: Gunslinger Girl (manga)
+
+Already scraped: Godchild (manga)
+
+Already scraped: (The) Gentlemen's Alliance Cross (manga)
+
+Already scraped: M×0 (manga)
+
+Already scraped: O-Parts Hunter (manga)
+
+Already scraped: Descendants of Darkness (manga)
+
+SCRAPING :Phantom Thief Jeanne (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Phantom_Thief_Jeanne_ not available
+
+-----------------------------------------------
+Already scraped: Solanin (manga)
+
+Already scraped: 21st Century Boys (manga)
+
+Already scraped: Girl Got Game (manga)
+
+Already scraped: Beast Master (manga by K. Motomi)
+
+Already scraped: Shijō Saikyō no Deshi Kenichi (manga)
+
+Already scraped: Zombie Powder (manga)
+
+Already scraped: To Love Ru (manga)
+
+Already scraped: Rosario + Vampire Season II (manga)
+
+Already scraped: Yakitate!! Japan (manga)
+
+Already scraped: Only the Ring Finger Knows (manga)
+
+Already scraped: Tenjo Tenge (manga)
+
+Already scraped: Nodame Cantabile (manga)
+
+Already scraped: Love*Com (manga)
+
+Already scraped: Basilisk (manga)
+
+Already scraped: Millennium Snow (manga)
+
+Already scraped: Hajime no Ippo (manga)
+
+Already scraped: Kimi ni Todoke - From Me to You (manga)
+
+Already scraped: Lilim Kiss (manga)
+
+Already scraped: Pita-Ten (manga)
+
+Already scraped: +Anima (manga)
+
+Already scraped: Deadman Wonderland (manga)
+
+Already scraped: A.I. Love You (manga)
+
+Already scraped: Battle Angel Alita: Last Order (manga)
+
+Already scraped: Pandora Hearts (manga)
+
+Already scraped: My-HiME (manga)
+
+Already scraped: Steel Ball Run (manga)
+
+SCRAPING :Ultra Maniac (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+6
+Already scraped: Red River (manga)
+
+SCRAPING :Sand Land (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+7
+Already scraped: Beauty Pop (manga)
+
+Already scraped: Eden - It's an Endless World! (manga, Hiroki Endo)
+
+Already scraped: S.A (manga)
+
+SCRAPING :Revolutionary Girl Utena (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+8
+Already scraped: Buso Renkin (manga)
+
+Already scraped: Hayate the Combat Butler (manga)
+
+Already scraped: GetBackers (manga)
+
+Already scraped: Peach Girl (manga)
+
+Already scraped: Kingdom Hearts (manga)
+
+Already scraped: Girlfriends (manga)
+
+Already scraped: Fushigi Yûgi: Genbu Kaiden (manga)
+
+Already scraped: Kekkaishi (manga)
+
+Already scraped: (The) World God Only Knows (manga)
+
+Already scraped: Kare First Love (manga)
+
+SCRAPING :Boy's Next Door (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+9
+Already scraped: Angel Densetsu (manga)
+
+Already scraped: Aria (manga)
+
+Already scraped: Dengeki Daisy (manga)
+
+Already scraped: Excel Saga (manga)
+
+Already scraped: DearS (manga)
+
+Already scraped: Bunny Drop (manga)
+
+Already scraped: Gakuen Alice (manga)
+
+Already scraped: Lone Wolf and Cub (manga, Kazuo Koike)
+
+SCRAPING :Neon Genesis Evangelion: Angelic Days (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+10
+Already scraped: Love Monster (manga)
+
+Already scraped: Psyren (manga)
+
+Already scraped: Knights of the Zodiac (manga)
+
+Already scraped: Wolf's Rain (manga)
+
+Already scraped: JoJo's Bizarre Adventure (manga)
+
+Already scraped: Blue Exorcist (manga)
+
+Already scraped: Onegai Teacher (manga)
+
+Already scraped: After School Nightmare (manga)
+
+Already scraped: Basara (manga)
+
+Already scraped: Cowboy Bebop Shooting Star (manga)
+
+Already scraped: MÄR (manga)
+
+Already scraped: W Juliet (manga)
+
+SCRAPING :Eerie Queerie! (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+11
+Already scraped: ES (manga)
+
+Already scraped: A Town Where You Live (manga)
+
+SCRAPING :Gyo (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+61.75442719459534
+
+
+
+
+
+SA Rating: 5.915110356536503
+Anime News Network Rating: 7.24
+Manganelo Rating: 4.7
+Total Manganelo Views: 84.7K
+Total No. of comments: 589
+
+
+
+
+Total diff: 1.22398392652124
+Total count: 1
+595.7584533691406
+
+
+CSV updated with :Gyo (manga)
+
+SCRAPING :Black Lagoon (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+20.52959680557251
+
+
+
+
+
+SA Rating: 6.412698412698413
+Anime News Network Rating: 8.44
+Manganelo Rating: 4.8
+Total Manganelo Views: 14.9K
+Total No. of comments: 63
+
+
+
+
+Total diff: 2.540122540382626
+Total count: 2
+640.5081856250763
+
+
+CSV updated with :Black Lagoon (manga)
+
+SCRAPING :Beelzebub (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.90573477745056
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.91
+Manganelo Rating: 4.8
+Total Manganelo Views: 28.9K
+Total No. of comments: 62
+
+
+
+
+Total diff: 3.8584558737159593
+Total count: 3
+690.3165907859802
+
+
+CSV updated with :Beelzebub (manga)
+
+SCRAPING :Othello (manga by S. Ikezawa)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+12
+SCRAPING :Sgt. Frog (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.79736351966858
+
+
+
+
+
+SA Rating: 7.5
+Anime News Network Rating: 7.61
+Manganelo Rating: 4.7
+Total Manganelo Views: 958
+Total No. of comments: 4
+
+
+
+
+Total diff: 4.873122540382626
+Total count: 4
+782.8043193817139
+
+
+CSV updated with :Sgt. Frog (manga)
+
+SCRAPING :Shirahime-Syo: Snow Goddess Tales (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.477102041244507
+
+
+
+
+
+SA Rating: 10.0
+Anime News Network Rating: 7.69
+Manganelo Rating: 4.4
+Total Manganelo Views: 128
+Total No. of comments: 1
+
+
+
+
+Total diff: 5.642122540382626
+Total count: 5
+830.1746015548706
+
+
+CSV updated with :Shirahime-Syo: Snow Goddess Tales (manga)
+
+SCRAPING :(The) Devil Does Exist (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.326183080673218
+
+
+
+
+
+SA Rating: 8.5
+Anime News Network Rating: 7.92
+Manganelo Rating: 4.5
+Total Manganelo Views: 1.3K
+Total No. of comments: 4
+
+
+
+
+Total diff: 6.573887246264979
+Total count: 6
+878.1792907714844
+
+
+CSV updated with :(The) Devil Does Exist (manga)
+
+SCRAPING :Gunsmith Cats (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+20.217392683029175
+
+
+
+
+
+SA Rating: 7.0
+Anime News Network Rating: 7.99
+Manganelo Rating: 5 /
+Total Manganelo Views: 743
+Total No. of comments: 2
+
+
+
+
+Total diff: 7.715315817693551
+Total count: 7
+927.5664072036743
+
+
+CSV updated with :Gunsmith Cats (manga)
+
+SCRAPING :(The) Melancholy of Haruhi Suzumiya (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.264160871505737
+
+
+
+
+
+SA Rating: 6.8
+Anime News Network Rating: 7.75
+Manganelo Rating: 4.6
+Total Manganelo Views: 1.7K
+Total No. of comments: 10
+
+
+
+
+Total diff: 8.855021700046493
+Total count: 8
+976.8517813682556
+
+
+CSV updated with :(The) Melancholy of Haruhi Suzumiya (manga)
+
+SCRAPING :Appleseed (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Appleseed_ not available
+
+-----------------------------------------------
+SCRAPING :Ghost in the Shell 2: Man-Machine Interface (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.34183430671692
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.34
+Manganelo Rating: 4.7
+Total Manganelo Views: 505
+Total No. of comments: 1
+
+
+
+
+Total diff: 10.078355033379825
+Total count: 9
+1026.7471678256989
+
+
+CSV updated with :Ghost in the Shell 2: Man-Machine Interface (manga)
+
+SCRAPING :Gin Tama (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.755509614944458
+
+
+
+
+
+SA Rating: 6.909090909090909
+Anime News Network Rating: 8.14
+Manganelo Rating: 4.7
+Total Manganelo Views: 24K
+Total No. of comments: 66
+
+
+
+
+Total diff: 11.256512928116667
+Total count: 10
+1077.9984624385834
+
+
+CSV updated with :Gin Tama (manga)
+
+SCRAPING :Shugo Chara! (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.501830339431763
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.91
+Manganelo Rating: 4.5
+Total Manganelo Views: 1.6K
+Total No. of comments: 3
+
+
+
+
+Total diff: 12.57484626145
+Total count: 11
+1127.7894840240479
+
+
+CSV updated with :Shugo Chara! (manga)
+
+SCRAPING :Kimagure Orange Road (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.896223545074463
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 8.31
+Manganelo Rating: 4.4
+Total Manganelo Views: 1.8K
+Total No. of comments: 6
+
+
+
+
+Total diff: 13.95984626145
+Total count: 12
+1175.8862137794495
+
+
+CSV updated with :Kimagure Orange Road (manga)
+
+SCRAPING :You're My Pet (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+26.18393087387085
+
+
+
+
+
+SA Rating: 6.3076923076923075
+Anime News Network Rating: 8.11
+Manganelo Rating: 4.6
+Total Manganelo Views: 2.6K
+Total No. of comments: 13
+
+
+
+
+Total diff: 15.245577968767073
+Total count: 13
+1232.3101933002472
+
+
+CSV updated with :You're My Pet (manga)
+
+SCRAPING :Junjo Romantica (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+18.718627452850342
+
+
+
+
+
+SA Rating: 6.714285714285714
+Anime News Network Rating: 8.50
+Manganelo Rating: 4.6
+Total Manganelo Views: 9.1K
+Total No. of comments: 28
+
+
+
+
+Total diff: 16.511535415575583
+Total count: 14
+1274.9024131298065
+
+
+CSV updated with :Junjo Romantica (manga)
+
+SCRAPING :Buddha (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.657057285308838
+
+
+
+
+
+SA Rating: 6.75
+Anime News Network Rating: 8.34
+Manganelo Rating: 4.5
+Total Manganelo Views: 1.2K
+Total No. of comments: 8
+
+
+
+
+Total diff: 17.74709097113114
+Total count: 15
+1323.3960146903992
+
+
+CSV updated with :Buddha (manga)
+
+SCRAPING :Immortal Rain (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.6567223072052
+
+
+
+
+
+SA Rating: 8.4
+Anime News Network Rating: 8.25
+Manganelo Rating: 4.8
+Total Manganelo Views: 1.2K
+Total No. of comments: 5
+
+
+
+
+Total diff: 18.729233828273998
+Total count: 16
+1372.5976431369781
+
+
+CSV updated with :Immortal Rain (manga)
+
+SCRAPING :A Silent Voice (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+22.51718544960022
+
+
+
+
+
+SA Rating: 6.253968253968254
+Anime News Network Rating: 8.78
+Manganelo Rating: 4.8
+Total Manganelo Views: 10.7K
+Total No. of comments: 63
+
+
+
+
+Total diff: 20.13314245771562
+Total count: 17
+1420.1424310207367
+
+
+CSV updated with :A Silent Voice (manga)
+
+SCRAPING :Land of the Blindfolded (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.688457012176514
+
+
+
+
+
+SA Rating: 8.8
+Anime News Network Rating: 7.74
+Manganelo Rating: 4.6
+Total Manganelo Views: 861
+Total No. of comments: 5
+
+
+
+
+Total diff: 21.012687912261075
+Total count: 18
+1468.9104671478271
+
+
+CSV updated with :Land of the Blindfolded (manga)
+
+SCRAPING :Lament of the Lamb (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Lament_of_the_Lamb_ not available
+
+-----------------------------------------------
+SCRAPING :Please Save My Earth (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.09796404838562
+
+
+
+
+
+SA Rating: 8.0
+Anime News Network Rating: 8.02
+Manganelo Rating: 4.5
+Total Manganelo Views: 465
+Total No. of comments: 7
+
+
+
+
+Total diff: 22.015187912261077
+Total count: 19
+1517.4407460689545
+
+
+CSV updated with :Please Save My Earth (manga)
+
+SCRAPING :Psychic Academy (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.270556688308716
+
+
+
+
+
+SA Rating: 4.0
+Anime News Network Rating: 6.85
+Manganelo Rating: 4.6
+Total Manganelo Views: 572
+Total No. of comments: 1
+
+
+
+
+Total diff: 23.727687912261075
+Total count: 20
+1565.4827809333801
+
+
+CSV updated with :Psychic Academy (manga)
+
+SCRAPING :Miyuki-chan in Wonderland (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+13
+SCRAPING :Dogs: Prelude (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Dogs_Prelude_ not available
+
+-----------------------------------------------
+SCRAPING :Cross Game (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+27.52997326850891
+
+
+
+
+
+SA Rating: 5.042016806722689
+Anime News Network Rating: 8.82
+Manganelo Rating: 4.3
+Total Manganelo Views: 8.5K
+Total No. of comments: 119
+
+
+
+
+Total diff: 25.476987912261077
+Total count: 21
+1686.3938438892365
+
+
+CSV updated with :Cross Game (manga)
+
+SCRAPING :Kashimashi ~Girl Meets Girl~ (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.080536365509033
+
+
+
+
+
+SA Rating: 4.4
+Anime News Network Rating: 7.93
+Manganelo Rating: 4.6
+Total Manganelo Views: 643
+Total No. of comments: 5
+
+
+
+
+Total diff: 27.279260639533803
+Total count: 22
+1735.8915493488312
+
+
+CSV updated with :Kashimashi ~Girl Meets Girl~ (manga)
+
+SCRAPING :Aqua (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+22.06450843811035
+
+
+
+
+
+SA Rating: 5.731343283582089
+Anime News Network Rating: 8.09
+Manganelo Rating: 4.5
+Total Manganelo Views: 8.4K
+Total No. of comments: 67
+
+
+
+
+Total diff: 28.690797097867137
+Total count: 23
+1788.4753592014313
+
+
+CSV updated with :Aqua (manga)
+
+SCRAPING :Sensual Phrase (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+22.20629596710205
+
+
+
+
+
+SA Rating: 10.0
+Anime News Network Rating: 7.40
+Manganelo Rating: 4.6
+Total Manganelo Views: 4.1K
+Total No. of comments: 1
+
+
+
+
+Total diff: 29.430797097867135
+Total count: 24
+1847.910530090332
+
+
+CSV updated with :Sensual Phrase (manga)
+
+SCRAPING :Eureka Seven (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.256027460098267
+
+
+
+
+
+SA Rating: 5.5
+Anime News Network Rating: 7.66
+Manganelo Rating: 4.7
+Total Manganelo Views: 684
+Total No. of comments: 4
+
+
+
+
+Total diff: 30.82352437059441
+Total count: 25
+1895.9916999340057
+
+
+CSV updated with :Eureka Seven (manga)
+
+SCRAPING :Sekirei (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.442018508911133
+
+
+
+
+
+SA Rating: 4.606060606060606
+Anime News Network Rating: 8.18
+Manganelo Rating: 4.8
+Total Manganelo Views: 6.2K
+Total No. of comments: 33
+
+
+
+
+Total diff: 32.59944542322599
+Total count: 26
+1938.7184286117554
+
+
+CSV updated with :Sekirei (manga)
+
+SCRAPING :Domu (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+41.45102071762085
+
+
+
+
+
+SA Rating: 5.132352941176471
+Anime News Network Rating: 8.44
+Manganelo Rating: 4.8
+Total Manganelo Views: 11.1K
+Total No. of comments: 272
+
+
+
+
+Total diff: 34.2439153372661
+Total count: 27
+2036.2209429740906
+
+
+CSV updated with :Domu (manga)
+
+SCRAPING :Saiyuki Reload (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+14
+SCRAPING :Black Jack (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.725496530532837
+
+
+
+
+
+SA Rating: 6.666666666666667
+Anime News Network Rating: 8.69
+Manganelo Rating: 4.8
+Total Manganelo Views: 1.5K
+Total No. of comments: 6
+
+
+
+
+Total diff: 35.5474153372661
+Total count: 28
+2129.988259077072
+
+
+CSV updated with :Black Jack (manga)
+
+SCRAPING :Vampire Game (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.951523303985596
+
+
+
+
+
+SA Rating: 4.0
+Anime News Network Rating: 7.85
+Manganelo Rating: 4.5
+Total Manganelo Views: 477
+Total No. of comments: 1
+
+
+
+
+Total diff: 37.5099153372661
+Total count: 29
+2179.056975841522
+
+
+CSV updated with :Vampire Game (manga)
+
+SCRAPING :From Far Away (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.863611698150635
+
+
+
+
+
+SA Rating: 5.0
+Anime News Network Rating: 8.10
+Manganelo Rating: 4.5
+Total Manganelo Views: 1.1K
+Total No. of comments: 4
+
+
+
+
+Total diff: 39.1299153372661
+Total count: 30
+2227.8656437397003
+
+
+CSV updated with :From Far Away (manga)
+
+SCRAPING :Urusei Yatsura (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.20377540588379
+
+
+
+
+
+SA Rating: 8.222222222222221
+Anime News Network Rating: 7.89
+Manganelo Rating: 4.8
+Total Manganelo Views: 2.7K
+Total No. of comments: 9
+
+
+
+
+Total diff: 40.08950993186069
+Total count: 31
+2278.067675590515
+
+
+CSV updated with :Urusei Yatsura (manga)
+
+SCRAPING :Kitchen Princess (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.99439263343811
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 8.01
+Manganelo Rating: 4.7
+Total Manganelo Views: 1.7K
+Total No. of comments: 10
+
+
+
+
+Total diff: 41.42450993186069
+Total count: 32
+2327.7844712734222
+
+
+CSV updated with :Kitchen Princess (manga)
+
+SCRAPING :RG Veda (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+15
+SCRAPING :Suki: A Like Story (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Suki_A_Like_Story_ not available
+
+-----------------------------------------------
+SCRAPING :Tokyo Crazy Paradise (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+18.879844188690186
+
+
+
+
+
+SA Rating: 6.3
+Anime News Network Rating: 8.51
+Manganelo Rating: 4.7
+Total Manganelo Views: 4.1K
+Total No. of comments: 20
+
+
+
+
+Total diff: 42.77530358265434
+Total count: 33
+2414.9229118824005
+
+
+CSV updated with :Tokyo Crazy Paradise (manga)
+
+SCRAPING :Clamp School Detectives (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.033799171447754
+
+
+
+
+
+SA Rating: 10.0
+Anime News Network Rating: 6.56
+Manganelo Rating: 4.7
+Total Manganelo Views: 197
+Total No. of comments: 1
+
+
+
+
+Total diff: 43.43130358265434
+Total count: 34
+2463.8762876987457
+
+
+CSV updated with :Clamp School Detectives (manga)
+
+SCRAPING :Samurai Champloo (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.42121410369873
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.01
+Manganelo Rating: 4.7
+Total Manganelo Views: 420
+Total No. of comments: 4
+
+
+
+
+Total diff: 44.59963691598767
+Total count: 35
+2512.0387511253357
+
+
+CSV updated with :Samurai Champloo (manga)
+
+SCRAPING :Fist of the North Star (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+18.94446611404419
+
+
+
+
+
+SA Rating: 4.181818181818182
+Anime News Network Rating: 7.97
+Manganelo Rating: 2.9
+Total Manganelo Views: 9.6K
+Total No. of comments: 33
+
+
+
+
+Total diff: 46.50550648120507
+Total count: 36
+2555.689714193344
+
+
+CSV updated with :Fist of the North Star (manga)
+
+SCRAPING :Crimson Hero (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.61219096183777
+
+
+
+
+
+SA Rating: 6.8
+Anime News Network Rating: 7.15
+Manganelo Rating: 4.8
+Total Manganelo Views: 1.3K
+Total No. of comments: 5
+
+
+
+
+Total diff: 47.556977069440364
+Total count: 37
+2605.453189134598
+
+
+CSV updated with :Crimson Hero (manga)
+
+SCRAPING :Aquarian Age: Juvenile Orion (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.09250569343567
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.19
+Manganelo Rating: 4.8
+Total Manganelo Views: 383
+Total No. of comments: 2
+
+
+
+
+Total diff: 48.755310402773695
+Total count: 38
+2657.3535013198853
+
+
+CSV updated with :Aquarian Age: Juvenile Orion (manga)
+
+SCRAPING :Pastel (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.312525987625122
+
+
+
+
+
+SA Rating: 5.310344827586207
+Anime News Network Rating: 7.76
+Manganelo Rating: 4.4
+Total Manganelo Views: 3.6K
+Total No. of comments: 29
+
+
+
+
+Total diff: 50.2166091040724
+Total count: 39
+2701.2044064998627
+
+
+CSV updated with :Pastel (manga)
+
+SCRAPING :(The) Voices of a Distant Star (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.338483095169067
+
+
+
+
+
+SA Rating: 8.0
+Anime News Network Rating: 8.28
+Manganelo Rating: 4.5
+Total Manganelo Views: 297
+Total No. of comments: 1
+
+
+
+
+Total diff: 51.251609104072394
+Total count: 40
+2749.663247823715
+
+
+CSV updated with :(The) Voices of a Distant Star (manga)
+
+SCRAPING :Alichino (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+16
+SCRAPING :Honey and Clover (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.787622928619385
+
+
+
+
+
+SA Rating: 6.571428571428571
+Anime News Network Rating: 8.21
+Manganelo Rating: 4.9
+Total Manganelo Views: 840
+Total No. of comments: 7
+
+
+
+
+Total diff: 52.50095693015935
+Total count: 41
+2845.062844514847
+
+
+CSV updated with :Honey and Clover (manga)
+
+SCRAPING :3x3 Eyes (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+21.134608030319214
+
+
+
+
+
+SA Rating: 5.714285714285714
+Anime News Network Rating: 7.72
+Manganelo Rating: 4.8
+Total Manganelo Views: 6.2K
+Total No. of comments: 7
+
+
+
+
+Total diff: 53.851956930159346
+Total count: 42
+2897.3310701847076
+
+
+CSV updated with :3x3 Eyes (manga)
+
+SCRAPING :Princess Ai (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+62.37355923652649
+
+
+
+
+
+SA Rating: 6.261180679785331
+Anime News Network Rating: 5.72
+Manganelo Rating: 3.6
+Total Manganelo Views: 66.9K
+Total No. of comments: 559
+
+
+
+
+Total diff: 54.76552264444506
+Total count: 43
+3071.613938808441
+
+
+CSV updated with :Princess Ai (manga)
+
+SCRAPING :Happy Hustle High (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.06709051132202
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.56
+Manganelo Rating: 4.8
+Total Manganelo Views: 220
+Total No. of comments: 3
+
+
+
+
+Total diff: 56.02552264444506
+Total count: 44
+3120.489167690277
+
+
+CSV updated with :Happy Hustle High (manga)
+
+SCRAPING :K-ON! (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+161.41301465034485
+
+
+
+
+
+SA Rating: 5.336336336336337
+Anime News Network Rating: 7.94
+Manganelo Rating: 4.8
+Total Manganelo Views: 713.4K
+Total No. of comments: 1998
+
+
+
+
+Total diff: 57.513434856037634
+Total count: 45
+4156.873310804367
+
+
+CSV updated with :K-ON! (manga)
+
+SCRAPING :Black Bird (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+22.00325918197632
+
+
+
+
+
+SA Rating: 7.607843137254902
+Anime News Network Rating: 7.46
+Manganelo Rating: 4.7
+Total Manganelo Views: 12.9K
+Total No. of comments: 51
+
+
+
+
+Total diff: 58.49400186634691
+Total count: 46
+4201.356559753418
+
+
+CSV updated with :Black Bird (manga)
+
+SCRAPING :Count Cain (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+17
+SCRAPING :Read or Die (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.822927474975586
+
+
+
+
+
+SA Rating: 5.0
+Anime News Network Rating: 6.82
+Manganelo Rating: 4.6
+Total Manganelo Views: 327
+Total No. of comments: 4
+
+
+
+
+Total diff: 59.85800186634691
+Total count: 47
+4298.070359706879
+
+
+CSV updated with :Read or Die (manga)
+
+SCRAPING :Time Stranger Kyoko (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+18
+SCRAPING :Doubt (manga by Y. Tonogai)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+18.992419242858887
+
+
+
+
+
+SA Rating: 8.173913043478262
+Anime News Network Rating: 7.42
+Manganelo Rating: 4.8
+Total Manganelo Views: 3.4K
+Total No. of comments: 23
+
+
+
+
+Total diff: 60.765767823793716
+Total count: 48
+4388.381635665894
+
+
+CSV updated with :Doubt (manga by Y. Tonogai)
+
+SCRAPING :Mysterious Girlfriend X (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.840625762939453
+
+
+
+
+
+SA Rating: 6.12
+Anime News Network Rating: 8.03
+Manganelo Rating: 4.8
+Total Manganelo Views: 8.5K
+Total No. of comments: 50
+
+
+
+
+Total diff: 62.07785932706169
+Total count: 49
+4432.777638196945
+
+
+CSV updated with :Mysterious Girlfriend X (manga)
+
+SCRAPING :Tsukihime (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.32513952255249
+
+
+
+
+
+SA Rating: 6.6
+Anime News Network Rating: 7.96
+Manganelo Rating: 4.7
+Total Manganelo Views: 3.1K
+Total No. of comments: 40
+
+
+
+
+Total diff: 63.28391993312229
+Total count: 50
+4474.58545088768
+
+
+CSV updated with :Tsukihime (manga)
+
+SCRAPING :Jing: King of Bandits (manga 1995-98)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+19
+SCRAPING :Cromartie High School (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.91335940361023
+
+
+
+
+
+SA Rating: 6.8
+Anime News Network Rating: 7.84
+Manganelo Rating: 4.7
+Total Manganelo Views: 839
+Total No. of comments: 5
+
+
+
+
+Total diff: 64.43686110959288
+Total count: 51
+4570.974825382233
+
+
+CSV updated with :Cromartie High School (manga)
+
+SCRAPING :Dance in the Vampire Bund (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+19.986098051071167
+
+
+
+
+
+SA Rating: 6.533333333333333
+Anime News Network Rating: 7.93
+Manganelo Rating: 4.7
+Total Manganelo Views: 3.3K
+Total No. of comments: 15
+
+
+
+
+Total diff: 65.65063661979697
+Total count: 52
+4610.940794467926
+
+
+CSV updated with :Dance in the Vampire Bund (manga)
+
+SCRAPING :Town of Evening Calm, Country of Cherry Blossoms (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+20
+SCRAPING :Mahoromatic (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.016117811203003
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.58
+Manganelo Rating: 4.8
+Total Manganelo Views: 588
+Total No. of comments: 2
+
+
+
+
+Total diff: 66.9139699531303
+Total count: 53
+4708.660112380981
+
+
+CSV updated with :Mahoromatic (manga)
+
+SCRAPING :Backstage Prince (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.614060878753662
+
+
+
+
+
+SA Rating: 8.0
+Anime News Network Rating: 6.72
+Manganelo Rating: 4.8
+Total Manganelo Views: 293
+Total No. of comments: 1
+
+
+
+
+Total diff: 67.75396995313031
+Total count: 54
+4757.359011888504
+
+
+CSV updated with :Backstage Prince (manga)
+
+SCRAPING :Trinity Blood (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+20.16840648651123
+
+
+
+
+
+SA Rating: 5.375
+Anime News Network Rating: 7.62
+Manganelo Rating: 4.6
+Total Manganelo Views: 2.4K
+Total No. of comments: 16
+
+
+
+
+Total diff: 69.17164437173496
+Total count: 55
+4796.499321222305
+
+
+CSV updated with :Trinity Blood (manga)
+
+SCRAPING :King of Thorn (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.57555365562439
+
+
+
+
+
+SA Rating: 7.142857142857143
+Anime News Network Rating: 7.92
+Manganelo Rating: 4.5
+Total Manganelo Views: 1.2K
+Total No. of comments: 7
+
+
+
+
+Total diff: 70.28044437173496
+Total count: 56
+4845.767118692398
+
+
+CSV updated with :King of Thorn (manga)
+
+SCRAPING :Alive (manga by T Takahashi)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.74401354789734
+
+
+
+
+
+SA Rating: 3.25
+Anime News Network Rating: 7.14
+Manganelo Rating: 4.5
+Total Manganelo Views: 2.1K
+Total No. of comments: 8
+
+
+
+
+Total diff: 72.47736744865803
+Total count: 57
+4895.308725595474
+
+
+CSV updated with :Alive (manga by T Takahashi)
+
+SCRAPING :Cage of Eden (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+25.033591985702515
+
+
+
+
+
+SA Rating: 6.022988505747127
+Anime News Network Rating: 8.15
+Manganelo Rating: 4.5
+Total Manganelo Views: 10.2K
+Total No. of comments: 87
+
+
+
+
+Total diff: 73.83051630361986
+Total count: 58
+4947.223120212555
+
+
+CSV updated with :Cage of Eden (manga)
+
+SCRAPING :Bokurano: Ours (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.26566457748413
+
+
+
+
+
+SA Rating: 4.666666666666667
+Anime News Network Rating: 8.37
+Manganelo Rating: 4.7
+Total Manganelo Views: 1.5K
+Total No. of comments: 6
+
+
+
+
+Total diff: 75.62408773219128
+Total count: 59
+4996.611634016037
+
+
+CSV updated with :Bokurano: Ours (manga)
+
+SCRAPING :Liar Game (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.38702154159546
+
+
+
+
+
+SA Rating: 6.206896551724138
+Anime News Network Rating: 8.53
+Manganelo Rating: 4.7
+Total Manganelo Views: 8.1K
+Total No. of comments: 29
+
+
+
+
+Total diff: 76.99836550996906
+Total count: 60
+5038.790131807327
+
+
+CSV updated with :Liar Game (manga)
+
+SCRAPING :Dr. Slump (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.148056030273438
+
+
+
+
+
+SA Rating: 8.333333333333334
+Anime News Network Rating: 7.24
+Manganelo Rating: 4.8
+Total Manganelo Views: 2K
+Total No. of comments: 6
+
+
+
+
+Total diff: 77.86716550996906
+Total count: 61
+5086.898499965668
+
+
+CSV updated with :Dr. Slump (manga)
+
+SCRAPING :07-Ghost (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+19.095106840133667
+
+
+
+
+
+SA Rating: 6.470588235294118
+Anime News Network Rating: 7.55
+Manganelo Rating: 4.7
+Total Manganelo Views: 2.7K
+Total No. of comments: 17
+
+
+
+
+Total diff: 79.03398369178724
+Total count: 62
+5125.3383367061615
+
+
+CSV updated with :07-Ghost (manga)
+
+SCRAPING :Codename: Sailor V (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.868813514709473
+
+
+
+
+
+SA Rating: 10.0
+Anime News Network Rating: 7.21
+Manganelo Rating: 4.8
+Total Manganelo Views: 300
+Total No. of comments: 1
+
+
+
+
+Total diff: 79.75498369178725
+Total count: 63
+5175.255396127701
+
+
+CSV updated with :Codename: Sailor V (manga)
+
+SCRAPING :Antique Bakery (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Antique_Bakery_ not available
+
+-----------------------------------------------
+SCRAPING :Tokyo Mew Mew a la Mode (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.316030263900757
+
+
+
+
+
+SA Rating: 4.666666666666667
+Anime News Network Rating: 5.86
+Manganelo Rating: 5 /
+Total Manganelo Views: 125
+Total No. of comments: 3
+
+
+
+
+Total diff: 81.01069797750154
+Total count: 64
+5225.035409927368
+
+
+CSV updated with :Tokyo Mew Mew a la Mode (manga)
+
+SCRAPING :Ai Kora (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+39.939903259277344
+
+
+
+
+
+SA Rating: 5.803468208092486
+Anime News Network Rating: 7.80
+Manganelo Rating: 4.7
+Total Manganelo Views: 33.3K
+Total No. of comments: 346
+
+
+
+
+Total diff: 82.354721881884
+Total count: 65
+5347.228350639343
+
+
+CSV updated with :Ai Kora (manga)
+
+SCRAPING :DNA² (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+DNA²_ not available
+
+-----------------------------------------------
+SCRAPING :Beauty is the Beast (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.702813148498535
+
+
+
+
+
+SA Rating: 4.0
+Anime News Network Rating: 7.25
+Manganelo Rating: 4.5
+Total Manganelo Views: 418
+Total No. of comments: 2
+
+
+
+
+Total diff: 84.167221881884
+Total count: 66
+5395.044397354126
+
+
+CSV updated with :Beauty is the Beast (manga)
+
+SCRAPING :Ga-Rei (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+117.56674289703369
+
+
+
+
+
+SA Rating: 5.682766845557543
+Anime News Network Rating: 7.93
+Manganelo Rating: 4.8
+Total Manganelo Views: 254.5K
+Total No. of comments: 1677
+
+
+
+
+Total diff: 85.56266889132786
+Total count: 67
+5971.8267204761505
+
+
+CSV updated with :Ga-Rei (manga)
+
+SCRAPING :Touch (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+43.8771185874939
+
+
+
+
+
+SA Rating: 6.46969696969697
+Anime News Network Rating: 7.82
+Manganelo Rating: 4.8
+Total Manganelo Views: 35.8K
+Total No. of comments: 396
+
+
+
+
+Total diff: 86.77138083512178
+Total count: 68
+6112.151965379715
+
+
+CSV updated with :Touch (manga)
+
+SCRAPING :Kodomo no Jikan (manga, K. Watashiya)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+20.81973648071289
+
+
+
+
+
+SA Rating: 6.181818181818182
+Anime News Network Rating: 8.07
+Manganelo Rating: 4.4
+Total Manganelo Views: 2.7K
+Total No. of comments: 33
+
+
+
+
+Total diff: 88.07682201159237
+Total count: 69
+6155.289129257202
+
+
+CSV updated with :Kodomo no Jikan (manga, K. Watashiya)
+
+SCRAPING :No Need for Tenchi! (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+20.067672729492188
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 6.90
+Manganelo Rating: 4.9
+Total Manganelo Views: 1.2K
+Total No. of comments: 2
+
+
+
+
+Total diff: 89.22682201159238
+Total count: 70
+6205.396765232086
+
+
+CSV updated with :No Need for Tenchi! (manga)
+
+SCRAPING :Koikaze (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Koikaze_ not available
+
+-----------------------------------------------
+SCRAPING :(The) Demon Ororon (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+21
+SCRAPING :Tokyo Ghoul (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+31.282900094985962
+
+
+
+
+
+SA Rating: 5.737864077669903
+Anime News Network Rating: 8.17
+Manganelo Rating: 4.7
+Total Manganelo Views: 54.6K
+Total No. of comments: 206
+
+
+
+
+Total diff: 90.65069680008645
+Total count: 71
+6337.682765483856
+
+
+CSV updated with :Tokyo Ghoul (manga)
+
+SCRAPING :Rozen Maiden (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+20.094998836517334
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.58
+Manganelo Rating: 4.8
+Total Manganelo Views: 1.3K
+Total No. of comments: 9
+
+
+
+
+Total diff: 91.91403013341979
+Total count: 72
+6387.702249765396
+
+
+CSV updated with :Rozen Maiden (manga)
+
+SCRAPING :Zatch Bell (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+21.071868181228638
+
+
+
+
+
+SA Rating: 7.333333333333333
+Anime News Network Rating: 7.52
+Manganelo Rating: 4.8
+Total Manganelo Views: 9.1K
+Total No. of comments: 21
+
+
+
+
+Total diff: 92.93948467887434
+Total count: 73
+6429.8930423259735
+
+
+CSV updated with :Zatch Bell (manga)
+
+SCRAPING :Oretama (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+19.946362495422363
+
+
+
+
+
+SA Rating: 6.666666666666667
+Anime News Network Rating: 7.73
+Manganelo Rating: 4.5
+Total Manganelo Views: 3K
+Total No. of comments: 15
+
+
+
+
+Total diff: 94.09898467887433
+Total count: 74
+6468.757248401642
+
+
+CSV updated with :Oretama (manga)
+
+SCRAPING :Goth (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.573204278945923
+
+
+
+
+
+SA Rating: 9.333333333333334
+Anime News Network Rating: 7.80
+Manganelo Rating: 4.2
+Total Manganelo Views: 480
+Total No. of comments: 3
+
+
+
+
+Total diff: 94.93469896458862
+Total count: 75
+6517.565917730331
+
+
+CSV updated with :Goth (manga)
+
+SCRAPING :H2 (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+20.74226474761963
+
+
+
+
+
+SA Rating: 4.51063829787234
+Anime News Network Rating: 8.55
+Manganelo Rating: 4.2
+Total Manganelo Views: 9K
+Total No. of comments: 47
+
+
+
+
+Total diff: 96.83021783251314
+Total count: 76
+6564.418579339981
+
+
+CSV updated with :H2 (manga)
+
+SCRAPING :Kamichama Karin (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Kamichama_Karin_ not available
+
+-----------------------------------------------
+SCRAPING :Samurai Girl Real Bout High School (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+22
+SCRAPING :Lucky Star (manga by K Yoshimizu)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+19.346216917037964
+
+
+
+
+
+SA Rating: 5.25
+Anime News Network Rating: 7.82
+Manganelo Rating: 4.8
+Total Manganelo Views: 2.3K
+Total No. of comments: 8
+
+
+
+
+Total diff: 98.31974164203694
+Total count: 77
+6665.088769674301
+
+
+CSV updated with :Lucky Star (manga by K Yoshimizu)
+
+SCRAPING :Sand Chronicles (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+23
+SCRAPING :X-Day (manga by S Mizushiro)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+34.60961556434631
+
+
+
+
+
+SA Rating: 5.914893617021277
+Anime News Network Rating: 7.72
+Manganelo Rating: 4.6
+Total Manganelo Views: 100.6K
+Total No. of comments: 235
+
+
+
+
+Total diff: 99.62492149815205
+Total count: 78
+6817.995894670486
+
+
+CSV updated with :X-Day (manga by S Mizushiro)
+
+SCRAPING :Tekkonkinkreet (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+18.98048233985901
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 8.03
+Manganelo Rating: 4.5
+Total Manganelo Views: 168
+Total No. of comments: 2
+
+
+
+
+Total diff: 100.96325483148539
+Total count: 79
+6867.0481379032135
+
+
+CSV updated with :Tekkonkinkreet (manga)
+
+SCRAPING :Kiss×sis (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+40.987027645111084
+
+
+
+
+
+SA Rating: 5.305841924398625
+Anime News Network Rating: 7.82
+Manganelo Rating: 4.5
+Total Manganelo Views: 42.8K
+Total No. of comments: 291
+
+
+
+
+Total diff: 102.43710198174445
+Total count: 80
+6976.083724975586
+
+
+CSV updated with :Kiss×sis (manga)
+
+SCRAPING :Message to Adolf (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Message_to_Adolf_ not available
+
+-----------------------------------------------
+SCRAPING :Cat Street (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+16.87381863594055
+
+
+
+
+
+SA Rating: 9.11111111111111
+Anime News Network Rating: 8.47
+Manganelo Rating: 4.8
+Total Manganelo Views: 981
+Total No. of comments: 9
+
+
+
+
+Total diff: 103.36673612808592
+Total count: 81
+7025.799367904663
+
+
+CSV updated with :Cat Street (manga)
+
+SCRAPING :Mint na Bokura (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.62035083770752
+
+
+
+
+
+SA Rating: 2.0
+Anime News Network Rating: 7.82
+Manganelo Rating: 5 /
+Total Manganelo Views: 324
+Total No. of comments: 1
+
+
+
+
+Total diff: 107.27673612808591
+Total count: 82
+7074.841001749039
+
+
+CSV updated with :Mint na Bokura (manga)
+
+SCRAPING :Ludwig Kakumei (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.850730895996094
+
+
+
+
+
+SA Rating: 7.0
+Anime News Network Rating: 8.53
+Manganelo Rating: 4.6
+Total Manganelo Views: 309
+Total No. of comments: 2
+
+
+
+
+Total diff: 108.49530755665734
+Total count: 83
+7124.434067249298
+
+
+CSV updated with :Ludwig Kakumei (manga)
+
+SCRAPING :Alien Nine (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.35481834411621
+
+
+
+
+
+SA Rating: 4.0
+Anime News Network Rating: 7.43
+Manganelo Rating: 4.5
+Total Manganelo Views: 659
+Total No. of comments: 2
+
+
+
+
+Total diff: 110.35280755665734
+Total count: 84
+7172.1158452034
+
+
+CSV updated with :Alien Nine (manga)
+
+SCRAPING :Confidential Confessions (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+20.53742504119873
+
+
+
+
+
+SA Rating: 6.0
+Anime News Network Rating: 7.49
+Manganelo Rating: 5 /
+Total Manganelo Views: 385
+Total No. of comments: 1
+
+
+
+
+Total diff: 111.60114088999067
+Total count: 85
+7224.573975324631
+
+
+CSV updated with :Confidential Confessions (manga)
+
+SCRAPING :Mobile Suit Gundam Wing: Episode Zero (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+NO COMMENTS SCRAPED
+
+GOING TO SLEEP FOR
+24
+SCRAPING :Akuma na Eros (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+
+
+
+LESS COMMENTS, NO NEED FOR SCROLLING
+
+
+
+Time taken for setiment analysis: 
+17.22150945663452
+
+
+
+
+
+SA Rating: 2.0
+Anime News Network Rating: 7.06
+Manganelo Rating: 4.6
+Total Manganelo Views: 1.6K
+Total No. of comments: 1
+
+
+
+
+Total diff: 115.13114088999068
+Total count: 86
+7327.507668018341
+
+
+CSV updated with :Akuma na Eros (manga)
+
+SCRAPING :Bastard!! (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+37.950010538101196
+
+
+
+
+
+SA Rating: 7.145631067961165
+Anime News Network Rating: 6.91
+Manganelo Rating: 4.8
+Total Manganelo Views: 25.1K
+Total No. of comments: 309
+
+
+
+
+Total diff: 116.09816534651242
+Total count: 87
+7442.791776418686
+
+
+CSV updated with :Bastard!! (manga)
+
+SCRAPING :Crescent Moon (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+20.995916604995728
+
+
+
+
+
+SA Rating: 5.9245283018867925
+Anime News Network Rating: 6.96
+Manganelo Rating: 4.5
+Total Manganelo Views: 1.7K
+Total No. of comments: 53
+
+
+
+
+Total diff: 117.27294241657611
+Total count: 88
+7490.995830535889
+
+
+CSV updated with :Crescent Moon (manga)
+
+SCRAPING :Homunculus (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+20.937600135803223
+
+
+
+
+
+SA Rating: 5.441860465116279
+Anime News Network Rating: 8.27
+Manganelo Rating: 4.6
+Total Manganelo Views: 4.3K
+Total No. of comments: 43
+
+
+
+
+Total diff: 118.79264327127697
+Total count: 89
+7538.355800867081
+
+
+CSV updated with :Homunculus (manga)
+
+SCRAPING :(The) Flowers of Evil (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+23.872462034225464
+
+
+
+
+
+SA Rating: 7.543478260869565
+Anime News Network Rating: 8.53
+Manganelo Rating: 4.8
+Total Manganelo Views: 8.8K
+Total No. of comments: 92
+
+
+
+
+Total diff: 119.92342136925969
+Total count: 90
+7600.325355768204
+
+
+CSV updated with :(The) Flowers of Evil (manga)
+
+SCRAPING :Blood: The Last Vampire 2002 (manga)
+-----------------------------------------------
+
+
+
+list index out of range
+Blood_The_Last_Vampire_2002_ not available
+
+-----------------------------------------------
+SCRAPING :I.O.N (manga)
+-----------------------------------------------
+
+
+
+
+
+
+LOADING COMMENTS 
+
+
+
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+Scrolled Down
+
+
+
+NO COMMENTS LEFT
+
+
+
+Time taken for setiment analysis: 
+191.8582739830017
+
+
+
+
+
+SA Rating: 5.341670835417709
+Anime News Network Rating: 7.17
+Manganelo Rating: 4.8
+Total Manganelo Views: 713.4K
+Total No. of comments: 1999
+
+
+
+
+Total diff: 121.2656980128259
+Total count: 91
+8738.87888455391
+
+
+CSV updated with :I.O.N (manga)
+
+SCRAPING :Angel/Dust (manga)
+-----------------------------------------------
+
+
+
