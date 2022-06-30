@@ -1,9 +1,8 @@
 from bs4 import BeautifulSoup as BS
 from requests import get
 import re
-import pandas as pd
 import csv
-
+import pandas as pd
 import unicodedata
 
 from page_scraper import compiled_info
@@ -42,16 +41,8 @@ soup=BS(r.text,"html.parser")
 
 mangas=soup.find_all("tr",{"bgcolor":"#EEEEEE"})
 
-manga=mangas[31]
-
 failed_attempts=[]
 
-SA=[]
-ANN=[]
-MR=[]
-total_views=[]
-manga_index=[]
-total_comments=[]
 time_index=1
 total_diff=0
 count=1
@@ -142,14 +133,7 @@ for manga in mangas:
 	print(time.time()-start_time)
 	print("\n")
 	count+=1
-	
-	SA.append(str(stars*2))
-	ANN.append(str(manga_rating))
-	MR.append(str(rating))
-	manga_index.append(str(o_manga_name))
-	total_views.append(str(views))
-	total_comments.append(len(comments))
-	
+		
 	field_values={'Manga Index':str(o_manga_name),
 				  'SA Rating':float(stars*2),
 				  'ANN Rating':float(manga_rating),
@@ -160,17 +144,6 @@ for manga in mangas:
 	write_csv(field_values)
 	print("CSV updated with :"+ str(o_manga_name)+"\n")
 	
-data={}
-data.update({"SA Rating":SA})
-data.update({"ANN Rating":ANN})
-data.update({"MR Rating":MR})
-data.update({"Manganelo Views":total_views})
-data.update({"Total Comments":total_comments})
-data.update({"manga index":manga_index})
-
-df=pd.DataFrame(data,index=manga_index)
-print(df)
-df.to_csv('training_data.csv')
 
 print("SCRAPING FAILED AT: ")
 print(failed_attempts)	
