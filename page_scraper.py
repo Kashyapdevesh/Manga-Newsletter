@@ -9,6 +9,8 @@ from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from newsletter import final_post
+from summary import get_summary
 
 def render_page(url):
         firefox_options = Options()
@@ -229,7 +231,7 @@ def compiled_info(url):
     final_summary.update({"Images": images})
     return final_summary
  
-	     
+   
 
 if __name__=="__main__":
 	start_time=time.time()
@@ -240,6 +242,12 @@ if __name__=="__main__":
 	except Exception as e:
 		print("Error encountered at url : {url} \n".format(url=url))
 		print(e)
+	manga=final_info["Manga's name"]
+	manga_cover_image=final_info["Manga's cover image"]
+	manga_desc=final_info["Manga's description"]
+	final_post(manga,manga_cover_image)
+	print("\n")
+	get_summary(manga_desc)
 	print(time.time() - start_time)
 
 
