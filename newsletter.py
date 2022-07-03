@@ -9,7 +9,7 @@ import json
 import numpy as np
 
 
-def zchan_cover(o_manga_name):
+def zerochan_cover(o_manga_name):
 	url="https://www.zerochan.net/" + o_manga_name
 	r=get(url)
 	soup=BS(r.text,"html.parser")
@@ -25,7 +25,11 @@ def zchan_cover(o_manga_name):
 		return None
 	
 def dominant_color(manga):
-	path="./cover_image_samples/"+str(manga)
+	try:
+		path="./cover_image_samples/"+str(manga)
+	except Exception as e:
+		print(e)
+		return None
 	color_thief = ColorThief(path)
 	dominant_color = color_thief.get_color(quality=1)
 	return dominant_color
@@ -38,17 +42,15 @@ def text_contrast(r,g,b):
 	else:
 		print("white\n")
 
-#Temp
 def save_info(final_result):
 	with open("./cover_images/cover_images.json" ,"w") as output_file:
 		json.dump(final_result,output_file)
-		
-		
 
-
-def get_background():
-	source = requests.get("https://api.unsplash.com/search/photos?color=red&query=texture&orientation=portrait&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8").json()
+#Using Texture bg with potrait mode
+def get_background(bg_color):
+	source = requests.get("https://api.unsplash.com/search/photos?color={main_color}&query=texture-background&orientation=portrait&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8".format(main_color=bg_color)).json()
 	save_info(source)
+	return source
 
 def get_complementary(color): #hex_val_color
     color = color[1:]
@@ -59,18 +61,18 @@ def get_complementary(color): #hex_val_color
  
  
 #Valid values:
-#black_and_white, 
-#black=[0,0,0], 
-#white=[255,255,255], 
-#yellow=[255,255,0], 
-#orange=[255,165,0], 
-#red=[255,0,0], 
-#purple=[128,0,128], 
-#magenta=[255,0,255], 
-#green=[0,128,0], 
-#teal=[0,128,128],
-#blue=[0,0,255]
-#def bg_color():
+#black_and_white,
+rgb_colors={ 
+"black":[0,0,0], 
+"white":[255,255,255], 
+"yellow":[255,255,0], 
+"orange":[255,165,0], 
+"red":[255,0,0], 
+"purple":[128,0,128], 
+"magenta":[255,0,255], 
+"green":[0,128,0], 
+"teal":[0,128,128],
+"blue":[0,0,255]}
 	
 
 list_of_colors = [[0,0,0],[255,255,255],[255,255,0],[255,165,0],[255,0,0],[128,0,128],[255,0,255],[0,128,0],[0,128,128],[0,0,255]]
@@ -96,26 +98,50 @@ def get_image(url,manga):
 	else:
 		print("\nImage can't be retrieved\n")
 		
+		
 def final_post(manga,manga_cover_image):
-	cover_image=zchan_cover(manga)
-	if cover_image==None:
-		cover_image=manga_cover_image
-	get_image(cover_image,manga)
+	final_cover_image=zerochan_cover(manga)
+	if final_cover_image==None:
+		final_cover_image=manga_cover_image
+	get_image(final_cover_image,manga)
 	
-	r,g,b=dominant_color(manga)
+	try:
+		r,g,b=dominant_color(manga)
+	except Exception as e:
+		print(e)
+		return None
+	print("\nRGB value of dominant color in manga's cover image is:")
 	print(str(r)+" "+str(g)+" "+str(b)+"\n")
 	
-	text_contrast(r,g,b)
-	
+	print("\nFinding complementary color for the background")
 	hex_val = "#%02x%02x%02x" % (r,g,b)
 	h = get_complementary(hex_val)
 	print("Complementary color",h)
 	h = h.lstrip('#')
-	print('RGB =', tuple(int(h[i:i+2], 16) for i in (0, 2, 4)))
-	r,g,b=tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
-	color = [r,g,b]
-	closest_color = closest(list_of_colors,color)
-	print(closest_color)
+	r_c, g_c, b_c=tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+	print("RGB value of the color complementary to manga's cover image is:")
+	print(str(r_c)+" "+str(g_c)+" "+str(b_c)+"\n")
 	
+	print("\nFinding the closest color to complementay color to be used for Unsplash API")
+	color = [r_c,g_c,b_c]
+	closest_color = closest(list_of_colors,color)
+	closest_color = closest_color.tolist()[0]
+	for cname,crgb in rgb_colors.items():
+		if crgb == closest_color:
+			print("Color found: "+str(cname))
+			bg_color=str(cname)
+			break
+
+	print("\nFinding text's color to be used")
+	text_contrast(r_c,g_c,b_c)
+	
+	print("\nGetting background from Unsplash")
+	bg_image_dict=get_background(bg_color)
+	print(type(bg_image_dict))
+	print(bg_image_dict)
+	
+	print("\nFetching each url")
+	
+		
 if __name__=="__main__":
 	get_background()

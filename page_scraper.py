@@ -247,7 +247,7 @@ if __name__=="__main__":
 	manga_desc=final_info["Manga's description"]
 	final_post(manga,manga_cover_image)
 	print("\n")
-	get_summary(manga_desc)
+	#get_summary(manga_desc)
 	print(time.time() - start_time)
 
 
