@@ -1,10 +1,10 @@
 from colorthief import ColorThief
 from bs4 import BeautifulSoup as BS
 from requests import get
-import os
+import os #usage to removed later by using temp files
 import requests
 import shutil
-
+import random
 import json
 import numpy as np
 
@@ -47,14 +47,14 @@ def text_contrast(r,g,b):
 		print("white\n")
 		return "white"
 
-def save_info(final_result):
-	with open("./cover_images/cover_images.json" ,"w") as output_file:
-		json.dump(final_result,output_file)
+#def save_info(final_result):
+#	with open("./cover_images/cover_images.json" ,"w") as output_file:
+#		json.dump(final_result,output_file)
 
 #Using Texture bg with potrait mode
 def get_background(bg_color,page=1):
 	source = requests.get("https://api.unsplash.com/search/photos?color={main_color}&query=texture-background&orientation=portrait&page={page_no}&per_page=30&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8".format(page_no=page,main_color=bg_color)).json()
-	save_info(source)
+#	save_info(source)
 	return source
 
 def get_complementary(color): #hex_val_color
@@ -124,7 +124,7 @@ def fetch_bg_urls(dict_results):
 	single_page_dict={}
 	for bg_result in dict_results:
 		bg_urls=bg_result["urls"]
-		bg_url_regular=bg_urls["regular"]
+		bg_url_regular=bg_urls["small"]
 		bg_url_regular=bg_url_regular[34:60]
 		if bg_url_regular[-3]=="?":
 			bg_url_regular=bg_url_regular[:-3]
@@ -173,28 +173,39 @@ def final_post(final_info):
 	text_color=text_contrast(r_c,g_c,b_c)
 	
 	print("\nGetting background from Unsplash")
-	all_page_dict={}
+	all_page_dict={}					   #suspended usage
 	bg_image_dict=get_background(bg_color) #fetching first page
 	dict_results=bg_image_dict["results"]
 	
 	single_page_dict=fetch_bg_urls(dict_results)
-	all_page_dict.update(single_page_dict)
+	all_page_dict.update(single_page_dict)  #suspended usage
 	 
-	remaining_reqs=int(bg_image_dict["total_pages"])-1
-	total=1
-	for reqs in range(remaining_reqs): #fetching reamaining pages
-		bg_image_dict=get_background(bg_color,page=reqs)
-		dict_results=bg_image_dict["results"]
-		
-		single_page_dict=fetch_bg_urls(dict_results)
-		all_page_dict.update(single_page_dict)
+	remaining_reqs=int(bg_image_dict["total_pages"])  #suspended usage
+	total=1                                           #suspended usage
+	
+	#----------------------------------------------------------
+	#The following code snippet exceeds unsplash non production API per hour limit of <50 reqs.
+	# so suspending until I get production API
+	
+	#for reqs in range(2,remaining_reqs): #fetching reamaining pages
+	#	bg_image_dict=get_background(bg_color,page=reqs)
+	#	dict_results=bg_image_dict["results"]
+	#	
+	#	single_page_dict=fetch_bg_urls(dict_results)
+	#	all_page_dict.update(single_page_dict)
+	#----------------------------------------------------------
+	
 		
 	print("\nFetching the bg with highest likes")
 	sorted_bgs=sorted(all_page_dict.items(), key=lambda kv:(kv[1], kv[0]))
-	final_bg_url_id=sorted_bgs[-1][0]
+	hr_image=-1*(random.randint(1,10))
+	final_bg_url_id=sorted_bgs[hr_image][0]
+	final_bg_likes=sorted_bgs[hr_image][1]
+	
+	
 	final_bg_url="https://images.unsplash.com/photo-{url_id}?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDMxMzd8MHwxfHNlYXJjaHwxNzl8fHRleHR1cmUtYmFja2dyb3VuZHxlbnwwfDF8fHRlYWx8MTY1Njk0Mjg4Mg&ixlib=rb-1.2.1&q=80&w=1080%27:".format(url_id=final_bg_url_id)
 	
-	print("\nDownloading final bg url with id-{url_id}".format(url_id=final_bg_url_id))
+	print("\nDownloading final bg url with id-{url_id} and {like_no} likes".format(url_id=final_bg_url_id,like_no=final_bg_likes))
 	get_image(final_bg_url,final_bg_url_id)
 	
 	print("\nFetching final text to be printed")
