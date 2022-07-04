@@ -1,13 +1,16 @@
 from colorthief import ColorThief
 from bs4 import BeautifulSoup as BS
 from requests import get
-
+import os
 import requests
 import shutil
 
 import json
 import numpy as np
 
+from PIL import Image
+
+from summary import get_summary
 
 def zerochan_cover(o_manga_name):
 	url="https://www.zerochan.net/" + o_manga_name
@@ -39,16 +42,18 @@ def text_contrast(r,g,b):
 	brightness=((r * 299) + (g * 587) + (b * 114)) / 1000 #YIQ Equation
 	if brightness >= threshold:
 		print("black\n")
+		return "black"
 	else:
 		print("white\n")
+		return "white"
 
 def save_info(final_result):
 	with open("./cover_images/cover_images.json" ,"w") as output_file:
 		json.dump(final_result,output_file)
 
 #Using Texture bg with potrait mode
-def get_background(bg_color):
-	source = requests.get("https://api.unsplash.com/search/photos?color={main_color}&query=texture-background&orientation=portrait&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8".format(main_color=bg_color)).json()
+def get_background(bg_color,page=1):
+	source = requests.get("https://api.unsplash.com/search/photos?color={main_color}&query=texture-background&orientation=portrait&page={page_no}&per_page=30&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8".format(page_no=page,main_color=bg_color)).json()
 	save_info(source)
 	return source
 
@@ -86,10 +91,23 @@ def closest(colors,color):
     smallest_distance = colors[index_of_smallest]
     return smallest_distance 
 
+def create_dir(target_path):
+	path="./"
+	try:
+		path=path+str(target_path)
+		os.mkdir(path)
+	except:
+		pass
+		
+def get_image(url,image_name,mflag=0):
 
-
-def get_image(url,manga):
-	file_name="./cover_image_samples/"+str(manga)
+	if mflag==1: #manga
+		create_dir("./cover_image_samples/")
+		file_name="./cover_image_samples/"+str(image_name)
+	elif mflag==0: #bg
+		create_dir("./bg_images/")
+		file_name="./bg_images/"+str(image_name)
+		
 	r=requests.get(url,stream=True)
 	if r.status_code==200:
 		with open(file_name,'wb') as f:
@@ -97,13 +115,32 @@ def get_image(url,manga):
 		print("\nImage Downloaded from " +str(url)+"\n")
 	else:
 		print("\nImage can't be retrieved\n")
+	
+def overlay_images(manga):
+	manga_image=Image.open(r"./cover_image_samples/{manga_name}".format(manga_name=manga))
+	#bg_image=
+	
+def fetch_bg_urls(dict_results):
+	single_page_dict={}
+	for bg_result in dict_results:
+		bg_urls=bg_result["urls"]
+		bg_url_regular=bg_urls["regular"]
+		bg_url_regular=bg_url_regular[34:60]
+		if bg_url_regular[-3]=="?":
+			bg_url_regular=bg_url_regular[:-3]
+		likes=bg_result["likes"]
+		single_page_dict.update({bg_url_regular:likes})
+	return single_page_dict
 		
-		
-def final_post(manga,manga_cover_image):
+def final_post(final_info):
+	manga=final_info["Manga's name"]
+	manga_cover_image=final_info["Manga's cover image"]
+	manga_desc=final_info["Manga's description"]
+	
 	final_cover_image=zerochan_cover(manga)
 	if final_cover_image==None:
 		final_cover_image=manga_cover_image
-	get_image(final_cover_image,manga)
+	get_image(final_cover_image,manga,mflag=1)
 	
 	try:
 		r,g,b=dominant_color(manga)
@@ -133,14 +170,37 @@ def final_post(manga,manga_cover_image):
 			break
 
 	print("\nFinding text's color to be used")
-	text_contrast(r_c,g_c,b_c)
+	text_color=text_contrast(r_c,g_c,b_c)
 	
 	print("\nGetting background from Unsplash")
-	bg_image_dict=get_background(bg_color)
-	print(type(bg_image_dict))
-	print(bg_image_dict)
+	all_page_dict={}
+	bg_image_dict=get_background(bg_color) #fetching first page
+	dict_results=bg_image_dict["results"]
 	
-	print("\nFetching each url")
+	single_page_dict=fetch_bg_urls(dict_results)
+	all_page_dict.update(single_page_dict)
+	 
+	remaining_reqs=int(bg_image_dict["total_pages"])-1
+	total=1
+	for reqs in range(remaining_reqs): #fetching reamaining pages
+		bg_image_dict=get_background(bg_color,page=reqs)
+		dict_results=bg_image_dict["results"]
+		
+		single_page_dict=fetch_bg_urls(dict_results)
+		all_page_dict.update(single_page_dict)
+		
+	print("\nFetching the bg with highest likes")
+	sorted_bgs=sorted(all_page_dict.items(), key=lambda kv:(kv[1], kv[0]))
+	final_bg_url_id=sorted_bgs[-1][0]
+	final_bg_url="https://images.unsplash.com/photo-{url_id}?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDMxMzd8MHwxfHNlYXJjaHwxNzl8fHRleHR1cmUtYmFja2dyb3VuZHxlbnwwfDF8fHRlYWx8MTY1Njk0Mjg4Mg&ixlib=rb-1.2.1&q=80&w=1080%27:".format(url_id=final_bg_url_id)
+	
+	print("\nDownloading final bg url with id-{url_id}".format(url_id=final_bg_url_id))
+	get_image(final_bg_url,final_bg_url_id)
+	
+	print("\nFetching final text to be printed")
+	summarized_text=get_summary(manga_desc)[0]["summary_text"]
+	print("\n")
+	print(summarized_text)
 	
 		
 if __name__=="__main__":

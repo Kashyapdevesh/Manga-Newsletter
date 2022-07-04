@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from newsletter import final_post
-from summary import get_summary
+#from summary import get_summary
 
 def render_page(url):
         firefox_options = Options()
@@ -235,17 +235,14 @@ def compiled_info(url):
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://chap.manganelo.com/manga-bv96541" #SAMPLE URL
+	url="https://m.manganelo.com/manga-kg125374" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
 	except Exception as e:
 		print("Error encountered at url : {url} \n".format(url=url))
 		print(e)
-	manga=final_info["Manga's name"]
-	manga_cover_image=final_info["Manga's cover image"]
-	manga_desc=final_info["Manga's description"]
-	final_post(manga,manga_cover_image)
+	final_post(final_info)
 	print("\n")
 	#get_summary(manga_desc)
 	print(time.time() - start_time)
