@@ -235,7 +235,7 @@ def compiled_info(url):
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://chapmanganelo.com/manga-bv96541" #SAMPLE URL
+	url="https://m.manganelo.com/manga-no128082" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
@@ -244,7 +244,6 @@ if __name__=="__main__":
 		print(e)
 	final_post(final_info)
 	print("\n")
-	#get_summary(manga_desc)
 	print(time.time() - start_time)
 
 

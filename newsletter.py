@@ -11,6 +11,7 @@ import numpy as np
 from PIL import Image
 
 from summary import get_summary
+from final_image import single_manga_post
 
 def zerochan_cover(o_manga_name):
 	url="https://www.zerochan.net/" + o_manga_name
@@ -113,12 +114,11 @@ def get_image(url,image_name,mflag=0):
 		with open(file_name,'wb') as f:
 			shutil.copyfileobj(r.raw,f)
 		print("\nImage Downloaded from " +str(url)+"\n")
+		return file_name
 	else:
 		print("\nImage can't be retrieved\n")
+		return None
 	
-def overlay_images(manga):
-	manga_image=Image.open(r"./cover_image_samples/{manga_name}".format(manga_name=manga))
-	#bg_image=
 	
 def fetch_bg_urls(dict_results):
 	single_page_dict={}
@@ -140,8 +140,9 @@ def final_post(final_info):
 	final_cover_image=zerochan_cover(manga)
 	if final_cover_image==None:
 		final_cover_image=manga_cover_image
-	get_image(final_cover_image,manga,mflag=1)
-	
+	cover_path=get_image(final_cover_image,manga,mflag=1)
+	if cover_path==None:
+		return None
 	try:
 		r,g,b=dominant_color(manga)
 	except Exception as e:
@@ -206,13 +207,15 @@ def final_post(final_info):
 	final_bg_url="https://images.unsplash.com/photo-{url_id}?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDMxMzd8MHwxfHNlYXJjaHwxNzl8fHRleHR1cmUtYmFja2dyb3VuZHxlbnwwfDF8fHRlYWx8MTY1Njk0Mjg4Mg&ixlib=rb-1.2.1&q=80&w=1080%27:".format(url_id=final_bg_url_id)
 	
 	print("\nDownloading final bg url with id-{url_id} and {like_no} likes".format(url_id=final_bg_url_id,like_no=final_bg_likes))
-	get_image(final_bg_url,final_bg_url_id)
-	
+	bg_path=get_image(final_bg_url,final_bg_url_id)
+	if bg_path==None:
+		return None
+		
 	print("\nFetching final text to be printed")
 	summarized_text=get_summary(manga_desc)[0]["summary_text"]
 	print("\n")
 	print(summarized_text)
 	
-		
-if __name__=="__main__":
-	get_background()
+	print("\n Final post prepartion started")
+	final_manga_img=single_manga_post(manga,summarized_text,cover_path,bg_path,text_color)
+	
