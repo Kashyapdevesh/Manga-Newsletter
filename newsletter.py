@@ -41,6 +41,7 @@ def dominant_color(manga):
 def text_contrast(r,g,b):
 	threshold=128
 	brightness=((r * 299) + (g * 587) + (b * 114)) / 1000 #YIQ Equation
+	print(brightness)
 	if brightness >= threshold:
 		print("black\n")
 		return "black"
@@ -54,7 +55,7 @@ def text_contrast(r,g,b):
 
 #Using Texture bg with potrait mode
 def get_background(bg_color,page=1):
-	source = requests.get("https://api.unsplash.com/search/photos?color={main_color}&query=texture-background&orientation=portrait&page={page_no}&per_page=30&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8".format(page_no=page,main_color=bg_color)).json()
+	source = requests.get("https://api.unsplash.com/search/photos?color={main_color}&query=cool-background&orientation=portrait&page={page_no}&per_page=30&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8".format(page_no=page,main_color=bg_color)).json()
 #	save_info(source)
 	return source
 

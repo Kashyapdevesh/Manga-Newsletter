@@ -33,6 +33,9 @@ def title_link_scraper(soup,index):
 			print("manga link unavailable")
 			print(e)
 			manga_link=None
+	else:
+		return manga_title=None,manga_link=None
+		
 	return manga_title,manga_link
 	
 
@@ -73,8 +76,8 @@ def manga_scraper(url):
 	#Initiation
 	soup=render_page(url)
 	if soup!=None:
-		prev_manga_title,prev_manga_link=title_link_scraper(soup,index=0)
-		if prev_manga_title==None or prev_manga_link==None:
+		prev_manga_title,_=title_link_scraper(soup,index=0)
+		if prev_manga_title==None:
 			print("Error while scraping for link and title at Initiation stage")
 			return None
 	else:

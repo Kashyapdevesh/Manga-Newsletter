@@ -235,7 +235,7 @@ def compiled_info(url):
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://m.manganelo.com/manga-no128082" #SAMPLE URL
+	url="https://chapmanganelo.com/manga-ba116346" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)

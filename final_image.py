@@ -68,5 +68,7 @@ def single_manga_post(manga,summary,cover_path,bg_path,color):
 	print("\nFinal image generated")
 	return image_copy
 	
+if __name__=="__main__":
+	img=single_manga_post("Jujutsu Kaisen","Yuuji is a genius at track and field. But he's happy as a clam in the Occult Research Club. Although he's only in the club for kicks, things get serious when a real spirit shows up.","./cover_image_samples/Jujutsu Kaisen","./bg_images/1527049979667-990f1d0d8e7f","white")
 
 
