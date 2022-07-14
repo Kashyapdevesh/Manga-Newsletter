@@ -7,7 +7,7 @@ if (os.environ.get("DB_TYPE") == None):
 	from dotenv import load_dotenv
 	load_dotenv(os.getcwd()+str("/.env"))
 
-sample_dict={"Manga's URL": 'https://m.manganelo.com/manga-bc115996', "Manga's Genre": "Comedy - Shounen - Slice of life", "Manga's Name": 'Buddha Cafe', 'SA_Rating': 2.5678, "Manga's Summary": 'Ruri has finally landed a part-time job in a cafe run by Buddhist priests. At “Kissako”, find some delicious tea and enlightenment!'}
+sample_dict={"Manga's URL": 'https://m.manganelo.com/manga-bc115996', "Manga's Genre": "Comedy - Shounen - Slice of life", "Manga's Name": 'Buddha Cafe', 'SA_Rating': 7.4567, "Manga's Summary": 'Ruri has finally landed a part-time job in a cafe run by Buddhist priests. At “Kissako”, find some delicious tea and enlightenment!'}
 
 
 
@@ -54,9 +54,11 @@ def update_db(manga,sa_rating):
 	        database=os.environ.get("DB_NAME"),
 	    ) as connection:
 	        print(connection)
-	        query="UPDATE TABLE manga_list SET SA_RATING=({sa_rating}) where MANGA_NAME=({manga}) "
+	        query="UPDATE manga_list SET SA_RATING='{rating}' where MANGA_NAME='{name}' ".format(rating=sa_rating,name=manga)
+	        print("SQL Query: "+ query)
 	        with connection.cursor() as cursor:
 	        	cursor.execute(query)
+	        	connection.commit()
 	except Error as e:
 	    print(e)
 
@@ -125,11 +127,9 @@ def save_db(data_dict):
 	        database=os.environ.get("DB_NAME"),
 	    ) as connection:
 	        print(connection)
-	        check_element="SELECT SA_RATING FROM manga_list WHERE EXISTS (Manga_Name={name})".format(name=manga) 
-	        print(check_element)
+	        check_element="SELECT SA_RATING FROM manga_list WHERE Manga_Name='{name}'".format(name=manga) 
 	        with connection.cursor() as cursor:
-	        	cursor.execute(query)
-	        	print("yo")
+	        	cursor.execute(check_element)
 	        	msg=cursor.fetchone()
 	        	if not msg:
 	        		cursor.execute(query,tuple(final_dict.values()))
@@ -139,5 +139,4 @@ def save_db(data_dict):
 	except Error as e:
 	    print(e)
 
-save_db(sample_dict)
-view_db()
+clear_db()
