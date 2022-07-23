@@ -1,6 +1,6 @@
 ![](https://i.pinimg.com/564x/2b/ae/61/2bae615a911d23480f38c430b5d287fd.jpg)
 
-# Kashya's Manga Newsletter
+# Kashya's Newsletter
 
 The aim of this project is to create a fully automated personalized manga/manhwa 
 newsletter integrated with WhatsApp and emailing services.
