@@ -10,7 +10,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from newsletter import final_post
-#from summary import get_summary
+from database import save_db,view_db,clear_db
+from sentiment_analysis import analyze_comments
+from summary import get_summary
 
 def render_page(url):
         firefox_options = Options()
@@ -170,7 +172,7 @@ def scrape_summary(page_source):
 		#-------------------------------------------------
 		#FINAL COMPILED SUMMARY IN DICTIONARY
 		
-	final_summary={"Manga's name":manga_name,"Manga's cover image":manga_img,"Manga's author(s)":manga_author,"Manga's current status": manga_status,"Manga's genre(s)":manga_genre,"Manga's total views":manga_views,"Manga's rating":manga_rating,"Manga's description":manga_desc}
+	final_summary={"Manga's Name":manga_name,"Manga's Cover Image":manga_img,"Manga's Author":manga_author,"Manga's Current Status": manga_status,"Manga's Genre":manga_genre,"Manga's Total Views":manga_views,"Manga's Rating":manga_rating,"Manga's Description":manga_desc}
 	return final_summary
 	     
 			
@@ -235,13 +237,29 @@ def compiled_info(url):
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://chapmanganelo.com/manga-or128711" #SAMPLE URL
+	url="https://chapmanganelo.com/manga-bv96541" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
 	except Exception as e:
 		print("Error encountered at url : {url} \n".format(url=url))
 		print(e)
+	
+	data_dict={}
+	data_dict.update({"Manga's URL":final_info["Manga's URL"]})
+	data_dict.update({"Manga's Genre":final_info["Manga's Genre"]})
+	data_dict.update({"Manga's Name":final_info["Manga's Name"]})
+	
+	sa_rating=analyze_comments(final_info["Comments"])
+	desc_summary=get_summary(final_info["Manga's Description"])[0]["summary_text"]
+	
+	#data_dict.update({"SA_Rating":sa_rating})
+	#data_dict.update({"Manga's Summary":desc_summary})
+	#save_db(data_dict)
+	#view_db()
+	print("\n\n\n")
+	print(data_dict)
+	print("\n\n\n")
 	final_post(final_info)
 	print("\n")
 	print(time.time() - start_time)
