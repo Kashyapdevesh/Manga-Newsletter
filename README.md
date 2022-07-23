@@ -92,7 +92,7 @@ by following the instructions below:
 
 * Select the manga of your choice from https://m.manganelo.com/www 
 
-* Replace variable *url* with chosen url in line no. 240 in [page_scraper.py](../blob/main/page_scraper.py)
+* Replace variable *url* with chosen url in line no. 240 in [page_scraper.py](../main/page_scraper.py)
 
 * Run the script
 
@@ -100,7 +100,7 @@ by following the instructions below:
   python3 page_scraper.py
 ```
 
-You can view some pre-prepared samples at [link](../tree/main/test_samples)
+You can view some pre-prepared samples at [link](https://github.com/Kashyapdevesh/Manga-Newsletter/tree/main/test_samples)
 
 
 ## Authors
@@ -113,4 +113,5 @@ Contributions are always welcome!
 ## Feedback
 
 If you have any feedback, please reach out to us at devesh.btech.cs19@iiitranchi.ac.in
+
 
