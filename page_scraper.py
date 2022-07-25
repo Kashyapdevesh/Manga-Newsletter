@@ -237,7 +237,7 @@ def compiled_info(url):
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://chapmanganelo.com/manga-bv96541" #SAMPLE URL
+	url="https://chapmanganelo.com/manga-wc110922" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
@@ -253,10 +253,10 @@ if __name__=="__main__":
 	sa_rating=analyze_comments(final_info["Comments"])
 	desc_summary=get_summary(final_info["Manga's Description"])[0]["summary_text"]
 	
-	#data_dict.update({"SA_Rating":sa_rating})
-	#data_dict.update({"Manga's Summary":desc_summary})
-	#save_db(data_dict)
-	#view_db()
+	data_dict.update({"SA_Rating":sa_rating})
+	data_dict.update({"Manga's Summary":desc_summary})
+	save_db(data_dict)
+	view_db()
 	print("\n\n\n")
 	print(data_dict)
 	print("\n\n\n")

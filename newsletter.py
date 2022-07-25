@@ -134,9 +134,9 @@ def fetch_bg_urls(dict_results):
 	return single_page_dict
 		
 def final_post(final_info):
-	manga=final_info["Manga's name"]
-	manga_cover_image=final_info["Manga's cover image"]
-	manga_desc=final_info["Manga's description"]
+	manga=final_info["Manga's Name"]
+	manga_cover_image=final_info["Manga's Cover Image"]
+	manga_desc=final_info["Manga's Description"]
 	
 	final_cover_image=zerochan_cover(manga)
 	if final_cover_image==None:
@@ -152,17 +152,17 @@ def final_post(final_info):
 	print("\nRGB value of dominant color in manga's cover image is:")
 	print(str(r)+" "+str(g)+" "+str(b)+"\n")
 	
-	print("\nFinding complementary color for the background")
-	hex_val = "#%02x%02x%02x" % (r,g,b)
-	h = get_complementary(hex_val)
-	print("Complementary color",h)
-	h = h.lstrip('#')
-	r_c, g_c, b_c=tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
-	print("RGB value of the color complementary to manga's cover image is:")
-	print(str(r_c)+" "+str(g_c)+" "+str(b_c)+"\n")
+	#print("\nFinding complementary color for the background")
+	#hex_val = "#%02x%02x%02x" % (r,g,b)
+	#h = get_complementary(hex_val)
+	#print("Complementary color",h)
+	#h = h.lstrip('#')
+	#r_c, g_c, b_c=tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+	#print("RGB value of the color complementary to manga's cover image is:")
+	#print(str(r_c)+" "+str(g_c)+" "+str(b_c)+"\n")
 	
-	print("\nFinding the closest color to complementay color to be used for Unsplash API")
-	color = [r_c,g_c,b_c]
+	print("\nFinding the closest color to dominant color to be used for Unsplash API")
+	color = [r,g,b]
 	closest_color = closest(list_of_colors,color)
 	closest_color = closest_color.tolist()[0]
 	for cname,crgb in rgb_colors.items():
@@ -172,7 +172,7 @@ def final_post(final_info):
 			break
 
 	print("\nFinding text's color to be used")
-	text_color=text_contrast(r_c,g_c,b_c)
+	text_color=text_contrast(r,g,b)
 	
 	print("\nGetting background from Unsplash")
 	all_page_dict={}					   #suspended usage

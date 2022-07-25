@@ -66,6 +66,7 @@ def single_manga_post(manga,summary,cover_path,bg_path,color):
 	image_copy=overlay_summary(image_copy,summary,color)
 	image_copy.show()
 	print("\nFinal image generated")
+	image_copy.save("./test_samples/{manga_name}.png".format(manga_name=manga),quality=95,optimize=True)
 	return image_copy
 	
 if __name__=="__main__":

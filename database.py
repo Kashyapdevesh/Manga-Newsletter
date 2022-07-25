@@ -7,7 +7,7 @@ if (os.environ.get("DB_TYPE") == None):
 	from dotenv import load_dotenv
 	load_dotenv(os.getcwd()+str("/.env"))
 
-sample_dict={"Manga's URL": 'https://m.manganelo.com/manga-bc115996', "Manga's Genre": "Comedy - Shounen - Slice of life", "Manga's Name": 'Buddha Cafe', 'SA_Rating': 7.4567, "Manga's Summary": 'Ruri has finally landed a part-time job in a cafe run by Buddhist priests. At “Kissako”, find some delicious tea and enlightenment!'}
+#sample_dict={"Manga's URL": 'https://m.manganelo.com/manga-bc115996', "Manga's Genre": "Comedy - Shounen - Slice of life", "Manga's Name": 'liudgfhlaiugbvkj', 'SA_Rating': 8.3456, "Manga's Summary": 'testing sample to test sorting in json!'}
 
 
 
@@ -139,4 +139,3 @@ def save_db(data_dict):
 	except Error as e:
 	    print(e)
 
-clear_db()
