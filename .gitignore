@@ -2,3 +2,4 @@ bg_images/*
 cover_image_samples/*
 __pycache__/*
 .env
+geckodriver.log
