@@ -10,42 +10,44 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from newsletter import final_post
-from database import save_db,view_db,clear_db
+#from database import save_db,view_db,clear_db
 from sentiment_analysis import analyze_comments
 from summary import get_summary
 
+
+
 def render_page(url):
-        firefox_options = Options()
-        firefox_options.add_argument('--headless')
-        serv=Service('./geckodriver')
-        driver=webdriver.Firefox(options=firefox_options,service=serv)
-        try:
-        	driver.get(url)
-        except Exception as e:
-        	print("Exception at driver.get() stage : "+str(e)+"\n")
-        	return None
-        	
-        #-------------------------------------------------
-		#SCRAPE BASIC INFO FROM TOP PANEL
-        final_summary=scrape_summary(driver.page_source) 
+	firefox_options = Options()
+	firefox_options.add_argument('--headless')
+	serv=Service('./geckodriver')
+	driver=webdriver.Firefox(options=firefox_options,service=serv)
+	try:
+		driver.get(url)
+	except Exception as e:
+		print("Exception at driver.get() stage : "+str(e)+"\n")
+		return None
+	
+	#-------------------------------------------------
+	#SCRAPE BASIC INFO FROM TOP PANEL
+	final_summary=scrape_summary(driver.page_source) 
         
-        #-------------------------------------------------
-		#EXPLICIT SLEEP SO IFRAME LOADS
-        time.sleep(2) 
+    #-------------------------------------------------
+	#EXPLICIT SLEEP SO IFRAME LOADS
+	time.sleep(2) 
         
-        #-------------------------------------------------
-		#DRIVER FRAME SWITCHED
-        WebDriverWait(driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.TAG_NAME,"iframe"))) #switch driver to iframe
+    #-------------------------------------------------
+	#DRIVER FRAME SWITCHED
+	WebDriverWait(driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.TAG_NAME,"iframe"))) #switch driver to iframe
         
-        #-------------------------------------------------
-		#ALL HIDDEN COMMENTS UNCOVERED
-        load_all_comments(driver) 
-        
-        #-------------------------------------------------
-		#PAGE SOURCE WITH UNCOVERED COMMENTS SENT TO MANGA_SCRAPER
-        r = driver.page_source 
-        driver.quit()
-        return r,final_summary
+    #-------------------------------------------------
+	#ALL HIDDEN COMMENTS UNCOVERED
+	load_all_comments(driver) 
+       
+    #-------------------------------------------------
+	#PAGE SOURCE WITH UNCOVERED COMMENTS SENT TO MANGA_SCRAPER
+	r = driver.page_source 
+	driver.quit()
+	return r,final_summary
  
  
  
@@ -237,7 +239,7 @@ def compiled_info(url):
 
 if __name__=="__main__":
 	start_time=time.time()
-	url="https://chapmanganelo.com/manga-wc110922" #SAMPLE URL
+	url="https://m.manganelo.com/manga-oh129127" #SAMPLE URL
 	try:
 		final_info=compiled_info(url)
 		print(final_info)
@@ -255,8 +257,8 @@ if __name__=="__main__":
 	
 	data_dict.update({"SA_Rating":sa_rating})
 	data_dict.update({"Manga's Summary":desc_summary})
-	save_db(data_dict)
-	view_db()
+	#save_db(data_dict)
+	#view_db()
 	print("\n\n\n")
 	print(data_dict)
 	print("\n\n\n")
