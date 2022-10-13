@@ -92,7 +92,7 @@ by following the instructions below:
 
 * Select the manga of your choice from https://m.manganelo.com/www 
 
-* Replace variable *url* with chosen url in line no. 240 in [page_scraper.py](../main/page_scraper.py)
+* Replace variable *url* with chosen url in line no. 242 in [page_scraper.py](../main/page_scraper.py)
 
 * Run the script
 
