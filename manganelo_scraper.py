@@ -21,7 +21,7 @@ manga_crawled=[]
 single_page=False
 
 failed_pages=[]
-
+failed_manga=[]
 '''
 Create worker threads (will die when main exits)
 '''
@@ -50,9 +50,13 @@ def work():
         try:
             if single_page==True:
                 manga_info=get_updated_data(url=inputid)
-                final_info_dict[inputid]=manga_info
-                manga_crawled.append(inputid)
-                print(str(threading.current_thread().name) + " has completed crawling - " + str(inputid) + '\n\n')
+                if manga_info:
+                    final_info_dict[inputid]=manga_info
+                    manga_crawled.append(inputid)
+                    print(str(threading.current_thread().name) + " has completed crawling - " + str(inputid) + '\n\n')
+                else:
+                    print(str(threading.current_thread().name) + " encountered error while crawling - " + str(inputid) + '\n\n')
+                    failed_manga.append(inputid)
             else:
                 page_manga_list=generate_manga_list(url=inputid)
                 if not page_manga_list:
@@ -92,8 +96,8 @@ def generate_manga_list(url):
     if not soup:
         return None
     
-    manga_blocks=soup.find_all("a",{"class":"genres-item-name text-nowrap a-h"})
-    page_manga_list=[manga_url['href'] for manga_url in manga_blocks]
+    manga_blocks=soup.find_all("div",{"class":"list-truyen-item-wrap"})
+    page_manga_list=[manga_url.find_all("a")[0]['href'] for manga_url in manga_blocks]
 
     return list(set(page_manga_list))
 
@@ -108,34 +112,7 @@ def render_page(url):
         print(str(e))
     return soup
 
-def get_page_count():
-    lo,high,page_count=0,1000,0
-
-    today=datetime.datetime.today()
-    target_date=(today+dateutil.relativedelta.relativedelta(days=-7)).strftime("%d-%m-%y")
-
-    while lo <=high:
-
-        mid=(lo+high)//2
-        
-        soup=render_page(f"https://m.manganelo.com/genre-all/{mid}")
-        date_string=soup.find_all("span",{"class":"genres-item-time"})[0].text
-        page_date=datetime.datetime.strptime(date_string, "%b %d,%y").strftime("%d-%m-%y")
-
-        if page_date==target_date:
-            return mid
-        
-        elif page_date < target_date:
-            high = mid - 1
-        else:
-            lo = mid + 1
-    return -1
-
-def get_updated_data(url):
-
-    soup=render_page(url)
-    if not soup:
-        return None
+def scrape_manganato(soup):
 
     try:
         manga_name=soup.find_all("div",{"class":"story-info-right"})[0].h1.text
@@ -170,7 +147,7 @@ def get_updated_data(url):
         manga_status=None 
         
     try:
-        manga_genre=soup.find_all("td",{"class":"table-value"})[alt+2].text
+        manga_genre=str(soup.find_all("td",{"class":"table-value"})[alt+2].text).replace("-",",")
         manga_genre=manga_genre.replace("\n","")
         manga_genre=manga_genre.replace("\xa0","")
         manga_genre=manga_genre.replace("\\","")		
@@ -179,7 +156,7 @@ def get_updated_data(url):
         
     try:
         rating_block=soup.find_all("em",{"id":"rate_row_cmd"})[0].text
-        manga_rating=rating_block[rating_block.find(":")+2:]
+        manga_rating=str(rating_block[rating_block.find(":")+2:]).replace("\n","")
         
     except:
         manga_rating=None
@@ -210,7 +187,7 @@ def get_updated_data(url):
 
         if len(chapter_texts) == len(chapter_views) == len(chapter_update_dates):
             zipped_data=zip(chapter_texts,chapter_views,chapter_update_dates)
-            index_info = {f"{chapter_text.text}": {"chapter_views":chapter_view.text,"chapter_upload_date":chapter_update_date.text} for chapter_text, chapter_view, chapter_update_date in zipped_data}
+            index_info = {f"{chapter_text.text}": {"chapter_views":chapter_view.text,"chapter_upload_date":chapter_update_date['title']} for chapter_text, chapter_view, chapter_update_date in zipped_data}
         else:
             index_info={}
     except:
@@ -220,6 +197,97 @@ def get_updated_data(url):
                    "Current Status": manga_status,"Manga Genre":manga_genre,"Manga Total Views":manga_views,
                    "Rating":manga_rating,"Description":manga_desc,"chapters_info":index_info}
     return final_summary
+
+def scrape_mangakaklot(soup):
+
+    try:
+        info_block=soup.find_all("ul",{"class":"manga-info-text"})[0]
+        manga_name=info_block.find_all("li")[0].h1.text
+        manga_name=manga_name.replace("\\","")
+    except:
+        manga_name=None
+        
+    try:
+        manga_img=soup.find_all("div",{"class":"manga-info-pic"})[0].img.get('src')
+    except:
+        manga_img=None
+        
+    try:
+        info_block=soup.find_all("ul",{"class":"manga-info-text"})[0]
+        manga_author=str(info_block.find_all("li")[1].text).replace("\n","").split(":")[-1].replace(" ","")
+    except: 
+        manga_author=None
+        
+    try:
+        info_block=soup.find_all("ul",{"class":"manga-info-text"})[0]
+        manga_status=str(info_block.find_all("li")[2].text).replace("\n","").split(":")[-1].replace(" ","")
+    except:
+        manga_status=None 
+        
+    try:
+        info_block=soup.find_all("ul",{"class":"manga-info-text"})[0]
+        manga_genre=str(info_block.find_all("li")[6].text).replace("\n","").split(":")[-1]
+        manga_genre=manga_genre.replace("\n","")
+        manga_genre=manga_genre.replace("\xa0","")
+        manga_genre=manga_genre.replace("\\","")
+    except:
+        manga_genre=None
+        
+    try:
+        info_block=soup.find_all("ul",{"class":"manga-info-text"})[0]
+        manga_rating=str(info_block.find_all("li")[8].em.text).replace("\n","").split(":")[-1]
+        
+    except:
+        manga_rating=None
+
+    try:
+        info_block=soup.find_all("ul",{"class":"manga-info-text"})[0]
+        manga_views=str(info_block.find_all("li")[5].text).replace("\n","").split(":")[-1].replace(" ","").replace(",","")
+    except:
+        manga_views=None
+
+    try:
+        manga_desc=soup.find_all("div",{"id":"noidungm"})[0].text
+        manga_desc=manga_desc.replace("\n","")
+        manga_desc=manga_desc.replace("\xa0","")
+        manga_desc=manga_desc.replace("\\","")
+        #REMOVING SOFT HYPHENS
+        manga_desc = manga_desc.replace('\xad', '') 
+        manga_desc = manga_desc.replace('\u00ad', '')
+        manga_desc = manga_desc.replace('\N{SOFT HYPHEN}', '')
+
+    except:
+        manga_desc=None
+
+    try:
+        chapter_block=soup.find_all("div",{"class":"chapter-list"})[0].find_all("div",{"class":"row"})
+
+        index_info={}
+        for chapter in chapter_block:
+            chapter_text=chapter.find_all("span")[0].text
+            chapter_views=chapter.find_all("span")[1].text
+            chapter_upload_date=chapter.find_all("span")[2]['title']
+
+            index_info[chapter_text]={'chapter_views': chapter_views, 'chapter_upload_date': chapter_upload_date}
+    except:
+        index_info={}
+        
+    final_summary={"Name":manga_name,"Cover Image":manga_img,"Author":manga_author,
+                    "Current Status": manga_status,"Manga Genre":manga_genre,"Manga Total Views":manga_views,
+                    "Rating":manga_rating,"Description":manga_desc,"chapters_info":index_info}
+    return final_summary
+
+def get_updated_data(url):
+
+    soup=render_page(url)
+    if not soup:
+        return None
+    
+    if soup.find_all("meta",{"name":"Author"}):
+        return scrape_manganato(soup)
+    else:
+        return scrape_mangakaklot(soup)
+
 	 
  
 def crawl_mangalist():
@@ -249,6 +317,44 @@ def crawl_mangalist():
 
     return len(final_manga_list)
 
+def get_page_count():
+    lo,high,page_count=0,1000,0
+
+    today=datetime.datetime.today()
+    target_date=(today+dateutil.relativedelta.relativedelta(days=-7)).strftime("%y-%m-%d")
+
+    while lo <=high:
+
+        mid=(lo+high)//2
+        
+        soup=render_page(f'https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={mid}')
+        redirected_url_block=soup.find_all("div",{"class":"list-truyen-item-wrap"})[0]
+        redirected_url=redirected_url_block.find_all("a")[0]['href']
+
+
+        manga_resp_soup=render_page(redirected_url)
+
+        if manga_resp_soup.find_all("meta",{"name":"Author"}):
+            date_block=manga_resp_soup.find_all("span",{"class":"chapter-time text-nowrap"})[0]['title']
+            date_string=' '.join(date_block.split(" ")[:2])
+        else:
+            date_block=manga_resp_soup.find_all("div",{"class":"row"})[1].find_all("span")[-1]['title']
+            date_string=date_block.split(" ")[0].replace("-"," ",1).replace("-",",")
+
+
+        # date_string=
+        page_date=datetime.datetime.strptime(date_string, "%b %d,%Y").date().strftime("%y-%m-%d")
+
+        if page_date==target_date:
+            return mid
+        
+        elif page_date < target_date:
+            high = mid - 1
+        else:
+            lo = mid + 1
+    return -1
+
+
 def get_updated_manga_url():
     global queue
     global pages_crawled
@@ -256,10 +362,10 @@ def get_updated_manga_url():
 
     single_page=False
 
-    input_pagelist=[f"https://m.manganelo.com/genre-all/{val}" for val in range(get_page_count())]
+    input_pagelist=[f"https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={val}" for val in range(get_page_count())]
 
     print(f"\n{len(input_pagelist)} PAGES UPDATED\n")
-
+    print(input_pagelist)
     queue.put(input_pagelist[0])
     input_pagelist=input_pagelist[1:] if len(input_pagelist)>1 else []
 
@@ -284,6 +390,8 @@ def get_updated_manga_url():
 
 if __name__=="__main__":
 
+    start=datetime.datetime.now()
+
     print("\nCHECKING MANGA UPDATED IN PAST WEEK\n")
     print("------------------------------------")
 
@@ -291,15 +399,16 @@ if __name__=="__main__":
 
     print(f"\n{updated_manga_count} MANGA UPDATED IN PAST WEEK\n")
 
-    print("\n\n\nCRAWLING UPDATED MANGA\n")
+
+    print("\n\nCRAWLING UPDATED MANGA")
     print("------------------------")
 
     crawl_mangalist()
 
-    print("\nALL MANGA INFORMATION SUCCESSFULLY CRAWLED\n")
+    print("\nALL MANGA INFORMATION SUCCESSFULLY CRAWLED")
     print("---------------------------------------------")
 
-    print("\n\n\nnWRITING DATA TO FILE\n")
+    print("\nWRITING DATA TO FILE")
     print("---------------------")
 
     with open('final_data.txt', 'w+') as final_info_file:
@@ -307,36 +416,6 @@ if __name__=="__main__":
 
     print("DATA SUCCESSFULLY WRITTEN\n")
 
-    # print('\nALL DATES CRAWLED\n')
-    # print("\nCRAWLING COMPLETED SUCCESSFULLY\n")
-    # logger_dict['success'].append('INFO:WIPO Delisted: All dates successfully crawled')
 
-    # if len(failed_dates)>0:
-    #     print (f"\nDATES WITH ERRORS AND NUMBER OF ATTEMPTS : {failed_dates}\n")
-
-    # print("\nUploading Audit file to ADLS\n")
-
-    # df=pd.read_csv("./WIPO_delisted_date_verification.csv")
-    # Execute.upload_file("WIPO_delisted_date_verification.csv",df.to_csv(index=False),view_filepath)
-    
-
-    # try:
-    #     os.remove("./WIPO_delisted_date_verification.csv")
-    #     os.remove("./authenticated_proxy_plugin5.zip")
-    # except:
-    #     pass
-
-    # runtime=datetime.datetime.now()-startTime
-    # print(f"\nTOTAL TIME TAKEN : {runtime} on {today}\n")
-
-    # print("Generating HTML report and updating activity log")
-
-    # #Generating HTML report and updating activity log
-    # content = {'source': 'WIPO-DELISTED', 'current_date': f"{datetime.datetime.now().strftime('%H:%M:%S %Y-%b-%d')}", 'runtime': round(((runtime.total_seconds()) / 60),5), 'environment': 'azure', 'final_status': 'success', 'logger': logger_dict,'sucess_count':total_records}
-    # generate_html_report(report_name='WIPO-DELISTED',content=content,acc_url=acc_url,credential=creds)
-
-    # update_log(runtime,total_records)
-
-    # print("Log updated and report created")
-
+    print((datetime.datetime.now()-start))
     sys.exit(0)
