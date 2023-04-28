@@ -5,7 +5,7 @@ import csv
 import pandas as pd
 import unicodedata
 
-from page_scraper import compiled_info
+from future_scope.page_scraper import compiled_info
 from sentiment_analysis import analyze_comments
 import time
 

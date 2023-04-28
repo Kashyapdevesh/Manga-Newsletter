@@ -1,7 +1,7 @@
 import sys
 import threading
 from queue import Queue
-import json
+import re
 import datetime
 import dateutil.relativedelta
 import pandas as pd
@@ -14,7 +14,7 @@ final_manga_list=[]
 updated_info={}
 
 queue = Queue()
-NUMBER_OF_THREADS = 100
+NUMBER_OF_THREADS = 50
 
 pages_crawled=[]
 manga_crawled=[]
@@ -271,11 +271,97 @@ def scrape_mangakaklot(soup):
             index_info[chapter_text]={'chapter_views': chapter_views, 'chapter_upload_date': chapter_upload_date}
     except:
         index_info={}
+    
+    try:
+        ap_summary=anime_planet_scraper(manga_name)
+    except:
+        ap_summary=[" "]*7
         
     final_summary={"Name":manga_name,"Cover Image":manga_img,"Author":manga_author,
                     "Current Status": manga_status,"Manga Genre":manga_genre,"Manga Total Views":manga_views,
-                    "Rating":manga_rating,"Description":manga_desc,"chapters_info":index_info}
+                    "Rating":manga_rating,"Description":manga_desc,"chapters_info":index_info,"ap_summary":ap_summary}
     return final_summary
+
+def anime_planet_scraper(manga_name):
+    manga_name=manga_name[:manga_name.find("[")-1] if "[" in manga_name else manga_name
+    manga_name=manga_name.replace("-"," ")
+    manga_name=re.sub(r"[^\w\s]", "", manga_name)
+    manga_name=manga_name.lower().replace("  "," ").replace(" ","-")
+
+    url=f"https://www.anime-planet.com/manga/{manga_name}"
+
+    content=requests.get(url).text
+
+    blocked_keywords=["but we couldn't find anything","can't find what you're looking for"]
+    if any(ele in content.lower() for ele in blocked_keywords):
+        return [" "]*7
+
+    soup=BeautifulSoup(content,"html.parser")
+
+    try:
+        nav_bar=soup.find("section",{"class":"pure-g entryBar"})
+        publishing_studio=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[1].a.text
+    except:
+        publishing_studio=""
+
+    try:
+        nav_bar=soup.find("section",{"class":"pure-g entryBar"})
+        publishing_year=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[2].span.text
+    except:
+        publishing_year=""
+    
+    try:
+        nav_bar=soup.find("section",{"class":"pure-g entryBar"})
+        user_rating=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[3].div['title']
+
+        parts = user_rating.split()
+        rating = parts[0]
+        votes = parts[-2]
+
+        user_rating = f"{rating.replace(' out of ', '/')}- {str(votes).replace(',','')}"
+    except:
+        user_rating=""
+    
+    try:
+        nav_bar=soup.find("section",{"class":"pure-g entryBar"})
+        rank=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[4].text.replace(",","")
+
+        match = re.search(r'\d+', rank)
+        if match:
+            rank = match.group()
+        else:
+            rank=""
+
+    except:
+        rank=""
+    
+    try:
+        side_bar=soup.find("section",{"class":"sidebarStats"})
+        tracking_count=side_bar.text.replace(",","")
+
+        match = re.search(r'\d+', tracking_count)
+        if match:
+            tracking_count = match.group()
+        else:
+            tracking_count=""
+    except:
+        tracking_count=""
+    
+    try:
+        ap_desc=soup.find("div",{"class":"synopsisManga"}).p.text
+        ap_desc=ap_desc.replace("\n","")
+        ap_desc=ap_desc.replace("\xa0","")
+        ap_desc=ap_desc.replace("\\","")
+    except:
+        ap_desc=""
+
+    try:
+        ap_cover_img=soup.find("div",{"class":"mainEntry"}).img['src']
+    except:
+        ap_cover_img=""
+
+    return [publishing_studio,publishing_year,user_rating,rank,tracking_count,ap_desc,ap_cover_img]
+
 
 def get_updated_data(url):
 
@@ -324,22 +410,28 @@ def get_page_count():
     target_date=(today+dateutil.relativedelta.relativedelta(days=-7)).strftime("%y-%m-%d")
 
     while lo <=high:
-
         mid=(lo+high)//2
+        print(mid)
         
         soup=render_page(f'https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={mid}')
         redirected_url_block=soup.find_all("div",{"class":"list-truyen-item-wrap"})[0]
         redirected_url=redirected_url_block.find_all("a")[0]['href']
 
-
+        print(redirected_url)
         manga_resp_soup=render_page(redirected_url)
 
         if manga_resp_soup.find_all("meta",{"name":"Author"}):
-            date_block=manga_resp_soup.find_all("span",{"class":"chapter-time text-nowrap"})[0]['title']
-            date_string=' '.join(date_block.split(" ")[:2])
+            date_string=manga_resp_soup.find_all("span",{"class":"stre-value"})[0].text
+            date_string=date_string[:date_string.find("-")-1]
         else:
-            date_block=manga_resp_soup.find_all("div",{"class":"row"})[1].find_all("span")[-1]['title']
-            date_string=date_block.split(" ")[0].replace("-"," ",1).replace("-",",")
+            date_string=manga_resp_soup.find("ul",{"class":"manga-info-text"}).find_all("li")[3].text
+            
+            parts = date_string.split()
+            month, day, year = parts[3].split('-')
+            date_string = f"{month} {day},{year}"
+
+        print(date_string)
+        print()
 
 
         # date_string=
@@ -363,7 +455,7 @@ def get_updated_manga_url():
     single_page=False
 
     input_pagelist=[f"https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={val}" for val in range(get_page_count())]
-
+    
     print(f"\n{len(input_pagelist)} PAGES UPDATED\n")
     print(input_pagelist)
     queue.put(input_pagelist[0])
@@ -404,7 +496,6 @@ if __name__=="__main__":
     print("------------------------")
 
     crawl_mangalist()
-
     print("\nALL MANGA INFORMATION SUCCESSFULLY CRAWLED")
     print("---------------------------------------------")
 
