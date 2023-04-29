@@ -152,14 +152,14 @@ def final_post(final_info):
 	print("\nRGB value of dominant color in manga's cover image is:")
 	print(str(r)+" "+str(g)+" "+str(b)+"\n")
 	
-	#print("\nFinding complementary color for the background")
-	#hex_val = "#%02x%02x%02x" % (r,g,b)
-	#h = get_complementary(hex_val)
-	#print("Complementary color",h)
-	#h = h.lstrip('#')
-	#r_c, g_c, b_c=tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
-	#print("RGB value of the color complementary to manga's cover image is:")
-	#print(str(r_c)+" "+str(g_c)+" "+str(b_c)+"\n")
+	# print("\nFinding complementary color for the background")
+	# hex_val = "#%02x%02x%02x" % (r,g,b)
+	# h = get_complementary(hex_val)
+	# print("Complementary color",h)
+	# h = h.lstrip('#')
+	# r_c, g_c, b_c=tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+	# print("RGB value of the color complementary to manga's cover image is:")
+	# print(str(r_c)+" "+str(g_c)+" "+str(b_c)+"\n")
 	
 	print("\nFinding the closest color to dominant color to be used for Unsplash API")
 	color = [r,g,b]

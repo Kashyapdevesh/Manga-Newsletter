@@ -5,6 +5,7 @@ import re
 import datetime
 import dateutil.relativedelta
 import pandas as pd
+import json
 import requests
 from bs4 import BeautifulSoup
 
@@ -14,7 +15,7 @@ final_manga_list=[]
 updated_info={}
 
 queue = Queue()
-NUMBER_OF_THREADS = 50
+NUMBER_OF_THREADS = 5
 
 pages_crawled=[]
 manga_crawled=[]
