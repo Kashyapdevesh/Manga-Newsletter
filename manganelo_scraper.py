@@ -488,20 +488,20 @@ if __name__=="__main__":
 
     start=datetime.datetime.now()
 
-    # print("\nCHECKING MANGA UPDATED IN PAST WEEK\n")
-    # print("------------------------------------")
+    print("\nCHECKING MANGA UPDATED IN PAST WEEK\n")
+    print("------------------------------------")
 
-    # updated_manga_count=get_updated_manga_url()
+    updated_manga_count=get_updated_manga_url()
 
-    # print(f"\n{updated_manga_count} MANGA UPDATED IN PAST WEEK\n")
+    print(f"\n{updated_manga_count} MANGA UPDATED IN PAST WEEK\n")
 
 
-    # print("\n\nCRAWLING UPDATED MANGA")
-    # print("------------------------")
+    print("\n\nCRAWLING UPDATED MANGA")
+    print("------------------------")
 
-    # crawl_mangalist()
-    # print("\nALL MANGA INFORMATION SUCCESSFULLY CRAWLED")
-    # print("---------------------------------------------")
+    crawl_mangalist()
+    print("\nALL MANGA INFORMATION SUCCESSFULLY CRAWLED")
+    print("---------------------------------------------")
 
     print("\nWRITING DATA TO FILE")
     print("---------------------")
@@ -513,10 +513,8 @@ if __name__=="__main__":
     # Create a temporary file inside the directory
     temp_file_path = os.path.join(final_info_file, 'final_data_file.json')
 
-    with open("final_data.txt","r") as f:
-        final_info_dict=json.load(f)
-        with open(temp_file_path, 'w') as temp_file:
-            json.dump(final_info_dict, temp_file)
+    with open(temp_file_path, 'w') as temp_file:
+        json.dump(final_info_dict, temp_file)
     
     print("DATA SUCCESSFULLY WRITTEN")
 

@@ -30,7 +30,7 @@ df['Rating_Value']=df['Rating_Value'].replace('',0)
 df['View_Count']=df['View_Count'].replace('',0)
 df['Chapter_Count']=df['Chapter_Count'].replace('',0)
 
-df=df[df['Chapter_Count']>=10]
+df=df[df['Chapter_Count']>=30]
 
 df['Rating_Value']=df['Rating_Value'].astype(float)
 df['View_Count']=df['View_Count'].astype(int)
