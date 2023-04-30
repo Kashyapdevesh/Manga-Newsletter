@@ -10,7 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 import tempfile
 import os
-import subprocess
+# import subprocess
 
 final_info_dict={}
 
@@ -276,95 +276,95 @@ def scrape_mangakaklot(soup):
     except:
         index_info={}
     
-    try:
-        ap_summary=anime_planet_scraper(manga_name)
-    except:
-        ap_summary=[" "]*7
+    # try:
+    #     ap_summary=anime_planet_scraper(manga_name)
+    # except:
+    #     ap_summary=[" "]*7
         
     final_summary={"Name":manga_name,"Cover Image":manga_img,"Author":manga_author,
                     "Current Status": manga_status,"Manga Genre":manga_genre,"Manga Total Views":manga_views,
-                    "Rating":manga_rating,"Description":manga_desc,"chapters_info":index_info,"ap_summary":ap_summary}
+                    "Rating":manga_rating,"Description":manga_desc,"chapters_info":index_info}
     return final_summary
 
-def anime_planet_scraper(manga_name):
-    manga_name=manga_name[:manga_name.find("[")-1] if "[" in manga_name else manga_name
-    manga_name=manga_name.replace("-"," ")
-    manga_name=re.sub(r"[^\w\s]", "", manga_name)
-    manga_name=manga_name.lower().replace("  "," ").replace(" ","-")
+# def anime_planet_scraper(manga_name):
+#     manga_name=manga_name[:manga_name.find("[")-1] if "[" in manga_name else manga_name
+#     manga_name=manga_name.replace("-"," ")
+#     manga_name=re.sub(r"[^\w\s]", "", manga_name)
+#     manga_name=manga_name.lower().replace("  "," ").replace(" ","-")
 
-    url=f"https://www.anime-planet.com/manga/{manga_name}"
+#     url=f"https://www.anime-planet.com/manga/{manga_name}"
 
-    content=requests.get(url).text
+#     content=requests.get(url).text
 
-    blocked_keywords=["but we couldn't find anything","can't find what you're looking for"]
-    if any(ele in content.lower() for ele in blocked_keywords):
-        return [" "]*7
+#     blocked_keywords=["but we couldn't find anything","can't find what you're looking for"]
+#     if any(ele in content.lower() for ele in blocked_keywords):
+#         return [" "]*7
 
-    soup=BeautifulSoup(content,"html.parser")
+#     soup=BeautifulSoup(content,"html.parser")
 
-    try:
-        nav_bar=soup.find("section",{"class":"pure-g entryBar"})
-        publishing_studio=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[1].a.text
-    except:
-        publishing_studio=""
+#     try:
+#         nav_bar=soup.find("section",{"class":"pure-g entryBar"})
+#         publishing_studio=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[1].a.text
+#     except:
+#         publishing_studio=""
 
-    try:
-        nav_bar=soup.find("section",{"class":"pure-g entryBar"})
-        publishing_year=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[2].span.text
-    except:
-        publishing_year=""
+#     try:
+#         nav_bar=soup.find("section",{"class":"pure-g entryBar"})
+#         publishing_year=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[2].span.text
+#     except:
+#         publishing_year=""
     
-    try:
-        nav_bar=soup.find("section",{"class":"pure-g entryBar"})
-        user_rating=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[3].div['title']
+#     try:
+#         nav_bar=soup.find("section",{"class":"pure-g entryBar"})
+#         user_rating=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[3].div['title']
 
-        parts = user_rating.split()
-        rating = parts[0]
-        votes = parts[-2]
+#         parts = user_rating.split()
+#         rating = parts[0]
+#         votes = parts[-2]
 
-        user_rating = f"{rating.replace(' out of ', '/')}- {str(votes).replace(',','')}"
-    except:
-        user_rating=""
+#         user_rating = f"{rating.replace(' out of ', '/')}- {str(votes).replace(',','')}"
+#     except:
+#         user_rating=""
     
-    try:
-        nav_bar=soup.find("section",{"class":"pure-g entryBar"})
-        rank=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[4].text.replace(",","")
+#     try:
+#         nav_bar=soup.find("section",{"class":"pure-g entryBar"})
+#         rank=nav_bar.find_all("div",{"class":"pure-1 md-1-5"})[4].text.replace(",","")
 
-        match = re.search(r'\d+', rank)
-        if match:
-            rank = match.group()
-        else:
-            rank=""
+#         match = re.search(r'\d+', rank)
+#         if match:
+#             rank = match.group()
+#         else:
+#             rank=""
 
-    except:
-        rank=""
+#     except:
+#         rank=""
     
-    try:
-        side_bar=soup.find("section",{"class":"sidebarStats"})
-        tracking_count=side_bar.text.replace(",","")
+#     try:
+#         side_bar=soup.find("section",{"class":"sidebarStats"})
+#         tracking_count=side_bar.text.replace(",","")
 
-        match = re.search(r'\d+', tracking_count)
-        if match:
-            tracking_count = match.group()
-        else:
-            tracking_count=""
-    except:
-        tracking_count=""
+#         match = re.search(r'\d+', tracking_count)
+#         if match:
+#             tracking_count = match.group()
+#         else:
+#             tracking_count=""
+#     except:
+#         tracking_count=""
     
-    try:
-        ap_desc=soup.find("div",{"class":"synopsisManga"}).p.text
-        ap_desc=ap_desc.replace("\n","")
-        ap_desc=ap_desc.replace("\xa0","")
-        ap_desc=ap_desc.replace("\\","")
-    except:
-        ap_desc=""
+#     try:
+#         ap_desc=soup.find("div",{"class":"synopsisManga"}).p.text
+#         ap_desc=ap_desc.replace("\n","")
+#         ap_desc=ap_desc.replace("\xa0","")
+#         ap_desc=ap_desc.replace("\\","")
+#     except:
+#         ap_desc=""
 
-    try:
-        ap_cover_img=soup.find("div",{"class":"mainEntry"}).img['src']
-    except:
-        ap_cover_img=""
+#     try:
+#         ap_cover_img=soup.find("div",{"class":"mainEntry"}).img['src']
+#     except:
+#         ap_cover_img=""
 
-    return [publishing_studio,publishing_year,user_rating,rank,tracking_count,ap_desc,ap_cover_img]
+#     return [publishing_studio,publishing_year,user_rating,rank,tracking_count,ap_desc,ap_cover_img]
 
 
 def get_updated_data(url):
@@ -521,5 +521,5 @@ if __name__=="__main__":
 
     print((datetime.datetime.now()-start))
 
-    subprocess.call(['python', 'postprocessing.py', final_info_file])
-
+    # subprocess.call(['python', 'postprocessing.py', final_info_file])
+    os.environ['FINAL_INFO_FILE'] = final_info_file

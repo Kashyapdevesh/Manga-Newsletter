@@ -4,10 +4,12 @@ import time
 import sys
 import shutil
 import os
-import subprocess
+# import subprocess
 import tempfile
 
-final_info_file = sys.argv[1]
+
+final_info_file=os.environ['FINAL_INFO_FILE'] 
+# final_info_file = sys.argv[1]
 temp_file_path = os.path.join(final_info_file, 'final_data_file.json')
 
 print("\nSTARTED PREPARING DF")
@@ -51,5 +53,7 @@ print((time.time()-start)/60)
 shutil.rmtree(final_info_file)
 
 print("DF PREPARTION OVER\n")
-subprocess.call(['python', 'final_post.py', csv_dir])
+
+# subprocess.call(['python', 'final_post.py', csv_dir])
+os.environ['CSV_DIR'] = csv_dir
 

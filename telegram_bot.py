@@ -7,9 +7,11 @@ import shutil
 
 import datetime
 
-directory_path = sys.argv[1]
+samples_path=os.environ['SAMPLES_DIR'] 
 
-file_paths = [os.path.join(directory_path, f) for f in os.listdir(directory_path) if os.path.isfile(os.path.join(directory_path, f))]
+# directory_path = sys.argv[1]
+
+file_paths = [os.path.join(samples_path, f) for f in os.listdir(samples_path) if os.path.isfile(os.path.join(samples_path, f))]
 
 api_token=os.environ["API_TOKEN"]
 api_chat_id=os.environ["CHAT_ID"]
@@ -57,6 +59,6 @@ if __name__ == '__main__':
     loop.close()
     print("\nTRANSMISSION ENDED")
 
-    shutil.rmtree(directory_path)
+    shutil.rmtree(samples_path)
 
 
