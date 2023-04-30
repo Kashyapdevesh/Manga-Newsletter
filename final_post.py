@@ -15,6 +15,13 @@ from colorthief import ColorThief
 import warnings
 warnings.filterwarnings("ignore")
 
+import sys
+import tempfile
+import subprocess
+
+csv_dir = sys.argv[1]
+csv_file_path = os.path.join(csv_dir, 'full_test.csv')
+
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 rgb_colors={ 
@@ -32,29 +39,39 @@ rgb_colors={
 list_of_colors=list(rgb_colors.values())
 
 
-def create_dir(target_path):
-    path="./"+str(target_path)
+def create_temp_dir(target_path):
+    path = os.path.join(tempfile.mkdtemp(), str(target_path))
     if not os.path.exists(path):
         os.makedirs(path)
+    return path
+
+def create_temp_file(temp_dir_path, file_name):
+    temp_file_path = os.path.join(temp_dir_path, file_name)
+
+    # Open the file in write mode and close it immediately to create an empty file
+    with open(temp_file_path, 'w'):
+        pass
+    
+    return temp_file_path
         
-def get_image(url,manga_name):
+def get_image(url,manga_nam,direc_name):
     
-    create_dir("./cover_image_samples/")
-    file_name="./cover_image_samples/"+str(manga_name) +".jpg"
-    
-    r=requests.get(url,stream=True)
-    if r.status_code==200:
-        with open(file_name,'wb+') as f:
-            shutil.copyfileobj(r.raw,f)
-        print("\nImage Downloaded from " +str(url)+"\n")
-        return file_name
+    temp_dir_path=create_temp_dir(direc_name)
+    temp_file_path=create_temp_file(temp_dir_path, str(manga_name) +".jpg")
+
+    r = requests.get(url, stream=True)
+    if r.status_code == 200:
+        with open(temp_file_path, 'wb+') as f:
+            shutil.copyfileobj(r.raw, f)
+        print("\nImage Downloaded from " + str(url) + "\n")
+        return temp_dir_path
     else:
         print("\nImage can't be retrieved\n")
         return None
 
-def dominant_color(manga):
-    path="./cover_image_samples/"+str(manga)
-    color_thief = ColorThief(path)
+
+def dominant_color(temp_file_path):
+    color_thief = ColorThief(temp_file_path)
     dominant_color = color_thief.get_color(quality=1)
     return dominant_color
 
@@ -141,7 +158,9 @@ def overlay_summary(image,summary,color):
     fit_text(image, summary, color, font,4900)
     return image
 
-df=pd.read_csv("full_test.csv")
+df=pd.read_csv(csv_file_path)
+
+samples_dir=create_temp_dir("test_samples")
 
 for idx in range(len(df)):
     
@@ -156,11 +175,13 @@ for idx in range(len(df)):
     manga_name=re.sub(r"[^\w\s]", "", manga_name)
     manga_name=manga_name.replace("  "," ").replace(" ","_")
 
-    cover_path=get_image(cover_img_url,manga_name)
+    cover_path=get_image(cover_img_url,manga_name,"cover_image_samples")
+    cover_file_path=os.path.join(cover_path, str(manga_name) +".jpg")
+
     print("Cover Image Obtained\n")
     
     
-    r,g,b=dominant_color(manga_name+".jpg")
+    r,g,b=dominant_color(cover_file_path)
     print("RGB values of cover image obtained\n")
     
     print("\nFinding the closest color to dominant color to be used for Unsplash API")
@@ -190,7 +211,8 @@ for idx in range(len(df)):
 
     fina_bg_id=final_bg_url[final_bg_url.find("-")+1:final_bg_url.find("?")]
 
-    bg_path=get_image(final_bg_url,fina_bg_id)
+    bg_dir_path=get_image(final_bg_url,fina_bg_id,"cover_image_samples")
+    bg_path=os.path.join(bg_dir_path, str(manga_name) +".jpg")
     
     print("\nFetching final text to be printed")
     summarized_text=get_summary(manga_desc)
@@ -200,7 +222,7 @@ for idx in range(len(df)):
     summary= summarized_text[0]['summary_text']
 
     bg = Image.open(bg_path)
-    cover=Image.open(cover_path).convert("RGBA")
+    cover=Image.open(cover_file_path).convert("RGBA")
 
     bg=bg.resize((4433,7880),Resampling.LANCZOS)
     cover=cover.resize((3500,4000),Resampling.LANCZOS)
@@ -225,6 +247,15 @@ for idx in range(len(df)):
     image_copy = image_copy.resize((int(TARGET_WIDTH),int(new_height)),Image.LANCZOS)
 
     print("\nFinal image generated")
-    image_copy.save(f"./test_samples/{manga_name}.png",quality=95,optimize=True)
+
+    samples_path=os.path.join(samples_dir, str(manga_name) +".png")
+    image_copy.save(samples_path,quality=95,optimize=True)
+
+
+subprocess.call(['python', 'telegram_bot.py', samples_dir])
+
+shutil.rmtree(csv_dir)
+shutil.rmtree(cover_path)
+shutil.rmtree(bg_dir_path)
 
     

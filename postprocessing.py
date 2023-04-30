@@ -1,14 +1,20 @@
 import pandas as pd
 import json
 import time
+import sys
+import shutil
+import os
+import subprocess
+import tempfile
 
-print("STARTED PREPARING DF")
+final_info_file = sys.argv[1]
+temp_file_path = os.path.join(final_info_file, 'final_data_file.json')
+
+print("\nSTARTED PREPARING DF")
 start=time.time()
 
-with open('final_data.txt') as f:
-    data=f.read()
-    
-info=json.loads(data)
+with open(temp_file_path, 'r') as temp_file:
+    info = json.load(temp_file)
 
 df = pd.DataFrame(columns=['Name','Cover Image','Author','Current Status','Manga Genre', 'Manga Total Views','Rating','Description','Chapter_Count'])
 
@@ -32,6 +38,18 @@ df['Chapter_Count']=df['Chapter_Count'].astype(int)
 
 df=df.sort_values(by=['Chapter_Count','View_Count','Rating_Value'], ascending=[True, False,False],ignore_index=True).head(10)
 
-df.to_csv("full_test.csv",index=False)
+# Create a temporary directory with a unique name
+csv_dir = tempfile.mkdtemp(prefix='csv_storage')
+
+# Create a temporary file inside the directory
+csv_file_path = os.path.join(csv_dir, 'full_test.csv')
+
+df.to_csv(csv_file_path,index=False)
 
 print((time.time()-start)/60)
+
+shutil.rmtree(final_info_file)
+
+print("DF PREPARTION OVER\n")
+subprocess.call(['python', 'final_post.py', csv_dir])
+
