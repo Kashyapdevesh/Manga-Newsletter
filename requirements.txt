@@ -31,3 +31,4 @@ typing_extensions==4.5.0
 tzdata==2023.3
 urllib3==1.26.15
 tensorflow>=2.0.0
+python-telegram-bot
