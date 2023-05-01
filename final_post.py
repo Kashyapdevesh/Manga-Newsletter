@@ -17,11 +17,9 @@ warnings.filterwarnings("ignore")
 
 import sys
 import tempfile
-# import subprocess
+import subprocess
 
-csv_dir=os.environ['CSV_DIR']
-
-# csv_dir = sys.argv[1]
+csv_dir = sys.argv[1]
 csv_file_path = os.path.join(csv_dir, 'full_test.csv')
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -250,15 +248,15 @@ for idx in range(len(df)):
 
     print("\nFinal image generated")
 
+    
     samples_path=os.path.join(samples_dir, str(manga_name) +".png")
     image_copy.save(samples_path,quality=95,optimize=True)
 
 
-# subprocess.call(['python', 'telegram_bot.py', samples_dir])
+subprocess.call(['python', 'telegram_bot.py', samples_dir])
 
 shutil.rmtree(csv_dir)
 shutil.rmtree(cover_path)
 shutil.rmtree(bg_dir_path)
 
-os.environ['SAMPLES_DIR'] = samples_path
     

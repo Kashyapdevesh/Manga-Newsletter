@@ -4,13 +4,12 @@ import time
 import sys
 import shutil
 import os
-# import subprocess
+import subprocess
 import tempfile
 
-
-final_info_file=os.environ['FINAL_INFO_FILE'] 
-# final_info_file = sys.argv[1]
+final_info_file = sys.argv[1]
 temp_file_path = os.path.join(final_info_file, 'final_data_file.json')
+
 
 print("\nSTARTED PREPARING DF")
 start=time.time()
@@ -32,7 +31,7 @@ df['Rating_Value']=df['Rating_Value'].replace('',0)
 df['View_Count']=df['View_Count'].replace('',0)
 df['Chapter_Count']=df['Chapter_Count'].replace('',0)
 
-df=df[df['Chapter_Count']>=30]
+df=df[df['Chapter_Count']>=25]
 
 df['Rating_Value']=df['Rating_Value'].astype(float)
 df['View_Count']=df['View_Count'].astype(int)
@@ -53,7 +52,5 @@ print((time.time()-start)/60)
 shutil.rmtree(final_info_file)
 
 print("DF PREPARTION OVER\n")
-
-# subprocess.call(['python', 'final_post.py', csv_dir])
-os.environ['CSV_DIR'] = csv_dir
+subprocess.call(['python', 'final_post.py', csv_dir])
 
