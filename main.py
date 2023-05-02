@@ -661,8 +661,6 @@ if __name__=="__main__":
 
     print((time.time()-start)/60)
 
-    shutil.rmtree(final_info_file)
-
     print("DF PREPARTION OVER\n")
 
     #--------------------------------------------------
