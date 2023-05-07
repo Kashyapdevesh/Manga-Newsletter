@@ -3,9 +3,9 @@
 # Kashya's Newsletter
 
 This is a telegram bot which scrapes manga,manwha, manhua and webtoons and provides information 
-regarding up and coming titles with huge potential
+regarding promising titles on weekly basis
 
-Join the telegram group to get weekly updates: https://t.me/+7qn27AYiREo3M2Y1
+Join the telegram group to get automated weekly updates: https://t.me/+7qn27AYiREo3M2Y1
 
 
 ## Milestones
