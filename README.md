@@ -71,6 +71,7 @@ Contributions are always welcome!
 - Per chapter automated comments analysis
 - Improvement in recommender system
 - Improved Logging
+- Improved Code Structure
 - Automated URL Embedding & fix text box bug (Easy-Medium)
 - WA Client (Optional)
 
