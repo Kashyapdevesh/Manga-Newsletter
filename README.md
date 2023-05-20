@@ -2,10 +2,10 @@
 
 # Kashya's Newsletter
 
-The aim of this project is to create a fully automated personalized manga/manhwa 
-newsletter integrated with WhatsApp and emailing services.
+This is a telegram bot which scrapes manga,manwha, manhua and webtoons and provides information 
+regarding promising titles on weekly basis
 
-
+Join the telegram group to get automated weekly updates: https://t.me/+7qn27AYiREo3M2Y1
 
 
 ## Milestones
@@ -14,42 +14,16 @@ newsletter integrated with WhatsApp and emailing services.
 
 STAGE | STATUS 
 --- | --- 
-Single page manganelo scraper | &check;
-Pipeline automated scraper with single page scraper | &check;
-Multithreaded queue for storing queries | &cross;
-Sentiment analysis of text in comments | &check;
-Sentiment analysis of memes in comments | &cross;
-Text summarization model | &check;
-Connection with MySQL DB | &check;
-Single page newsletter image generation(url sample)| &check;
-WhatsApp cloup API'S webhook  |&cross;
-Fully concurrent final WA client  | &cross;
-Flask API between client and DB | &cross;
-Emailing services |&cross;
-Improve Logging |&cross;
+Scraper functions | &check;
+Multithreaded queue to accelerate scraping | &check;
+Comments analysis | &cross;
+Desc. text summarization model | &check;
+Presentable final infographic| &check;
+Telgram bot code  |&check;
+Improve logging |&cross;
+Total time under 20 mins. |&check;
+GitHub Action Integration |&check;
 
-
-
-
-
-
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`DB_TYPE` 
-
-`DB_USER`
-
-`DB_PASS`
-
-`DB_HOST`
-
-`DB_NAME`
-
-### NOTE:
- You don't need the environment variables for simple testing as mentioned below.
 
 
 ## Run Locally
@@ -81,34 +55,25 @@ Install dependencies
 
 ```
 
-### NOTE:
-Currently the project is under developement and the instructions will
-be simulatneously updated.
-
-At present state we can check the functioning of modules listed in milestones.
-
-You can generate single page newsletter sample for the manga of your choice 
-by following the instructions below:
-
-* Select the manga of your choice from https://m.manganelo.com/www 
-
-* Replace variable *url* with chosen url in line no. 242 in [page_scraper.py](../main/page_scraper.py)
-
-* Run the script
-
 ```bash
-  python3 page_scraper.py
+  python3 main.py
 ```
-
-You can view some pre-prepared samples at [link](https://github.com/Kashyapdevesh/Manga-Newsletter/tree/main/test_samples)
 
 
 ## Authors
 
 - [@Kashyapdevesh](https://github.com/Kashyapdevesh)
 
+## Future Plans
+
 Contributions are always welcome!
 
+- Per chapter automated comments analysis
+- Improvement in recommender system
+- Improved Logging
+- Improved Code Structure
+- Automated URL Embedding & fix text box bug (Easy-Medium)
+- WA Client (Optional)
 
 ## Feedback
 
