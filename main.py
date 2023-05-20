@@ -749,7 +749,7 @@ if __name__=="__main__":
 
         print("\nFetching the bg with highest likes")
         sorted_bgs=sorted(single_page_dict.items(), key=lambda kv:(kv[1], kv[0]))
-        bg_idx=-1*(random.randint(1,50))
+        bg_idx=-1*(random.randint(1,15))
         final_bg_url=sorted_bgs[bg_idx][0]
         final_bg_likes=sorted_bgs[bg_idx][1]
 
