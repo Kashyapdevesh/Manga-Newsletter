@@ -30,7 +30,6 @@ import telegram
 import warnings
 warnings.filterwarnings("ignore")
 
-
 final_info_dict={}
 
 final_manga_list=[]
@@ -534,6 +533,16 @@ def overlay_summary(image,summary,color):
     fit_text(image, summary, color, font,4900)
     return image
 
+def convert_to_number(string):
+    multiplier = 1
+    if string.endswith('M'):
+        multiplier = 1000000
+        string = string[:-1]
+    elif string.endswith('K'):
+        multiplier = 1000
+        string = string[:-1]
+    return float(string) * multiplier
+
 async def telegram_bot():
         bot = telegram.Bot(token='5645131902:AAEoxet4b1gMaL3GPCx83oKAmtPA-Ke67Fc')
 
@@ -610,7 +619,7 @@ if __name__=="__main__":
 
     with open(temp_file_path, 'w') as temp_file:
         json.dump(final_info_dict, temp_file)
-
+    
     print("DATA SUCCESSFULLY WRITTEN")
 
 
@@ -622,34 +631,39 @@ if __name__=="__main__":
 
     temp_file_path = os.path.join(final_info_file, 'final_data_file.json')
 
-
     print("\nSTARTED PREPARING DF")
     start=time.time()
 
     with open(temp_file_path, 'r') as temp_file:
         info = json.load(temp_file)
 
-    df = pd.DataFrame(columns=['Name','Cover Image','Author','Current Status','Manga Genre', 'Manga Total Views','Rating','Description','Chapter_Count'])
+    df = pd.DataFrame(columns=['URL','Name','Cover Image','Author','Current Status','Manga Genre', 'Manga Total Views','Rating','Description','Chapter_Count'])
 
     for url,val in info.items():
-        df.loc[len(df.index)] = [info[url]['Name'], info[url]['Cover Image'], info[url]['Author'],
-                                 info[url]['Current Status'],info[url]['Manga Genre'],info[url]['Manga Total Views'],
-                                 info[url]['Rating'],info[url]['Description'],len(list(info[url]['chapters_info'].keys()))]
+        df.loc[len(df.index)] = [url,info[url]['Name'], info[url]['Cover Image'], info[url]['Author'],
+                                info[url]['Current Status'],info[url]['Manga Genre'],info[url]['Manga Total Views'],
+                                info[url]['Rating'],info[url]['Description'],len(list(info[url]['chapters_info'].keys()))]
+
+    #Remove Yaoi Shit
+    df = df[~df['Manga Genre'].fillna('').str.contains('Yaoi')]
 
     df['Rating_Value'] = df['Rating'].apply(lambda x: x.split("/")[0])
-    df['View_Count']=df['Rating'].apply(lambda x: x[x.find("-")+1:x.find("v")].replace(" ","").replace(",",""))
+    df['Vote_Count']=df['Rating'].apply(lambda x: x[x.find("-")+1:x.find("v")].replace(" ","").replace(",",""))
 
     df['Rating_Value']=df['Rating_Value'].replace('',0)
-    df['View_Count']=df['View_Count'].replace('',0)
+    df['Vote_Count']=df['Vote_Count'].replace('',0)
     df['Chapter_Count']=df['Chapter_Count'].replace('',0)
 
     df=df[df['Chapter_Count']>=25]
 
     df['Rating_Value']=df['Rating_Value'].astype(float)
-    df['View_Count']=df['View_Count'].astype(int)
+    df['Vote_Count']=df['Vote_Count'].astype(int)
     df['Chapter_Count']=df['Chapter_Count'].astype(int)
 
-    df=df.sort_values(by=['Chapter_Count','View_Count','Rating_Value'], ascending=[True, False,False],ignore_index=True).head(10)
+    df['Manga Total Views'] = df['Manga Total Views'].apply(convert_to_number)
+    df['Manga Total Views'] = df['Manga Total Views'].astype(int)
+
+    df=df.sort_values(by=['Chapter_Count','Manga Total Views','Vote_Count','Rating_Value'], ascending=[True,False,False,False],ignore_index=True).head(10)
 
     # Create a temporary directory with a unique name
     csv_dir = tempfile.mkdtemp(prefix='csv_storage')
@@ -694,9 +708,9 @@ if __name__=="__main__":
 
     for idx in range(len(df)):
         
-        manga_name=df.iloc[idx][0]
-        cover_img_url=df.iloc[idx][1]
-        manga_desc=df.iloc[idx][7]
+        manga_name=df.iloc[idx][1]
+        cover_img_url=df.iloc[idx][2]
+        manga_desc=df.iloc[idx][8]
         
         print(f"\n\nSTARTED PROCESSING '{manga_name}'\n")
         print("-"*len(str(manga_name)) +"---------------------")
@@ -735,7 +749,7 @@ if __name__=="__main__":
 
         print("\nFetching the bg with highest likes")
         sorted_bgs=sorted(single_page_dict.items(), key=lambda kv:(kv[1], kv[0]))
-        bg_idx=-1*(random.randint(1,5))
+        bg_idx=-1*(random.randint(1,50))
         final_bg_url=sorted_bgs[bg_idx][0]
         final_bg_likes=sorted_bgs[bg_idx][1]
 
@@ -762,7 +776,7 @@ if __name__=="__main__":
         image_copy.paste(cover, position,mask=cover)
         print("\nBackgroud image created")
 
-        title=str(df.iloc[idx][0])
+        title=str(df.iloc[idx][1])
         summary = str(summary)
 
         print("\nOverlaying title & summary")
@@ -790,7 +804,7 @@ if __name__=="__main__":
     file_paths = [os.path.join(samples_dir, f) for f in os.listdir(samples_dir) if os.path.isfile(os.path.join(samples_dir, f))]
 
 
-    print("\nTRANSMITTING TO TELEGRAM")
+    print("\nTRANSMITTING TO TELEGRAM\n---------------------------\n")
     loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     loop.run_until_complete(telegram_bot())
