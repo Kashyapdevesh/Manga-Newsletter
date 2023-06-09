@@ -444,10 +444,30 @@ def get_image(url,manga_nam,direc_name):
         print("\nImage can't be retrieved\n")
         return None
 
-
-def dominant_color(temp_file_path):
+def get_dominant_color(temp_file_path):
     color_thief = ColorThief(temp_file_path)
     dominant_color = color_thief.get_color(quality=1)
+    return dominant_color
+
+def dominant_color_lower_half(image_path):
+    image = Image.open(image_path)
+
+    width, height = image.size
+    lower_half_height = height // 2
+
+    lower_half = image.crop((0, lower_half_height, width, height))
+
+    temp_dir = tempfile.mkdtemp()
+    temp_file_path = os.path.join(temp_dir, 'temp_lower_half.jpg')
+    lower_half.save(temp_file_path)
+
+    dominant_color = get_dominant_color(temp_file_path)
+
+    lower_half.close()
+
+    os.remove(temp_file_path)
+    os.rmdir(temp_dir)
+
     return dominant_color
 
 def closest(colors,color):
@@ -725,7 +745,7 @@ if __name__=="__main__":
         print("Cover Image Obtained\n")
         
         
-        r,g,b=dominant_color(cover_file_path)
+        r,g,b=get_dominant_color(cover_file_path)
         print("RGB values of cover image obtained\n")
         
         print("\nFinding the closest color to dominant color to be used for Unsplash API")
@@ -737,9 +757,6 @@ if __name__=="__main__":
                 print("Color found: "+str(cname))
                 bg_color=str(cname)
                 break
-                
-        print("\nFinding text's color to be used")
-        text_color=text_contrast(r,g,b)
         
         print("\nGetting background from Unsplash")
         bg_image_dict=get_background(bg_color) #fetching first page
@@ -757,6 +774,10 @@ if __name__=="__main__":
 
         bg_dir_path=get_image(final_bg_url,fina_bg_id,"cover_image_samples")
         bg_path=os.path.join(bg_dir_path, str(manga_name) +".jpg")
+ 
+        print("\nFinding text's color to be used")
+        t_r,t_g,t_b=dominant_color_lower_half(bg_path)
+        text_color=text_contrast(t_r,t_g,t_b)
         
         print("\nFetching final text to be printed")
         summarized_text=get_summary(manga_desc)
