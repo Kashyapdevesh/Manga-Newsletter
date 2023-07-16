@@ -54,7 +54,7 @@ soupsieve==2.4.1
 telegram==0.0.1
 tensorboard==2.13.0
 tensorboard-data-server==0.7.1
-tensorflow==2.13.0
+tensorflow
 termcolor==2.3.0
 tokenizers==0.13.3
 tqdm==4.65.0
