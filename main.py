@@ -630,7 +630,6 @@ if __name__=="__main__":
     print("\nWRITING DATA TO FILE")
     print("---------------------")
 
-
     # Create a temporary directory with a unique name
     final_info_file = tempfile.mkdtemp(prefix='final_data_directory')
 
@@ -667,12 +666,13 @@ if __name__=="__main__":
     #Remove Yaoi Shit
     df = df[~df['Manga Genre'].fillna('').str.contains('Yaoi')]
 
-    df['Rating_Value'] = df['Rating'].apply(lambda x: x.split("/")[0])
-    df['Vote_Count']=df['Rating'].apply(lambda x: x[x.find("-")+1:x.find("v")].replace(" ","").replace(",",""))
+    df['Rating_Value'] = df['Rating'].fillna('').apply(lambda x: x.split("/")[0])
+    df['Vote_Count']=df['Rating'].fillna('').apply(lambda x: x[x.find("-")+1:x.find("v")].replace(" ","").replace(",",""))
 
     df['Rating_Value']=df['Rating_Value'].replace('',0)
     df['Vote_Count']=df['Vote_Count'].replace('',0)
-    df['Chapter_Count']=df['Chapter_Count'].replace('',0)
+
+    df['Chapter_Count']=df['Chapter_Count'].fillna('').replace('',0)
 
     df=df[df['Chapter_Count']>=25]
 
