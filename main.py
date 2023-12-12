@@ -127,7 +127,7 @@ def generate_manga_list(url):
 def render_page(url):
     soup=None
     try:
-        page_content=requests.get(url).text
+        page_content=requests.get(url,verify=False).text
         soup=BeautifulSoup(page_content,"html.parser")
     except Exception as e:
         print(f"Error while rendering page for {url}")
@@ -391,6 +391,7 @@ def get_updated_manga_url():
     single_page=False
 
     input_pagelist=[f"https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={val}" for val in range(get_page_count())]
+    # input_pagelist=[f"https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={val}" for val in range(1592)]
     
     print(f"\n{len(input_pagelist)} PAGES UPDATED\n")
     print(input_pagelist)
@@ -434,7 +435,7 @@ def get_image(url,manga_nam,direc_name):
     temp_dir_path=create_temp_dir(direc_name)
     temp_file_path=create_temp_file(temp_dir_path, str(manga_name) +".jpg")
 
-    r = requests.get(url, stream=True)
+    r = requests.get(url, stream=True,verify=False)
     if r.status_code == 200:
         with open(temp_file_path, 'wb+') as f:
             shutil.copyfileobj(r.raw, f)
@@ -490,7 +491,7 @@ def text_contrast(r,g,b):
         return "white"
 
 def get_background(bg_color,page=1):
-    source = requests.get(f"https://api.unsplash.com/search/photos?color={bg_color}&query=abstract-wallpaper&orientation=portrait&page={page}&per_page=30&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8").json()
+    source = requests.get(f"https://api.unsplash.com/search/photos?color={bg_color}&query=abstract-wallpaper&orientation=portrait&page={page}&per_page=30&client_id=y4x9lO2CwPOTIfeaND9bgCXbky-8PzYQrbAUiAEl-S8",verify=False).json()
     return source
 
 def get_summary(desc_text):
