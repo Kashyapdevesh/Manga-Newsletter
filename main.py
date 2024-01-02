@@ -692,7 +692,7 @@ if __name__=="__main__":
     # Create a temporary file inside the directory
     csv_file_path = os.path.join(csv_dir, 'full_test.csv')
 
-    df.to_csv(csv_file_path,index=False)
+    # df.to_csv(csv_file_path,index=False)
 
     print((time.time()-start)/60)
 
@@ -723,7 +723,7 @@ if __name__=="__main__":
 
 
 
-    df=pd.read_csv(csv_file_path)
+    # df=pd.read_csv(csv_file_path)
 
     samples_dir=create_temp_dir("test_samples")
 
