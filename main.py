@@ -350,7 +350,8 @@ def get_page_count():
         print(mid)
         
         # soup=render_page(f'https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={mid}')
-        soup=render_page(f'https://mangakakalot.gg/manga_list?type=latest&category=all&state=all&page={mid}')
+        # soup=render_page(f'https://mangakakalot.gg/manga_list?type=latest&category=all&state=all&page={mid}')
+        soup=render_page(f'https://www.mangakakalot.gg/manga-list/latest-manga?page={mid}')
         redirected_url_block=soup.find_all("div",{"class":"list-truyen-item-wrap"})[0]
         redirected_url=redirected_url_block.find_all("a")[0]['href']
 
@@ -392,7 +393,9 @@ def get_updated_manga_url():
     single_page=False
 
     # input_pagelist=[f"https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={val}" for val in range(get_page_count())]
-    input_pagelist=[f"https://mangakakalot.gg/manga_list?type=latest&category=all&state=all&page={val}" for val in range(get_page_count())]
+    # input_pagelist=[f"https://mangakakalot.gg/manga_list?type=latest&category=all&state=all&page={val}" for val in range(get_page_count())]
+    input_pagelist=[f"https://www.mangakakalot.gg/manga-list/latest-manga?page={val}" for val in range(get_page_count())]
+
     # input_pagelist=[f"https://mangakakalot.com/manga_list?type=latest&category=all&state=all&page={val}" for val in range(1592)]
     
     print(f"\n{len(input_pagelist)} PAGES UPDATED\n")
